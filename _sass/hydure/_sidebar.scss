@@ -1,0 +1,35 @@
+.sidebar {
+  color: var(--header-color);
+  background-color: var(--header-bg);
+}
+
+.header {
+  font-family: var(--body-font);
+  text-align: center;
+  padding: 2em 1em;
+
+  a {
+    color: var(--oc-white);
+  }
+}
+
+.brand-title {
+  font-family: var(--brand-title-font);
+  font-size: 3.25em;
+  margin: 0;
+}
+
+@media (min-width: $md-screen) {
+  .header {
+    font-size: 80%;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (min-width: $lg-screen) {
+  .header {
+    font-size: 100%;
+  }
+}
