@@ -4,7 +4,11 @@
 
   <body>
     <div id="layout" class="pure-g">
-      <div class="sidebar pure-u-1 pure-u-md-1-4">
+      {% assign cover = site.cover %}
+      {% if page.cover %}
+        {% assign cover = page.cover %}
+      {% endif %}
+      <div class="sidebar pure-u-1 pure-u-md-1-4" {% if cover %}style="background-image: url({{ cover | relative_url }});"{% endif %}>
         {% include header.html %}
       </div>
       <div class="content pure-u-1 pure-u-md-3-4">

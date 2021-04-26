@@ -74,6 +74,7 @@ remote_theme: zivong/jekyll-theme-hydure
 | `lang` | String | `en` | The language of pages; The value can be overwritten by the `lang` variable on each page. |
 | `title` | String | --- | The title of the website |
 | `tagline` | String | --- | The tagline of the website |
+| `cover` | String | --- | The URL of the sidebar cover image; The value can be overwritten by the `cover` variable on each page. |
 
 ### Homepage
 
