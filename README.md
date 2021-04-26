@@ -2,10 +2,18 @@
 
 Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.
 
+## Highlight Features <!-- omit in toc -->
+
+- [Open Color](https://github.com/yeun/open-color)
+- Dark mode, via [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Global Configuration](#global-configuration)
+  - [Homepage](#homepage)
+  - [Custom Head](#custom-head)
 - [Contributing](#contributing)
 - [Development](#development)
 - [License](#license)
@@ -59,7 +67,19 @@ remote_theme: zivong/jekyll-theme-hydure
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### Global Configuration
+
+| Variable | Type | Default | Specification |
+| -------- | ---- | ------- | ------------- |
+| `lang` | String | `en` | The language of pages; The value can be overwritten by the `lang` variable on each page. |
+
+### Homepage
+
+You can create a homepage for your site by setting `layout: home` in your `index.html`.
+
+### Custom Head
+
+Hydure leaves a placeholder to allow defining custom head. All you need to do is putting data into `_includes/custom-head.html`, and they would be automatically included in `<head>`.
 
 ## Contributing
 

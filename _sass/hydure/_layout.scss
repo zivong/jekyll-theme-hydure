@@ -1,0 +1,15 @@
+#layout {
+  padding: 0;
+}
+
+@media (min-width: $md-screen) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+
+  .content {
+    margin-left: 25%;
+  }
+}
