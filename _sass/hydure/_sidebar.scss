@@ -20,6 +20,22 @@
   margin: 0;
 }
 
+.brand-tagline {
+  margin: 0;
+}
+
+.nav {
+  margin: 1em 0;
+}
+
+.nav-item {
+  line-height: 1.75;
+
+  .current {
+    font-weight: bold;
+  }
+}
+
 @media (min-width: $md-screen) {
   .header {
     font-size: 80%;

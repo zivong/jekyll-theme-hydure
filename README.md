@@ -14,6 +14,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
   - [Global Configuration](#global-configuration)
   - [Homepage](#homepage)
   - [Custom Head](#custom-head)
+  - [Navigation](#navigation)
 - [Contributing](#contributing)
 - [Development](#development)
 - [License](#license)
@@ -83,6 +84,19 @@ You can create a homepage for your site by setting `layout: home` in your `index
 ### Custom Head
 
 Hydure leaves a placeholder to allow defining custom head. All you need to do is putting data into `_includes/custom-head.html`, and they would be automatically included in `<head>`.
+
+### Navigation
+
+The navigation menu of Hydure is configurable. You just need to specify titles and URLs in the file `_data/navigation.yml`, for example,
+
+```yml
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Archive
+  url: /archive/
+```
 
 ## Contributing
 

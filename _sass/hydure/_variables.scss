@@ -4,6 +4,9 @@ $lg-screen: 64rem;
 $xl-screen: 80rem;
 
 :root {
+  --body-font-size: 16px;
+  --body-line-height: 1.5;
+  
   // https://github.com/necolas/normalize.css/issues/665
   --body-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --brand-title-font: "Abril Fatface", serif;
