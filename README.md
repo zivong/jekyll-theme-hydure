@@ -6,6 +6,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 
 - [Open Color](https://github.com/yeun/open-color)
 - Dark mode, via [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -15,6 +16,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
   - [Homepage](#homepage)
   - [Custom Head](#custom-head)
   - [Navigation](#navigation)
+  - [Social Links](#social-links)
 - [Contributing](#contributing)
 - [Development](#development)
 - [License](#license)
@@ -96,6 +98,22 @@ The navigation menu of Hydure is configurable. You just need to specify titles a
   url: /about/
 - title: Archive
   url: /archive/
+```
+
+### Social Links
+
+Hydure allows you to show social links on your website. All you need to do is creating a file `_data/social.yml`, for example,
+
+```yml
+- title: Email
+  url: mailto:zivong@protonmail.com
+  icon: fas fa-envelope
+- title: Twitter
+  url: https://twitter.com/zivong91
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/zivong
+  icon: fab fa-github
 ```
 
 ## Contributing

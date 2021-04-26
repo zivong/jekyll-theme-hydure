@@ -7,7 +7,7 @@
 .header {
   font-family: var(--body-font);
   text-align: center;
-  padding: 2em 1em;
+  padding: 2em;
 
   a {
     color: var(--oc-white);
@@ -17,10 +17,12 @@
 .brand-title {
   font-family: var(--brand-title-font);
   font-size: 3.25em;
+  font-weight: bold;
   margin: 0;
 }
 
 .brand-tagline {
+  font-size: 1.25em;
   margin: 0;
 }
 
@@ -29,10 +31,18 @@
 }
 
 .nav-item {
-  line-height: 1.75;
+  a:hover {
+    background-color: transparent;
+  }
 
   .current {
     font-weight: bold;
+  }
+}
+
+.social-item {
+  a {
+    background-color: transparent;
   }
 }
 
@@ -42,6 +52,10 @@
     text-align: left;
     position: absolute;
     bottom: 0;
+  }
+
+  .nav-item a {
+    padding-left: 0;
   }
 }
 

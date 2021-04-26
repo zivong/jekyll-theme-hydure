@@ -1,18 +1,32 @@
 <header class="header">
-  <h1 class="brand-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-  <h2 class="brand-tagline">{{ site.tagline }}</h2>
+  <a class="brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <p class="brand-tagline">{{ site.tagline }}</p>
 
   {% if site.data.navigation %}
     <nav class="nav pure-menu">
       <ul class="pure-menu-list">
       {% for item in site.data.navigation %}
         <li class="nav-item pure-menu-item">
-          <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}current{% endif %}">
+          <a href="{{ item.url | relative_url }}" class="pure-menu-link {% if page.url == item.url %}current{% endif %}">
             {{ item.title }}
           </a>
         </li>
       {% endfor %}
       </ul>
     </nav>
+  {% endif %}
+
+  {% if site.data.social %}
+    <div class="social pure-menu pure-menu-horizontal">
+      <ul class="pure-menu-list">
+        {% for social in site.data.social %}
+          <li class="social-item pure-menu-item">
+            <a class="pure-menu-link pure-button" href="{{ social.url }}" target="_blank">
+              <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   {% endif %}
 </header>
