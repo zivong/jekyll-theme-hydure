@@ -28,3 +28,17 @@ layout: default
   {% endfor %}
 </div>
 
+{% if paginator %}
+  <div class="pagination pure-g">
+    {% if paginator.next_page %}
+      <a class="pagination-item older pure-u-1-2 pure-button" href="{{ paginator.next_page_path | relative_url }}"><i class="fas fa-chevron-left"></i></a>
+    {% else %}
+      <span class="pagination-item older pure-u-1-2 pure-button pure-button-disabled"><i class="fas fa-chevron-left"></i></span>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <a class="pagination-item newer pure-u-1-2 pure-button" href="{{ paginator.previous_page_path | relative_url }}"><i class="fas fa-chevron-right"></i></a>
+    {% else %}
+      <span class="pagination-item newer pure-u-1-2 pure-button pure-button-disabled"><i class="fas fa-chevron-right"></i></span>
+    {% endif %}
+  </div>
+{% endif %}

@@ -7,12 +7,14 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 - [Open Color](https://github.com/yeun/open-color)
 - Dark mode, via [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 - [Font Awesome](https://fontawesome.com/)
+- [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
 
 ## Table of Contents <!-- omit in toc -->
 
 - [Installation](#installation)
 - [Usage](#usage)
   - [Global Configuration](#global-configuration)
+  - [Post Configuration](#post-configuration)
   - [Homepage](#homepage)
   - [Custom Head](#custom-head)
   - [Navigation](#navigation)
@@ -81,6 +83,14 @@ remote_theme: zivong/jekyll-theme-hydure
 | `cover` | String | --- | The URL of the sidebar cover image; The value can be overwritten by the `cover` variable on each page. |
 | `author.name` | String | --- | The name of the website author |
 | `author.url` | String | --- | A URL of the website author |
+
+### Post Configuration
+
+| Variable | Type | Default | Specification |
+| -------- | ---- | ------- | ------------- |
+| `description` | String | --- | A description of the current post |
+| `last_modified_at` | String | --- | The date of the last modification you made on a post after its publishing |
+| `author` | String or Array | --- | The author name(s) of the post |
 
 ### Homepage
 
