@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto:zivong@protonmail.com
+  icon: fas fa-envelope
+- title: Twitter
+  url: https://twitter.com/zivong91
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/zivong
+  icon: fab fa-github
