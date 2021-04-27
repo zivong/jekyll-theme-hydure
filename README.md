@@ -10,6 +10,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 - [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
 - [Jekyll Feed](https://github.com/jekyll/jekyll-feed/)
 - [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+- [MathJax](https://www.mathjax.org/)
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -93,6 +94,7 @@ remote_theme: zivong/jekyll-theme-hydure
 | `description` | String | --- | A description of the current post |
 | `last_modified_at` | String | --- | The date of the last modification you made on a post after its publishing |
 | `author` | String or Array | --- | The author name(s) of the post |
+| `math` | Boolean | `false` | Does enable MathJax on this page |
 
 ### Homepage
 
