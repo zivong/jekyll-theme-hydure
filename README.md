@@ -8,6 +8,8 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 - Dark mode, via [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 - [Font Awesome](https://fontawesome.com/)
 - [Jekyll Paginate](https://github.com/jekyll/jekyll-paginate)
+- [Jekyll Feed](https://github.com/jekyll/jekyll-feed/)
+- [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 
 ## Table of Contents <!-- omit in toc -->
 
