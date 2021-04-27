@@ -65,3 +65,18 @@
     padding-right: 1em;
   }
 }
+
+#markdown-toc {
+  font-family: var(--body-font);
+  font-size: 80%;
+  padding: 2em 3em;
+  margin: 2em 0;
+  border: solid var(--border-color);
+  border-width: 1px 0;
+
+  &::before {
+    display: block;
+    margin-left: -3em;
+    content: "TOC";
+  }
+}
