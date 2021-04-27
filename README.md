@@ -17,6 +17,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
   - [Custom Head](#custom-head)
   - [Navigation](#navigation)
   - [Social Links](#social-links)
+  - [Alert Messages](#alert-messages)
 - [Contributing](#contributing)
 - [Development](#development)
 - [License](#license)
@@ -115,6 +116,10 @@ Hydure allows you to show social links on your website. All you need to do is cr
   url: https://github.com/zivong
   icon: fab fa-github
 ```
+
+### Alert Messages
+
+Hydure provides a predefined class `message` to specify **alert messages**. You may add it to single elements like a `<p>`, or to a parent if there are multiple elements to show.
 
 ## Contributing
 

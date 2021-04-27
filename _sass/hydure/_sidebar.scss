@@ -1,7 +1,8 @@
 .sidebar {
-  color: var(--header-color);
-  background-color: var(--header-bg);
-  background: center / cover;
+  color: var(--sidebar-color);
+  background-color: var(--sidebar-bg);
+  background-position: center;
+  background-size: cover;
 }
 
 .header {

@@ -6,17 +6,27 @@ $xl-screen: 80rem;
 :root {
   --body-font-size: 16px;
   --body-line-height: 1.5;
+  --body-color: var(--oc-gray-7);
+  --body-bg:    var(--oc-white);
+  --link-color: var(--oc-blue-7);
   
   // https://github.com/necolas/normalize.css/issues/665
   --body-font: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --brand-title-font: "Abril Fatface", serif;
 
-  --link-color:   var(--oc-blue-4);
-  --header-color: var(--oc-gray-4);
-  --header-bg:    var(--oc-cyan-7);
+  --sidebar-color: var(--oc-gray-4);
+  --sidebar-bg:    var(--oc-cyan-7);
+
+  --message-color: var(--oc-gray-9);
+  --message-bg:    var(--oc-yellow-1);
+
+  --border-radius: .8em;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --body-color: var(--oc-gray-4);
+    --body-bg:    var(--oc-gray-9);
+    --link-color: var(--oc-blue-4);
   }
 }
