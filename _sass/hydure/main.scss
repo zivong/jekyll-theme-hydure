@@ -6,3 +6,8 @@
 @import "footer";
 @import "page";
 @import "message";
+@import "highlight-light";
+
+@media (prefers-color-scheme: dark) {
+  @import "highlight-dark";
+}

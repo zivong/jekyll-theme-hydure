@@ -21,6 +21,95 @@ a {
   }
 }
 
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1em 0;
+  border-radius: var(--border-radius);
+}
+
+code,
+pre {
+  font-family: var(--code-font);
+}
+
+code {
+  padding: .1em .25em;
+  background-color: var(--code-bg);
+  border-radius: var(--border-radius);
+}
+
+pre {
+  overflow: auto;
+  padding: 1em;
+  margin: 1em 0;
+
+  code {
+    padding: 0;
+    background-color: inherit;
+  }
+}
+
+blockquote {
+  padding: 0 1em;
+  margin: 0 0 1em 0;
+  border-left: .25em solid var(--border-color);
+  color: var(--body-color-light);
+}
+
+table {
+  margin-top: 0;
+  margin-bottom: 1em;
+  width: 100%;
+  border: 0 solid var(--border-color);
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: .25em .5em;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+}
+
+th {
+  text-align: left;
+}
+
+thead th {
+  border-bottom-color: currentColor;
+}
+
+mark {
+  padding: .15em;
+  border-radius: var(--border-radius);
+  color: var(--message-color);
+  background-color: var(--message-bg);
+}
+
+hr {
+  position: relative;
+  margin: 2em 0;
+  border: 0;
+  border-top: 1px solid var(--border-color);
+}
+
+abbr {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &[title] {
+    cursor: help;
+    border-bottom: 1px dotted var(--border-color);
+  }
+}
+
 @media (min-width: $md-screen) {
   body {
     font-size: 120%;
