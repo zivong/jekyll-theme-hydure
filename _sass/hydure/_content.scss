@@ -1,0 +1,16 @@
+.content {
+  padding: 4em 1em;
+}
+
+@media (min-width: $md-screen) {
+  .content {
+    padding: 4em 4em;
+    font-size: 80%;
+  }
+}
+
+@media (min-width: $lg-screen) {
+  .content {
+    font-size: 100%;
+  }
+}
