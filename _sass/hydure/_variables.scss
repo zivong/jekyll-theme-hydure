@@ -21,6 +21,7 @@ $xl-screen: 80rem;
   --message-bg:    var(--oc-yellow-1);
 
   --border-radius: .8em;
+  --border-color:  var(--oc-gray-3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,5 +29,7 @@ $xl-screen: 80rem;
     --body-color: var(--oc-gray-4);
     --body-bg:    var(--oc-gray-9);
     --link-color: var(--oc-blue-4);
+
+    --border-color:  var(--oc-gray-7);
   }
 }

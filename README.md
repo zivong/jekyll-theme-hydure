@@ -79,6 +79,8 @@ remote_theme: zivong/jekyll-theme-hydure
 | `title` | String | --- | The title of the website |
 | `tagline` | String | --- | The tagline of the website |
 | `cover` | String | --- | The URL of the sidebar cover image; The value can be overwritten by the `cover` variable on each page. |
+| `author.name` | String | --- | The name of the website author |
+| `author.url` | String | --- | A URL of the website author |
 
 ### Homepage
 
