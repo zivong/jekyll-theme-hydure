@@ -23,3 +23,5 @@ Some fun facts about the setup of this project include:
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/zivong/jekyll-theme-hydure/issues/new) or [ask me on Twitter](https://twitter.com/zivong91).
 
 Thanks for reading!
+
+The default cover image is from [Nick Rickert](https://unsplash.com/@nick_rickert), thanks!
