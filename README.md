@@ -11,6 +11,8 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 - [Jekyll Feed](https://github.com/jekyll/jekyll-feed/)
 - [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 - [MathJax](https://www.mathjax.org/)
+- [Disqus](https://disqus.com/)
+- [Google Analytics 4](https://support.google.com/analytics/answer/10089681?hl=en)
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -86,6 +88,8 @@ remote_theme: zivong/jekyll-theme-hydure
 | `cover` | String | --- | The URL of the sidebar cover image; The value can be overwritten by the `cover` variable on each page. |
 | `author.name` | String | --- | The name of the website author |
 | `author.url` | String | --- | A URL of the website author |
+| `disqus` | String | --- | Disqus short name |
+| `google_analytics` | String | --- | Google Analytics 4 Measurement ID |
 
 ### Post Configuration
 
@@ -95,6 +99,7 @@ remote_theme: zivong/jekyll-theme-hydure
 | `last_modified_at` | String | --- | The date of the last modification you made on a post after its publishing |
 | `author` | String or Array | --- | The author name(s) of the post |
 | `math` | Boolean | `false` | Does enable MathJax on this page |
+| `comments` | Boolean | `true` | Does enable the Disqus comment system |
 
 ### Homepage
 
