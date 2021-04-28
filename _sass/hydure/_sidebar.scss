@@ -1,11 +1,10 @@
 .sidebar {
   color: var(--sidebar-color);
-  background-color: var(--sidebar-bg);
-  background-position: center;
-  background-size: cover;
+  background: center / cover;
 }
 
 .header {
+  width: 100%;
   font-family: var(--body-font);
   text-align: center;
   padding: 2em;
@@ -19,12 +18,14 @@
   font-family: var(--brand-title-font);
   font-size: 3.25em;
   font-weight: bold;
-  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .brand-tagline {
   font-size: 1.25em;
-  margin: 0;
+  line-height: 1.2;
+  letter-spacing: -1px;
 }
 
 .nav {
@@ -41,9 +42,19 @@
   }
 }
 
+.social-list {
+  white-space: normal;
+}
+
 .social-item {
   a {
     background-color: transparent;
+
+    &:focus,
+    &:hover {
+      color: var(--link-color);
+      background-color: transparent;
+    }
   }
 }
 
@@ -57,6 +68,12 @@
 
   .nav-item a {
     padding-left: 0;
+  }
+
+  .social-item {
+    a {
+      padding-left: 0;
+    }
   }
 }
 

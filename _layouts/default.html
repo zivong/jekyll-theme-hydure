@@ -4,7 +4,7 @@
 
   <body>
     <div id="layout" class="pure-g">
-      {% assign cover = site.cover %}
+      {% assign cover = site.cover | default: "https://images.unsplash.com/photo-1601054578112-7fb1d6ab06d6" %}
       {% if page.cover %}
         {% assign cover = page.cover %}
       {% endif %}
