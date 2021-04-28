@@ -12,6 +12,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 - [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
 - [MathJax](https://www.mathjax.org/)
 - [Disqus](https://disqus.com/)
+- [Google Analytics 4](https://support.google.com/analytics/answer/10089681?hl=en)
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -88,6 +89,7 @@ remote_theme: zivong/jekyll-theme-hydure
 | `author.name` | String | --- | The name of the website author |
 | `author.url` | String | --- | A URL of the website author |
 | `disqus` | String | --- | Disqus short name |
+| `google_analytics` | String | --- | Google Analytics 4 Measurement ID |
 
 ### Post Configuration
 
