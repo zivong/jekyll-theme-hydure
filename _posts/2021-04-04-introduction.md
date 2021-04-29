@@ -6,7 +6,7 @@ category: [Example]
 tags: [jekyll, pure]
 ---
 
-Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.
+Hydure is a concise two-column blog theme for Jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.
 
 This demo site was last updated {{ site.time | date: "%B %d, %Y" }}.
 
