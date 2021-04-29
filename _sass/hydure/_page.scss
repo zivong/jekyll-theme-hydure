@@ -21,6 +21,43 @@
   margin-top: 0;
 }
 
+.post-categories,
+.post-tags {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+  }
+}
+
+.post-category {
+  color: inherit;
+
+  &::after {
+    content: "/";
+  }
+}
+
+.post-tag {
+  padding: .1em .5em;
+  margin-right: .5em;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+a.post-tag {
+  color: inherit;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    background-color: var(--link-color);
+  }
+}
+
 .posts {
   .post {
     padding: 1em;
