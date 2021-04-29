@@ -13,6 +13,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
 - [MathJax](https://www.mathjax.org/)
 - [Disqus](https://disqus.com/)
 - [Google Analytics 4](https://support.google.com/analytics/answer/10089681?hl=en)
+- Archive implemented by pure [Liquid](https://shopify.github.io/liquid/)
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -25,6 +26,7 @@ Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.c
   - [Navigation](#navigation)
   - [Social Links](#social-links)
   - [Alert Messages](#alert-messages)
+  - [Archive](#archive)
 - [Contributing](#contributing)
 - [Development](#development)
 - [License](#license)
@@ -90,6 +92,8 @@ remote_theme: zivong/jekyll-theme-hydure
 | `author.url` | String | --- | A URL of the website author |
 | `disqus` | String | --- | Disqus short name |
 | `google_analytics` | String | --- | Google Analytics 4 Measurement ID |
+| `tags_path` | String | --- | A path to the archive-by-tags page; It is used by tags on each post |
+| `categories_path` | String | --- | A path to the archive-by-categories page; It is used by categories on each post |
 
 ### Post Configuration
 
@@ -141,6 +145,19 @@ Hydure allows you to show social links on your website. All you need to do is cr
 ### Alert Messages
 
 Hydure provides a predefined class `message` to specify **alert messages**. You may add it to single elements like a `<p>`, or to a parent if there are multiple elements to show.
+
+### Archive
+
+Hydure provides some built-in archive pages. It is implemented in pure Liquid. If you want to archive posts by years, you can create a page and put these code in it:
+
+```yml
+---
+layout: archive
+type: years
+---
+```
+
+Similarly, if you want to archive posts by categories or tags, you can set the `type` property as `categories` or `tags`.
 
 ## Contributing
 
