@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 author: [Mark Otto, Song-Zi Vong]
+category: [Example]
 ---
 
 **Howdy!** This is an example blog post that shows several types of HTML content supported in this theme.

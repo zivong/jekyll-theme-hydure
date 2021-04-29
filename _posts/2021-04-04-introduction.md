@@ -2,6 +2,8 @@
 layout: post
 title: Introduction
 author: [Mark Otto, Song-Zi Vong]
+category: [Example]
+tags: [jekyll, pure]
 ---
 
 Hydure is a concise two-column blog theme for jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.
