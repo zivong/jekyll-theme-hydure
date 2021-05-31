@@ -3,6 +3,12 @@
   background: center / cover;
 }
 
+.sidebar-shield {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.1);
+}
+
 .header {
   width: 100%;
   font-family: var(--body-font);

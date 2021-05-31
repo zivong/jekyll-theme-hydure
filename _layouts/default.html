@@ -9,7 +9,9 @@
         {% assign cover = page.cover %}
       {% endif %}
       <div class="sidebar pure-u-1 pure-u-md-1-4" {% if cover %}style="background-image: url({{ cover | relative_url }});"{% endif %}>
-        {% include header.html %}
+        <div class="sidebar-shield">
+          {% include header.html %}
+        </div>
       </div>
       <div class="content pure-u-1 pure-u-md-3-4">
         {{ content }}
