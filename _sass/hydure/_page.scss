@@ -1,10 +1,8 @@
 .page,
 .post {
-  font-family: var(--page-font);
-
   h1, h2, h3, h4, h5, h6 {
     color: var(--heading-color);
-    font-family: var(--body-font);
+    font-family: var(--heading-font);
   }
 }
 
@@ -17,7 +15,6 @@
 .post-meta {
   color: var(--body-color-light);
   font-size: 80%;
-  font-family: var(--body-font);
   margin-top: 0;
 }
 
@@ -108,7 +105,6 @@ a.post-tag {
 }
 
 #markdown-toc {
-  font-family: var(--body-font);
   font-size: 80%;
   padding: 2em 3em;
   margin: 2em 0;
