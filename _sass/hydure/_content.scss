@@ -2,6 +2,10 @@
   padding: 4em 1em;
 }
 
+.main {
+  font-family: var(--body-font);
+}
+
 @media (min-width: $md-screen) {
   .content {
     padding: 4em 4em;
