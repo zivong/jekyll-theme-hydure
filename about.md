@@ -24,4 +24,4 @@ Have questions or suggestions? Feel free to [open an issue on GitHub](https://gi
 
 Thanks for reading!
 
-The default cover image is from [Nick Rickert](https://unsplash.com/@nick_rickert), thanks!
+The default cover image is from [Steven Aguilar](https://unsplash.com/@eysteve), thanks!
