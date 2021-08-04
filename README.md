@@ -4,10 +4,7 @@ Hydure is a concise two-column blog theme for Jekyll. It is built on the [Pure.c
 
 Check out the [demo](https://zivong.blog/jekyll-theme-hydure/).
 
-|       | Mobile | Desktop |
-| ----- | ------ | ------- |
-| Light | ![Screenshot mobile light](screenshot-mobile-light.png) | ![Screenshot desktop light](screenshot-desktop-light.png) |
-| Dark  | ![Screenshot mobile dark](screenshot-mobile-dark.png) | ![Screenshot desktop dark](screenshot-desktop-dark.png) |
+![Screenshot](screenshot.png)
 
 ## Highlight Features <!-- omit in toc -->
 
