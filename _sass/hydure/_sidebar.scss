@@ -22,7 +22,7 @@
 
 .brand-title {
   font-family: var(--brand-title-font);
-  font-size: 3.25em;
+  font-size: 3em;
   font-weight: bold;
   line-height: 1.2;
   letter-spacing: -1px;
@@ -30,9 +30,10 @@
 }
 
 .brand-tagline {
-  font-size: 1.25em;
+  font-size: 1.5em;
   line-height: 1.2;
   letter-spacing: -1px;
+  margin-top: 0;
 }
 
 .nav {
@@ -68,7 +69,6 @@
 
 @media (min-width: $md-screen) {
   .header {
-    font-size: 80%;
     text-align: left;
     position: absolute;
     bottom: 0;
@@ -82,11 +82,5 @@
     a {
       padding-left: 0;
     }
-  }
-}
-
-@media (min-width: $lg-screen) {
-  .header {
-    font-size: 100%;
   }
 }

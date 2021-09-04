@@ -114,8 +114,8 @@ abbr {
   }
 }
 
-@media (min-width: $md-screen) {
+@media (min-width: $lg-screen) {
   body {
-    font-size: 120%;
+    font-size: calc(var(--body-font-size) * 1.125);
   }
 }
