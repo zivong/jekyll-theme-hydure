@@ -4,19 +4,21 @@
 
   <body>
     <div id="layout" class="pure-g">
+      <div id="sidebar" style="display.block">        
       {% assign cover = site.cover | default: "cover.jpg" %}
       {% if page.cover %}
         {% assign cover = page.cover %}
       {% endif %}
-      <div class="sidebar pure-u-1 pure-u-md-1-4" {% if cover %}style="background-image: url({{ cover | relative_url }});"{% endif %}>
-        <div class="sidebar-shield">
-          {% include header.html %}
+        <div class="sidebar pure-u-1 pure-u-md-1-4" {% if cover %}style="background-image: url({{ cover | relative_url }});"{% endif %}>
+          <div class="sidebar-shield">
+            {% include header.html %}
+          </div>
         </div>
       </div>
-      <div class="content pure-u-1 pure-u-md-3-4">
-        <div class="main">
-          {{ content }}
-        </div>
+
+      <div class="content pure-u-1 pure-u-md-3-4" id="content" style="margin-left: 25%">
+        <input type="checkbox" id="myCheck" onclick="myCheckbox()">
+        {{ content }}
         {% include footer.html %}
       </div>
     </div>
@@ -28,5 +30,20 @@
     {% if jekyll.environment == 'production' and site.google_analytics %}
       {% include google-analytics.html %}
     {% endif %}
+
+    <script>
+    function myCheckbox() {
+      var checkBox = document.getElementById("myCheck");
+      var sidebar  = document.getElementById("sidebar");
+      var content   = document.getElementById("content");
+      if (checkBox.checked == true){
+        sidebar.style.display='none';
+        content.style.marginLeft = "0%";
+      } else {
+        sidebar.style.display='block';
+        content.style.marginLeft = "25%";
+      }
+    }
+    </script>
   </body>
 </html>
