@@ -10,7 +10,7 @@ tags: [jekyll]
 ## To create a Github Page with a Jekylle theme
 Assume you have a github account: `https://github.com/yourname`
 ### Fork Theme
-1. Go to [Jekyll-Theme](https://github.com/zivong/jekyll-theme-hydure) click [Fork] <br />
+1. Go to [Jekyll-Theme-Hydure](https://github.com/zivong/jekyll-theme-hydure) click [Fork] <br />
 2. Click [Settings], **Repository name** enter YourBlogName (Ex. `AI-course`), click [Rename]<br />
 3. Delete 2 old branches, keep `master` branch <br />
 4. Create new Branch `gh-pages` <br />
