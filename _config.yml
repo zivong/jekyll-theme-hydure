@@ -1,9 +1,9 @@
-title: Hydure
-tagline: A concise two-column blog theme for Jekyll
+title: AI workshop
+tagline: A course for Deep Learning
 
 author:
-  name: Song-Zi Vong
-  url: https://twitter.com/zivong91
+  name: Richard Kuo
+  url: https://rkuo2000.github.io/AI-workshop
 
 plugins:
   - jekyll-feed
