@@ -9,10 +9,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 paginate: 3
 
 tags_path: /tags/
 categories_path: /categories/
 
-theme: jekyll-remote-theme
+remote_theme: zivong/jekyll-theme-hydure
