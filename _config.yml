@@ -14,3 +14,5 @@ paginate: 3
 
 tags_path: /tags/
 categories_path: /categories/
+
+theme: jekyll-remote-theme
