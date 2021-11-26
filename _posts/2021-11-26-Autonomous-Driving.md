@@ -185,7 +185,7 @@ Autonomous Driving includes Survey, LiDAR-based, Camera-based Object Detection M
 <table>
   <tr>
   <td><p>With Stop Signs Rendered</p><img src="https://lh4.googleusercontent.com/KfpyGJGIXnTmKBOvMJYTkYyvANOmXYNZsOIIjQs3sfGQgOoKMG_GaiBOiRMVWL8w=w1280"></td>
-  <td><">No Stop Signs Rendered</p><img src="https://lh6.googleusercontent.com/qv6DFMXsvJZ8VHinb4_HSjtLogW80FH5REtH_I6_lk59pQPwZtZeRPmVYjS3xFZc=w1280"></td>
+  <td><p>No Stop Signs Rendered</p><img src="https://lh6.googleusercontent.com/qv6DFMXsvJZ8VHinb4_HSjtLogW80FH5REtH_I6_lk59pQPwZtZeRPmVYjS3xFZc=w1280"></td>
   </tr>
   <tr>
   <td><p>With Perception Boxes Rendered</p><img src="https://lh6.googleusercontent.com/d6oPuNQyeUC8uZXcMG58F36soLJu7Z-asZ2YK7_-dJFwpjeWDniAGgQUpXS7AVsp=w1280"></td>
