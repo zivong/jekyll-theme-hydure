@@ -65,7 +65,7 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 <table>
   <tr>
   <td><img src="http://www.cvlibs.net/datasets/kitti/images/passat_sensors.jpg"></td>
-  <td><<iframe width="460" height="260" src="https://www.youtube.com/embed/KXpZ6B1YB_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+  <td><iframe width="460" height="260" src="https://www.youtube.com/embed/KXpZ6B1YB_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
   </tr>
 </table>
 
