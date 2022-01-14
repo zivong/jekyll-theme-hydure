@@ -268,10 +268,12 @@ Using Pybullet & Tensorflow 1.14.0<br>
 ### [PyBullet-Gym for Drones](https://github.com/utiasDSL/gym-pybullet-drones)
 `sudo apt install ffmpeg`<br>
 `pip install numpy pillow matplotlib cycler`<br>
-`pip install gym pybullet stable_baselines3 'ray[rllib]'`<br>
-`git clone https://github.com/utiasDSL/gym-pybullet-drones.git`<br>
+`pip install gym pybullet stable_baselines3 ray[rllib]`<br>
+`git clone https://github.com/rkuo2000/gym-pybullet-drones.git`<br>
 `cd gym-pybullet-drones`<br>
-`pip install -e .`<br>
+ 
+`python train.py` # modify train.py for different env, algorithm and timesteps<br>
+`python enjoy.py` # modify enjoy.py for different env<br>
 
 * Fly using [DSLPIDControl.py](https://github.com/utiasDSL/gym-pybullet-drones/blob/master/gym_pybullet_drones/control/DSLPIDControl.py):（PID飛行）<br>
 `python examples/fly.py --num_drones 1`<br>
