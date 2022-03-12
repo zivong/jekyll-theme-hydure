@@ -1,9 +1,9 @@
-title: Hydure
-tagline: A concise two-column blog theme for Jekyll
+title: jonnyborbs
+tagline: reactor networks
 
 author:
-  name: Song-Zi Vong
-  url: https://twitter.com/zivong91
+  name: Jon
+  url: https://twitter.com/jonnyborbs
 
 plugins:
   - jekyll-feed
