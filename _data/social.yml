@@ -1,9 +1,9 @@
-- title: Email
-  url: mailto:jonnyborbs@github.io
-  icon: fas fa-envelope
 - title: Twitter
   url: https://twitter.com/jonnyborbs
   icon: fab fa-twitter
+- title: LinkedIn
+  url: https://www.linkedin.com/in/jon-schulman
+  icon: fab fa-linkedin  
 - title: GitHub
   url: https://github.com/jonnyborbs
   icon: fab fa-github

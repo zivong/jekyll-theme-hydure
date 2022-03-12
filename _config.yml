@@ -1,5 +1,5 @@
-title: jonnyborbs
-tagline: reactor networks
+title: Jon Schulman
+tagline: Parrot rescuer, DeLorean driver, product manager
 
 author:
   name: Jon
@@ -10,7 +10,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-paginate: 3
+paginate: 5
 
 tags_path: /tags/
 categories_path: /categories/
