@@ -1,6 +1,6 @@
 ---
 layout: archive
 type: years
-title: Archive
-permalink: /archive/
+title: Post Timeline
+permalink: /timeline/
 ---
