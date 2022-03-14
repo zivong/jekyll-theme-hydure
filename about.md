@@ -2,6 +2,7 @@
 layout: page
 title: About Jon
 permalink: /about/
+cover: /assets/img/IMG_0477.jpeg
 ---
 ![Photo of Jon](/assets/img/IMG_3198-400x400.jpg)
 
