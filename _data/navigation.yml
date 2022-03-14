@@ -1,8 +1,13 @@
+- title: Home
+  url: /
 - title: About Jon
   url: /about/
-- title: Post Archive
-  url: /archive/
+- title: Post Timeline
+  url: /timeline/
+- title: Tag Archive
+  url: /tags/
 - title: vaficionado blog
   url: https://www.vaficionado.com
 - title: 8BITDMC.com
   url: https://www.8bitdmc.com
+

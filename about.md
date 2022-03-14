@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![Photo of Jon](/assets/img/IMG_3198-400x400.jpg)
 
-Hi there, I'm Jon. I go by   he/him and I'm a product manager focused on SaaS devops tools. Right now I work at [LaunchDarkly](https://www.launchdarkly.com) but I've previously been at [HashiCorp](https://www.hashicorp.com) focused on Terraform Cloud and [VMware](https://www.vmware.com) where I helped launch vRealize Automation Cloud.
+Hi there, I'm Jon. I go by  he/him and I'm a product manager focused on SaaS devops tools. Right now I work at [LaunchDarkly](https://www.launchdarkly.com), but I've previously been at [HashiCorp](https://www.hashicorp.com) focused on Terraform Cloud, and [VMware](https://www.vmware.com) where I helped launch vRealize Automation Cloud.
 
 I live in the Sacramento, California area with my partner and many rescue parrots.
 
