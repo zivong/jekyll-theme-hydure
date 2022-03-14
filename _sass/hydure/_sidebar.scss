@@ -14,10 +14,12 @@
   text-align: center;
   text-shadow: 1px 1px 3px var(--oc-black);
   padding: 2em;
-
+  background: rgba(0, 0, 0, 0.5);
   a {
     color: var(--oc-white);
   }
+  background: black;
+  opacity: 0.50;
 }
 
 .brand-title {
@@ -72,6 +74,7 @@
     text-align: left;
     position: absolute;
     bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
   }
 
   .nav-item a {
