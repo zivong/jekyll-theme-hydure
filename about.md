@@ -1,27 +1,14 @@
 ---
 layout: page
-title: About
+title: About Jon
 permalink: /about/
 ---
+![Photo of Jon](/assets/img/IMG_3198-400x400.jpg)
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hi there, I'm Jon. I go by   he/him and I'm a product manager focused on SaaS devops tools. Right now I work at [LaunchDarkly](https://www.launchdarkly.com) but I've previously been at [HashiCorp](https://www.hashicorp.com) focused on Terraform Cloud and [VMware](https://www.vmware.com) where I helped launch vRealize Automation Cloud.
 
-Hydure is a concise two-column blog theme for Jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.
+I live in the Sacramento, California area with my partner and many rescue parrots.
 
-Learn more and contribute on [GitHub](https://github.com/zivong/jekyll-theme-hydure).
+I've also linked my other two blogs in the sidebar, including [8BITDMC](https://www.8bitdmc.com) where I keep the records of my work restoring and enjoying my 1981 DeLorean, and [vAficionado](https://www.vaficionado.com) which is my legacy tech blog mainly focused on VMware automation solutions.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Visual Studio Code](https://code.visualstudio.com/), an amazing open-source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/zivong/jekyll-theme-hydure/issues/new) or [ask me on Twitter](https://twitter.com/zivong91).
-
-Thanks for reading!
-
-The default cover image is from [Steven Aguilar](https://unsplash.com/@eysteve), thanks!
+To learn more about my current work, check out my [GitHub](https://github.com/jonnyborbs), my [LinkedIn](https://www.linkedin.com/in/jon-schulman), or my [Polywork](https://www.polywork.com/jschulman) (I really need to update this)
