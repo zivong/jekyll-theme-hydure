@@ -1,8 +1,11 @@
 <header class="header">
+  <div class="navdivider">
+  <div class="half">
   <a class="brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
   <p class="brand-tagline">{{ site.tagline }}</p>
-
+</div>
   {% if site.data.navigation %}
+  <div class="half">
     <nav class="nav pure-menu">
       <ul class="pure-menu-list">
       {% for item in site.data.navigation %}
@@ -14,7 +17,9 @@
       {% endfor %}
       </ul>
     </nav>
+  </div>
   {% endif %}
+  </div>
 
   {% if site.data.social %}
     <div class="social pure-menu pure-menu-horizontal">
