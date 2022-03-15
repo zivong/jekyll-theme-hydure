@@ -11,6 +11,11 @@
 
 .header {
   width: 100%;
+  border-radius: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
   text-align: center;
   text-shadow: 1px 1px 3px var(--oc-black);
   padding: 2em;
@@ -18,6 +23,19 @@
   a {
     color: var(--oc-white);
   }
+}
+
+.half {
+  width: 50%;
+}
+
+.navdivider {
+  display: flex;
+  padding: 20px;
+}
+
+.nav.pure-menu {
+  text-align: right;
 }
 
 .brand-title {
@@ -70,8 +88,8 @@
 @media (min-width: $md-screen) {
   .header {
     text-align: left;
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
     background: rgba(0, 0, 0, 0.5);
   }
 
