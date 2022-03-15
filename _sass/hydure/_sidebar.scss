@@ -1,3 +1,101 @@
+
+@media only screen and (min-width: 767px) {
+  .header {
+    width: 90%;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .navdivider {
+    display: block;
+    text-align: left;
+  }
+
+  .nav.pure-menu {
+    text-align: left;
+  }
+
+  .brand-title {
+    font-family: var(--brand-title-font);
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    word-wrap: break-word;
+  }
+  
+  .brand-tagline {
+    font-size: 1.5em;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-top: 0;
+  }
+}
+
+// @media only screen and (max-width: 767px) {
+//   .header {
+//     width: 100%;
+//   }
+//   .half {
+//     width: 100%;
+//     text-align: left;
+//   }
+//   .navdivider {
+//     display: block;
+//     text-align: left;
+//   }
+
+//   .nav.pure-menu {
+//     text-align: left;
+//   }
+
+//   .brand-title {
+//     font-size: 2em;
+//   }
+  
+//   .brand-tagline {
+//     font-size: 1em;
+//   }
+// }
+
+@media only screen and (min-width: 1240px){
+  .header {
+    width: 90%;
+  }
+  .half {
+    width: 100%;
+    text-align: left;
+  }
+  .navdivider {
+    display: block;
+  }
+
+  .nav.pure-menu {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1400){
+  .header {
+    width: 90%;
+  }
+  .half {
+    width: 50%;
+    text-align: left;
+  }
+  .navdivider {
+    display: flex;
+  }
+
+  .nav.pure-menu {
+    text-align: right;
+  }
+}
+
+
+
 .sidebar {
   color: var(--sidebar-color);
   background: center / cover;
@@ -10,9 +108,7 @@
 }
 
 .header {
-  width: 100%;
-  border-radius: 25px;
-  width: 90%;
+  border-radius: 25px;  
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -25,17 +121,13 @@
   }
 }
 
-.half {
-  width: 50%;
-}
+// .half {
+//   width: 50%;
+// }
 
 .navdivider {
-  display: flex;
+  // display: flex;
   padding: 20px;
-}
-
-.nav.pure-menu {
-  text-align: right;
 }
 
 .brand-title {
@@ -88,8 +180,6 @@
 @media (min-width: $md-screen) {
   .header {
     text-align: left;
-    // position: absolute;
-    // bottom: 0;
     background: rgba(0, 0, 0, 0.5);
   }
 
