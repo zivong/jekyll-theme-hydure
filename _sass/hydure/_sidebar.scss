@@ -62,7 +62,7 @@
 
 @media only screen and (min-width: 1240px){
   .header {
-    width: 100%;
+    width: 90%;
   }
   .half {
     width: 100%;
@@ -74,6 +74,23 @@
 
   .nav.pure-menu {
     text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1400){
+  .header {
+    width: 90%;
+  }
+  .half {
+    width: 50%;
+    text-align: left;
+  }
+  .navdivider {
+    display: flex;
+  }
+
+  .nav.pure-menu {
+    text-align: right;
   }
 }
 
