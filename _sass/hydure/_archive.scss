@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: $sm-screen) {
+@media (min-width: $md-screen) {
   .taxonomies {
     grid-template-columns: repeat(3, 1fr);
   }
