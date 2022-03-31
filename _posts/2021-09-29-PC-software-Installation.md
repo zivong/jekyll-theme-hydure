@@ -63,6 +63,7 @@ Download from [https://gitforwindows.org/](https://gitforwindows.org/)
 
 **Anaconda3 on Ubuntu**<br>
 * [How to Install Anaconda on Ubuntu 18.04 and 20.04](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04)
+
 `$ curl -O https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh`<br>
 `$ bash Anaconda3-2021.11-Linux-x86_64.sh`<br>
 `(base) $ conda create -n tensorflow python=3.9`<br>
