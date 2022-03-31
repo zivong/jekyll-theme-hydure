@@ -62,8 +62,7 @@ Download from [https://gitforwindows.org/](https://gitforwindows.org/)
 * [Python 初學者的懶人包 Anaconda 下載與安裝](https://walker-a.com/archives/6260)<br>
 
 **Anaconda3 on Ubuntu**<br>
-* [How to Install Anaconda on Ubuntu 18.04 and 20.04](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04)
-
+* [How to Install Anaconda on Ubuntu 18.04 and 20.04](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04)<br>
 `$ curl -O https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh`<br>
 `$ bash Anaconda3-2021.11-Linux-x86_64.sh`<br>
 `(base) $ conda create -n tensorflow python=3.9`<br>
