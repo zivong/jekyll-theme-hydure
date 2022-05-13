@@ -241,11 +241,11 @@ These annotation files cover the 600 boxable object classes, and span the 1,743,
 
 ---
 ### PaddleDetection
-**Paper:** [PP-YOLOE: An evolved version of YOLO](https://arxiv.org/abs/2203.16250)
-**Code:**  [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)
+**Paper:** [PP-YOLOE: An evolved version of YOLO](https://arxiv.org/abs/2203.16250)<br>
+**Code:**  [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE.png?raw=true)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE_MS_COCO.png?raw=true)
-**Kaggle:** [rkuo2000/paddledetection](https://www.kaggle.com/code/rkuo2000/paddledetection)
+**Kaggle:** [rkuo2000/paddledetection](https://www.kaggle.com/code/rkuo2000/paddledetection)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE_object_detection.jpg?raw=true)
 
 ---
