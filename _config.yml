@@ -17,3 +17,4 @@ tags_path: /tags/
 categories_path: /categories/
 
 remote_theme: zivong/jekyll-theme-hydure
+#theme: jekyll-theme-hydure
