@@ -33,7 +33,7 @@ The exercises includes Image Annotation, YOLOv4, YOLOv5, YOLOR, YOLOX, CSL-YOLO,
 
 ### YOLOv5
 **Kaggle:** [rkuo2000/yolov5](https://kaggle.com/rkuo2000/yolov5)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5s_horses.jpg?raw=true)
 
 ### Scaled YOLOv4
 **Kaggle:** [rkuo2000/scaled-yolov4](https://kaggle.com/rkuo2000/scaled-yolov4)
