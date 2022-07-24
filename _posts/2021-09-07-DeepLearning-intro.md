@@ -131,6 +131,8 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 * [K210 Standalone Demo](https://github.com/kendryte/kendryte-standalone-demo)
 * M5Stack StickV K210 AI攝像機開發板
 * [Maixduino + OV2640 + ST7789](https://www.seeedstudio.com/Sipeed-Maixduino-Kit-for-RISC-V-AI-IoT-p-4047.html)
+  - [Arduino Core for K210 based devices](https://github.com/sipeed/Maixduino) 
+  - Add https://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_index.json as an "Additional Board Manager URL"
 <table>
 <tr>
 <td><img width="70%" height="70%" src="https://cf.shopee.tw/file/e42a372f356174a1e5261d3a16aaf078"></td>
