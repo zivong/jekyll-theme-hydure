@@ -130,10 +130,11 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 400MHz Dual-core RISC-V 64-bit CPU with FPU, 1TOPs, 300mW, Face Detection 60fps
 * [K210 Standalone Demo](https://github.com/kendryte/kendryte-standalone-demo)
 * M5Stack StickV K210 AI攝像機開發板
+* [Maixduino + OV2640 + ST7789](https://www.seeedstudio.com/Sipeed-Maixduino-Kit-for-RISC-V-AI-IoT-p-4047.html)
 <table>
 <tr>
 <td><img width="70%" height="70%" src="https://cf.shopee.tw/file/e42a372f356174a1e5261d3a16aaf078"></td>
-<td><img src="https://www.icshop.com.tw/pd/368031600001/368031600001Q2.jpg"></td>
+<td><img src="https://www.taiwaniot.com.tw/wp-content/uploads/2019/08/Maixduino-intro-768x509.jpg"></td>
 </tr>
 </table>
 
