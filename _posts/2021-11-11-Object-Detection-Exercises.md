@@ -110,6 +110,11 @@ train YOLOv5 for wheat detection
 **[EfficientDet Global Wheat Detection](https://www.kaggle.com/rkuo2000/efficientdet-gwd)**<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/EfficientDet_GWD.png?raw=true)
 
+**[YOLOv4 Pothole Detection](https://learnopencv.com/pothole-detection-using-yolov4-and-darknet/?ck_subscriber_id=638701084)**
+[yolov4_pothole_detection.ipynb]
+(https://github.com/spmallick/learnopencv/blob/master/Pothole-Detection-using-YOLOv4-and-Darknet/jupyter_notebook/yolov4_pothole_detection.ipynb)<br>
+![](https://learnopencv.com/wp-content/uploads/2022/07/Pothole-Detection-using-YOLOv4-and-Darknet.gif)
+
 ---
 ## Mask R-CNN
 **Kaggle:** [rkuo2000/mask-rcnn](https://www.kaggle.com/rkuo2000/mask-rcnn)
