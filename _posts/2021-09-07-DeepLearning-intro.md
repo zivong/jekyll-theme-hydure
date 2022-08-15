@@ -156,6 +156,59 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 ![](https://eji4evk5kxx.exactdn.com/wp-content/uploads/2021/07/Kendryte-K510-Block-Diagram-720x611.jpg?lossy=1&ssl=1)
 ![](https://eji4evk5kxx.exactdn.com/wp-content/uploads/2021/07/K510-RISC-V-AI-processor-720x445.jpg?lossy=1&ssl=1)
 
+
+---
+### Realtek AmebaPro2
+[AMB82-MINI](https://www.amebaiot.com/en/amebapro2/#rtk_amb82_mini)<br>
+![](https://www.amebaiot.com/wp-content/uploads/2022/06/AMB82-MINI-2048x1489.jpg)
+* MCU
+  - Part Number: RTL8735B
+  - 32-bit Arm v8M, up to 500MHz
+* MEMORY
+  - 768KB ROM
+  - 512KB RAM
+  - Supports MCM embedded DDR2/DDR3L memory up to 128MB
+  - External Flash up to 64MB
+* KEY FEATURES
+  - Integrated 802.11 a/b/g/n Wi-Fi, 2.4GHz/5GHz
+  - Bluetooth Low Energy (BLE) 4.2
+  - Integrated Intelligent Engine @ 0.4 TOPS
+  - Ethernet Interface
+  - USB Host/Device
+  - SD Host
+  - ISP
+  - Audio Codec
+  - H.264/H.265
+  - Secure Boot
+  - Crypto Engine
+* OTHER FEATURES
+  - 2 SPI interfaces
+  - 1 I2C interface
+  - 8 PWM interfaces
+  - 3 UART interfaces
+  - 3 ADC interfaces
+  - 2 GDMA interfaces
+  - Max 23 GPIO
+<iframe width="580" height="327" src="https://www.youtube.com/embed/_Kzqh6JXndo" title="AIoT: AmebaPro2 vs ESP32" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+## [mlplatform.org](https://www.mlplatform.org/)
+The machine learning platform is part of the Linaro Artificial Intelligence Initiative and is the home for Arm NN and Compute Library – open-source software libraries that optimise the execution of machine learning (ML) workloads on Arm-based processors.
+![](https://www.mlplatform.org/assets/images/assets/images/content/NN-frameworks20190814-800-1d11a6.webp)
+<table>
+  <tr><td>Project</td><td>Repository</td></tr>
+  <tr><td>Arm NN</td><td>[https://github.com/ARM-software/armnn](https://github.com/ARM-software/armnn)</td></tr>
+  <tr><td>Compute Library</td><td>[https://review.mlplatform.org/#/admin/projects/ml/ComputeLibrary](https://review.mlplatform.org/#/admin/projects/ml/ComputeLibrary)</td></tr>
+  <tr><td>Arm Android NN Driver</td><td>https://github.com/ARM-software/android-nn-driver</td></tr>
+</table>
+
+---
+### [ARM NN SDK](https://www.arm.com/zh-TW/products/silicon-ip-cpu/ethos/arm-nn)
+免費提供的 Arm NN (類神經網路) SDK，是一組開放原始碼的 Linux 軟體工具，可在節能裝置上實現機器學習工作負載。這項推論引擎可做為橋樑，連接現有神經網路框架與節能的 Arm Cortex-A CPU、Arm Mali 繪圖處理器及 Ethos NPU。<br>
+
+**[ARM NN](https://github.com/ARM-software/armnn)**<br>
+Arm NN is the most performant machine learning (ML) inference engine for Android and Linux, accelerating ML on Arm Cortex-A CPUs and Arm Mali GPUs.
+
 ---
 ## [AI on Chip Taiwan Alliance (台灣人工智慧晶片聯盟)](https://www.aita.org.tw/)
 ![](https://www.aita.org.tw/images/sig4-2.png)
