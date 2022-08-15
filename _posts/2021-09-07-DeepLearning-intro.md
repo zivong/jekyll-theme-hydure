@@ -167,6 +167,7 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 ---
 ## ML Benchmark: 
 <p align="center"><img src="https://www.servethehome.com/wp-content/uploads/2021/06/Google-TPU-v4-MLPerf-v1.0-Tope-Line-Results-1536x1536.png" width="70%" height="70%"></p>
+
 ### [MLPerf](https://mlcommons.org/en/)
 * MLPerf Inference v1.1 Results<br>
 &emsp;[inference-datacenter v1.1 results](https://mlcommons.org/en/inference-datacenter-11/)<br>
