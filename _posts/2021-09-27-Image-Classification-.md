@@ -45,7 +45,7 @@ VOC2012 train/val/test11,530張標註圖片，有27,450個ROI 標註物件<br>
 ### [Open Images V6+](https://storage.googleapis.com/openimages/web/index.html)
 * Blog: [Open Images V6 — Now Featuring Localized Narratives](https://ai.googleblog.com/2020/02/open-images-v6-now-featuring-localized.html)
 These annotation files cover the 600 boxable object classes, and span the 1,743,042 training images where we annotated bounding boxes, object segmentations, visual relationships, and localized narratives; as well as the full validation (41,620 images) and test (125,436 images) sets.<br>
-[Download](Download: https://storage.googleapis.com/openimages/web/download.html)<br>
+[Download](https://storage.googleapis.com/openimages/web/download.html)<br>
 ![](https://1.bp.blogspot.com/-yuodfZa6gyM/XlbQfiAzbzI/AAAAAAAAFYA/QSTnuZksQII2PaRON2mqHntZBHL-saniACLcBGAsYHQ/s640/Figure1.png)
 
 ---
