@@ -231,7 +231,7 @@ ECG 心電圖分類：<br>
 * Inception-ResNets (2016)
 ![](https://miro.medium.com/max/700/1*xpb6QFQ4IknSmxmgai8w-Q.png)
 * DenseNet (2016)
-![](https://miro.medium.com/max/1302/1*Cv2IqVWmiakP_boAJODKig.png)
+<img src="https://miro.medium.com/max/1302/1*Cv2IqVWmiakP_boAJODKig.png">
 * ResNeXt-50 (2017)
 ![](https://miro.medium.com/max/700/1*HelCJiQZEuwuKakRwDdGPw.png)
 * EfficientNet (2019)
