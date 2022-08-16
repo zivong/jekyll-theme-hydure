@@ -9,49 +9,62 @@ tags: [jekyll, ai]
 Convolutional Neural Network (CNN) includes an Overview, Examples, and Architectures.
 
 ---
-* A more biologically accurate representation of a neuron
-![](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/assets/tfdl_0403.png)
-
----
 ## Convolutional Neural Network (CNN)
 
 ### [Overview](https://www.analyticsvidhya.com/blog/2022/01/convolutional-neural-network-an-overview/)
 
 **Blog:** [Basic Introduction to Convolutional Neural Network in Deep Learning](https://www.analyticsvidhya.com/blog/2022/03/basic-introduction-to-convolutional-neural-network-in-deep-learning/)<br>
-* Image Classification
+
+### Image Classification
 ![](https://editor.analyticsvidhya.com/uploads/804084200125366Convolutional_Neural_Network_to_identify_the_image_of_a_bird.png)
-* Typical CNN
+
+---
+### Typical CNN
 ![](https://editor.analyticsvidhya.com/uploads/59954intro%20to%20CNN.JPG)
 ![](https://editor.analyticsvidhya.com/uploads/94787Convolutional-Neural-Network.jpeg)
-* Convolutional Layers
+
+---
+### Convolutional Layers
 ![](https://editor.analyticsvidhya.com/uploads/18707neural-networks-layers-visualization.jpg)
 
-* Convolutional Operation
+---
+### Convolutional Operation
 ![](https://www.researchgate.net/profile/Hiromu-Yakura/publication/323792694/figure/fig1/AS:615019968475136@1523643595196/Outline-of-the-convolutional-layer.png)
-* Max-Pooling
+
+---
+### Max-Pooling
 ![](https://cdn-images-1.medium.com/max/1600/1*ODDBelSSa1drUjCHGgPt2w.png)
-* [Activation Fuctions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)<br>
-Sigmoid vs ReLU (Rectified Linear Unit) 
+
+---
+### [Activation Fuctions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)<br>
+**Sigmoid vs ReLU (Rectified Linear Unit)**
 ![](https://miro.medium.com/max/1400/1*XxxiA0jJvPrHEJHD4z893g.png)
-Tanh or hyperbolic tangent
+**Tanh or hyperbolic tangent**
 ![](https://miro.medium.com/max/1190/1*f9erByySVjTjohfFdNkJYQ.jpeg)
-Leaky ReLU
+**Leaky ReLU**
 ![](https://miro.medium.com/max/1400/1*A_Bzn0CjUgOXtPCJKnKLqA.jpeg)
-* [Softmax Activation function](https://towardsdatascience.com/softmax-activation-function-how-it-actually-works-d292d335bd78)
+
+---
+### [Softmax Activation function](https://towardsdatascience.com/softmax-activation-function-how-it-actually-works-d292d335bd78)
 ![](https://i.stack.imgur.com/0rewJ.png)
 ![](https://miro.medium.com/max/875/1*KvygqiInUpBzpknb-KVKJw.jpeg)
-* Dropout<br>
+
+---
+### Dropout
 [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf)<br>
 在模型訓練時隨機讓網絡某些隱含層節點的權重不工作，不工作的那些節點可以暫時認為不是網絡結構的一部分，但是它的權重得保留下来(只是暫時不更新而已)<br>
 ![](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/assets/tfdl_0408.png)
-* Early Stopping
+
+---
+### Early Stopping
 ![](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/assets/tfdl_0409.png)
 
-* Visualize Filters & Feature Maps
-  - [Guide to Visualize Filters and Feature Maps in CNN](https://www.kaggle.com/code/arpitjain007/guide-to-visualize-filters-and-feature-maps-in-cnn)
-  - [VGG16 - Layers Visualization Tutorial](https://www.kaggle.com/code/loaiabdalslam/vgg16-layers-visualization-tutorial/notebook)
-  - [How to Visualize Feature Maps in Convolutional Neural Networks using PyTorch](https://androidkt.com/how-to-visualize-feature-maps-in-convolutional-neural-networks-using-pytorch/)
-    - [run this code in Google colab](https://colab.research.google.com/drive/1sCxCuwaPjti4DLwmic38DbUN7CkNzTBw?usp=sharing)<br>
+---
+### Visualize Filters & Feature Maps
+* [Guide to Visualize Filters and Feature Maps in CNN](https://www.kaggle.com/code/arpitjain007/guide-to-visualize-filters-and-feature-maps-in-cnn)
+* [VGG16 - Layers Visualization Tutorial](https://www.kaggle.com/code/loaiabdalslam/vgg16-layers-visualization-tutorial/notebook)
+* [How to Visualize Feature Maps in Convolutional Neural Networks using PyTorch](https://androidkt.com/how-to-visualize-feature-maps-in-convolutional-neural-networks-using-pytorch/)
+  - [run this code in Google colab](https://colab.research.google.com/drive/1sCxCuwaPjti4DLwmic38DbUN7CkNzTBw?usp=sharing)<br>
 
 ---
 ## Examples
@@ -60,6 +73,7 @@ Leaky ReLU
 60000筆28x28灰階數字圖片之訓練集<br>
 10000筆28x28灰階數字圖片之測試集<br>
 
+---
 ### [MNIST-CNN](https://www.kaggle.com/rkuo2000/mnist-cnn)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CNN_MNIST.png?raw=true)
 [mnist_cnn.py](https://github.com/rkuo2000/tf/blob/master/mnist_cnn.py)<br>
@@ -134,6 +148,8 @@ def show_train_history(hisData,train,test):
 show_train_history(history, 'loss', 'val_loss')
 show_train_history(history, 'accuracy', 'val_accuracy')
 ```
+
+---
 ### [hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)
 **Dataset:** [Kuzushiji-MNIST](https://github.com/rois-codh/kmnist)<br>
 ![](https://github.com/rois-codh/kmnist/raw/master/images/kmnist_examples.png)
@@ -159,8 +175,7 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirDigit_dataset.png?raw=true)
 
 ---
-### [ECG Classification](https://www.kaggle.com/rkuo2000/ecg-classification)
-[心電圖診斷理論基礎與系統](http://rportal.lib.ntnu.edu.tw:8080/server/api/core/bitstreams/9ae9fc6a-fa31-4bdf-b3ed-486881f61af8/content)<br>
+### [心電圖診斷理論基礎與系統](http://rportal.lib.ntnu.edu.tw:8080/server/api/core/bitstreams/9ae9fc6a-fa31-4bdf-b3ed-486881f61af8/content)
 ECG 心電圖分類：<br>
 1. **Normal (正常心跳)**
 2. **Artial Premature (早發性心房收縮)**
@@ -171,6 +186,8 @@ ECG 心電圖分類：<br>
   - 室性融合波是由於兩個節律點發出的衝動同時激動心室的一部分形成的心室綜合波，是心律失常的干擾現象範疇
 5. **Fusion of paced and normal (節律器融合心跳)**
 
+---
+### [ECG Classification](https://www.kaggle.com/rkuo2000/ecg-classification)
 **Paper:** [ECG Heartbeat Classification: A Deep Transferable Representation](https://arxiv.org/abs/1805.00794)<br>
 ![](https://d3i71xaburhd42.cloudfront.net/0997b7e7aa68708414fdb3257263f81f9d9c33ae/2-Figure1-1.png)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/ECG_CNN.png?raw=true)
