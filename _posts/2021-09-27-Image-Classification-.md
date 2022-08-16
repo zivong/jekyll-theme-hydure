@@ -49,6 +49,39 @@ These annotation files cover the 600 boxable object classes, and span the 1,743,
 ![](https://1.bp.blogspot.com/-yuodfZa6gyM/XlbQfiAzbzI/AAAAAAAAFYA/QSTnuZksQII2PaRON2mqHntZBHL-saniACLcBGAsYHQ/s640/Figure1.png)
 
 ---
+## Applications
+
+### Speech Commands Recognition (語音命令辨識)
+
+---
+### Urban Sound Classification (城市聲音分類)
+
+---
+### Traffic Sign Classifier (交通號誌辨識)
+
+---
+### Emotion Detection (情緒偵測)
+
+---
+### Pneumonia Detection (肺炎偵測)
+
+---
+### COVID19 Detection (武漢肺炎偵測)
+
+---
+### Skin Lesion Classification (皮膚病變分類)
+
+---
+### Garbage Classification (垃圾分類)
+
+---
+### Food Classification  (食物分類)
+
+---
+### Mango Classification (芒果分類)
+
+---
+### FaceMask Classification (人臉口罩辨識)
 
 
 <br>
