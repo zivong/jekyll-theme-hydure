@@ -56,8 +56,14 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 ![](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/assets/tfdl_0408.png)
 
 ---
-### Gradient Decent
+### Gradient Descent Optimization Algorithms
+[梯度下降最佳解相關算法](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E5%9F%BA%E7%A4%8E%E6%95%B8%E5%AD%B8-%E4%B8%89-%E6%A2%AF%E5%BA%A6%E6%9C%80%E4%BD%B3%E8%A7%A3%E7%9B%B8%E9%97%9C%E7%AE%97%E6%B3%95-gradient-descent-optimization-algorithms-b61ed1478bd7)<br>
+
+![](https://miro.medium.com/max/1120/1*4sDhJfYY77FXWUBrrWJ9Jg.gif) 
+
 <iframe width="530" height="298" src="https://www.youtube.com/embed/IHZwWFHWa-w" title="梯度下降，神經網絡如何學習 l 第二章 深度學習" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![](https://miro.medium.com/max/658/1*4K7sDHsCNypr6uoagBQngw.png)
 
 ---
 ### Early Stopping
