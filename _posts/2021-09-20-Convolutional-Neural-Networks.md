@@ -271,7 +271,7 @@ ECG 心電圖分類：<br>
 ---
 ### CSPNet (2019)
 * Paper: [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)
-* Blog: [Review — CSPNet: A New Backbone That Can Enhance Learning Capability of CNN](https://sh-tsang.medium.com/review-cspnet-a-new-backbone-that-can-enhance-learning-capability-of-cnn-da7ca51524bf#:~:text=Cross%20Stage%20Partial%20Network%20(CSPNet,as%20DenseNet%2C%20ResNeXt%20and%20ResNet.)
+* Blog: [Review — CSPNet: A New Backbone That Can Enhance Learning Capability of CNN](https://sh-tsang.medium.com/review-cspnet-a-new-backbone-that-can-enhance-learning-capability-of-cnn-da7ca51524bf)
 * Code: [https://github.com/WongKinYiu/CrossStagePartialNetworks](https://github.com/WongKinYiu/CrossStagePartialNetworks)
 **Cross Stage Partial DenseNet (CSPDenseNet)**<br>
 ![](https://miro.medium.com/max/1400/1*s_sZ8Lja_JV6ceJBR-7K5A.png)
