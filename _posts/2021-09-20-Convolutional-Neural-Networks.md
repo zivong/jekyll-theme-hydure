@@ -210,12 +210,6 @@ ECG 心電圖分類：<br>
 * EfficientNet (2019)
 ![](https://1.bp.blogspot.com/-DjZT_TLYZok/XO3BYqpxCJI/AAAAAAAAEKM/BvV53klXaTUuQHCkOXZZGywRMdU9v9T_wCLcBGAs/s640/image2.png)
 ![](https://1.bp.blogspot.com/-oNSfIOzO8ko/XO3BtHnUx0I/AAAAAAAAEKk/rJ2tHovGkzsyZnCbwVad-Q3ZBnwQmCFsgCEwYBhgL/s640/image3.png)
-* HarDNet (2019) [Blog](https://www.ithome.com.tw/news/134809)
-![](https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-13%20%E4%B8%8A%E5%8D%8811_07_01.png)
-* Vision Transformer (2020)
-![](https://github.com/google-research/vision_transformer/raw/main/vit_figure.png)
-* RepVGG (2021)
-![](https://github.com/DingXiaoH/RepVGG/raw/main/arch.PNG)
 
 ---
 ### CNN model comparison
@@ -243,7 +237,19 @@ ECG 心電圖分類：<br>
 ![](https://miro.medium.com/max/1400/1*s_sZ8Lja_JV6ceJBR-7K5A.png)
 
 ---
-### [NFNets (2021) 
+### Vision Transformer (2020)
+* Paper: [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
+* Code: [https://github.com/google-research/vision_transformer](https://github.com/google-research/vision_transformer)
+![](https://github.com/google-research/vision_transformer/raw/main/vit_figure.png)
+
+---
+### RepVGG (2021)
+* Paper: [Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697)
+* Code: [https://github.com/DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG)
+![](https://github.com/DingXiaoH/RepVGG/raw/main/arch.PNG)
+
+---
+### NFNets (2021)
 * Paper: [High-Performance Large-Scale Image Recognition Without Normalization](https://arxiv.org/abs/2102.06171)
 * Code: 
   - [https://github.com/deepmind/deepmind-research/tree/master/nfnets](https://github.com/deepmind/deepmind-research/tree/master/nfnets)
