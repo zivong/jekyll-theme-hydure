@@ -21,6 +21,8 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 ---
 ### Typical CNN
 ![](https://editor.analyticsvidhya.com/uploads/59954intro%20to%20CNN.JPG)
+
+---
 ![](https://editor.analyticsvidhya.com/uploads/94787Convolutional-Neural-Network.jpeg)
 
 ---
