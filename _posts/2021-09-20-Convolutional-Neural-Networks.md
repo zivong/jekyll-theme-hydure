@@ -56,6 +56,10 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 ![](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/assets/tfdl_0408.png)
 
 ---
+### Gradient Decent
+<iframe width="530" height="298" src="https://www.youtube.com/embed/IHZwWFHWa-w" title="梯度下降，神經網絡如何學習 l 第二章 深度學習" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 ### Early Stopping
 ![](https://www.oreilly.com/library/view/tensorflow-for-deep/9781491980446/assets/tfdl_0409.png)
 
