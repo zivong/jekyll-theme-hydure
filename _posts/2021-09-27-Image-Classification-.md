@@ -12,8 +12,8 @@ Image Classification models and applications
 ## Datasets
 
 ### [PASCAL VOC (Visual Ojbect Classes)](http://host.robots.ox.ac.uk/pascal/VOC/)
-VOC2007 train/val/test 9,963張標註圖片，有24,640個標註物件 
-VOC2012 train/val/test11,530張標註圖片，有27,450個ROI 標註物件
+VOC2007 train/val/test 9,963張標註圖片，有24,640個標註物件<br> 
+VOC2012 train/val/test11,530張標註圖片，有27,450個ROI 標註物件<br>
 ![](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/segexamples/images/006585_object.png)
 ![](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/layoutexamples/images/08_parts.jpg)
 20 classes:
