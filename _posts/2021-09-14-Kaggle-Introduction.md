@@ -103,9 +103,7 @@ Kaggle.com 人工智慧競賽的雲端平台, 提供免費使用 CPU / GPU / TPU
 
 ---
 ## Neural Network (神經網路)
-![](https://miro.medium.com/max/610/1*SJPacPhP4KDEB1AdhOFy_Q.png)
 
----
 ### Easy Net
 1 neuron to learn Linear equation: Y= 0.1*X +0.3
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Kaggle_Easy_Net.png?raw=true)
