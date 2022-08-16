@@ -52,6 +52,10 @@ These annotation files cover the 600 boxable object classes, and span the 1,743,
 ## Applications
 
 ### Speech Commands Recognition (語音命令辨識)
+https://www.tensorflow.org/tutorials/sequences/audio_recognition
+* Speech Commands: "yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go"
+* Code: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands
+
 
 ---
 ### Urban Sound Classification (城市聲音分類)
