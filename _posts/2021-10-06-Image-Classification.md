@@ -219,12 +219,6 @@ model.summary()
 <br>
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/skin-lesion-classification](https://www.kaggle.com/code/rkuo2000/skin-lesion-classification)
 
-* import libraries
-```
-from tensorflow.keras import applications
-from tensorflow.keras import models, layers
-```
-
 * assign base model
 ```
 #base_model=applications.MobileNetV2(input_shape=(224,224,3), weights='imagenet',include_top=False)
