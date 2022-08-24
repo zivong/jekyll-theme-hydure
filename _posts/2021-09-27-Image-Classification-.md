@@ -52,26 +52,25 @@ These annotation files cover the 600 boxable object classes, and span the 1,743,
 ---
 ## Applications
 
----
 ### CIFAR-10
 Dataset: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)<br>
-The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CIFAR-10.png?raw=true)
+The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 Kaggle: [https://www.kaggle.com/rkuo2000/cifar10-cnn](https://www.kaggle.com/rkuo2000/cifar10-cnn)<br>
 
 ---
 ### Traffic Sign Classifier (交通號誌辨識)
 Dataset: [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/gtsrb_news.html)<br>
-34 traffic signs, 39209 training images, 12630 test images
 ![](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61e9ce225148f6519be6c034_GTSRB-0000000633-9ce3c5f6_Dki5Rsf.jpeg)
+34 traffic signs, 39209 training images, 12630 test images
 Kaggle: [https://www.kaggle.com/rkuo2000/gtsrb-cnn](https://www.kaggle.com/rkuo2000/gtsrb-cnn)<br>
 
 ---
 ### Emotion Detection (情緒偵測)
 Dataset:[FER-2013 (Facial Expression Recognition)](https://www.kaggle.com/datasets/msambare/fer2013)<br>
+![](https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg)
 7 facial expression, 28709 training images, 7178 test images<br>
 labels = ["angry", "disgusted", "fearful", "happy", "neutral", "sad", "surprised"]<br>
-![](https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg)
 Kaggle: [https://www.kaggle.com/rkuo2000/fer2013-cnn](https://www.kaggle.com/rkuo2000/fer2013-cnn)<br>
 
 ---
