@@ -55,6 +55,7 @@ These annotation files cover the 600 boxable object classes, and span the 1,743,
 ### CIFAR-10
 Dataset: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CIFAR-10.png?raw=true)
+
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.<br>
 Kaggle: [https://www.kaggle.com/rkuo2000/cifar10-cnn](https://www.kaggle.com/rkuo2000/cifar10-cnn)<br>
 
@@ -62,6 +63,7 @@ Kaggle: [https://www.kaggle.com/rkuo2000/cifar10-cnn](https://www.kaggle.com/rku
 ### Traffic Sign Classifier (交通號誌辨識)
 Dataset: [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/gtsrb_news.html)<br>
 ![](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61e9ce225148f6519be6c034_GTSRB-0000000633-9ce3c5f6_Dki5Rsf.jpeg)
+
 34 traffic signs, 39209 training images, 12630 test images<br>
 Kaggle: [https://www.kaggle.com/rkuo2000/gtsrb-cnn](https://www.kaggle.com/rkuo2000/gtsrb-cnn)<br>
 
@@ -69,6 +71,7 @@ Kaggle: [https://www.kaggle.com/rkuo2000/gtsrb-cnn](https://www.kaggle.com/rkuo2
 ### Emotion Detection (情緒偵測)
 Dataset:[FER-2013 (Facial Expression Recognition)](https://www.kaggle.com/datasets/msambare/fer2013)<br>
 ![](https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg)
+
 7 facial expression, 28709 training images, 7178 test images<br>
 labels = ["angry", "disgusted", "fearful", "happy", "neutral", "sad", "surprised"]<br>
 Kaggle: [https://www.kaggle.com/rkuo2000/fer2013-cnn](https://www.kaggle.com/rkuo2000/fer2013-cnn)<br>
@@ -77,6 +80,7 @@ Kaggle: [https://www.kaggle.com/rkuo2000/fer2013-cnn](https://www.kaggle.com/rku
 ### Pneumonia Detection (肺炎偵測)
 Dataset: [https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)<br>
 ![](https://raw.githubusercontent.com/anjanatiha/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/master/demo/sample/sample.png)
+
 Kaggle: [https://www.kaggle.com/rkuo2000/pneumonia-cnn](https://www.kaggle.com/rkuo2000/pneumonia-cnn)<br>
 
 ---
@@ -99,6 +103,7 @@ Kaggle: [https://www.kaggle.com/rkuo2000/facemask-cnn](https://www.kaggle.com/rk
 ### Garbage Classification (垃圾分類)
 Dataset: https://www.kaggle.com/asdasdasasdas/garbage-classification (42MB)<br>
 <img widtih="50%" height="50%" src="https://miro.medium.com/max/2920/1*mJipx8yxeI_JW36jDAuM9A.png">
+
 6 categories : cardboard(403), glass(501), metal(410), paper (594), plastic(482), trash(137)<br>
 
 Kaggle: [https://www.kaggle.com/rkuo2000/garbage-cnn](https://www.kaggle.com/rkuo2000/garbage-cnn)<br>
