@@ -211,6 +211,21 @@ ECG 心電圖分類：<br>
 **Code:** [nibtehaz/PPG2ABP](https://github.com/nibtehaz/PPG2ABP)<br>
 
 ---
+### Urban Sound Classification
+Dataset: [https://www.kaggle.com/chrisfilo/urbansound8k](https://www.kaggle.com/chrisfilo/urbansound8k)<br>
+10 classes: air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, siren, street music<br>
+Kaggle: [https://www.kaggle.com/rkuo2000/urban-sound-classification](https://www.kaggle.com/rkuo2000/urban-sound-classification)<br>
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/urban_sound_cnn.png?raw=true)
+
+---
+### Speech Commands
+Dataset: [Google Speech Commands](https://www.kaggle.com/datasets/neehakurelli/google-speech-commands)<br>
+Speech Commands: "yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go"<br>
+
+code: [tensorflow/examples/speech_commands](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands)<br>
+Kaggle: [https://www.kaggle.com/code/rkuo2000/qcnn-asr](https://www.kaggle.com/code/rkuo2000/qcnn-asr)<br>
+
+---
 ## [CNN architectures](https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d)
 
 * LeNet-5 (1998) [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)
