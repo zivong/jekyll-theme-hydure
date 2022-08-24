@@ -330,7 +330,7 @@ Speech Commands: "yes", "no", "up", "down", "left", "right", "on", "off", "stop"
 
 ---
 ### CSPNet (2019)
-**Paper:*8 [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)<br>
+**Paper:** [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)<br>
 **Blog:** [Review — CSPNet: A New Backbone That Can Enhance Learning Capability of CNN](https://sh-tsang.medium.com/review-cspnet-a-new-backbone-that-can-enhance-learning-capability-of-cnn-da7ca51524bf)<br>
 **Code:** [https://github.com/WongKinYiu/CrossStagePartialNetworks](https://github.com/WongKinYiu/CrossStagePartialNetworks)<br>
 **Cross Stage Partial DenseNet (CSPDenseNet)**<br>
