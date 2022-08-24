@@ -214,7 +214,7 @@ Dataset : [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/kmader/skin-cance
 * Melanocytic Nevi (黑素細胞痣)
 * Vascular Lesions (血管病變)
 <br>
-Kaggle: [https://www.kaggle.com/code/rkuo2000/skin-lesion-classification](https://www.kaggle.com/code/rkuo2000/skin-lesion-classification)<br>
+Kaggle: [rkuo2000/skin-lesion-classification](https://www.kaggle.com/code/rkuo2000/skin-lesion-classification)<br>
 
 * import libraries
 ```
