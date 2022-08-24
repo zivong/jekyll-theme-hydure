@@ -215,7 +215,7 @@ ECG 心電圖分類：<br>
 
 ---
 ### Sound Digit CNN
-Dataset: [台語0~9](https://www.kaggle.com/datasets/rkuo2000/sounddigittw)<br>
+**Dataset:** [台語0~9](https://www.kaggle.com/datasets/rkuo2000/sounddigittw)<br>
 1. 使用手機錄音App(如: Voice Recorder) 將語音之數字存成.wav
 2. 錄音時間長度= 1秒(語音錄得越長，訓練跟辨識的時間都較久)
 3. 訓練資料集:每個數字錄20次 0_000.wav, 0_019.wav, 1_001.wav … 1_019.wav, …. 9_000.wav, … 9_019.wav
@@ -234,7 +234,7 @@ for i in range(10):
     plt.title('Waveform')
 ```
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sound_Digit_waveform.png?raw=true)
-
+<br>
 * extract MFCC spectorgram
 ```
 x_train = list()
