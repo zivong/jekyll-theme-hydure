@@ -169,14 +169,15 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 **Kaggle:** [https://www.kaggle.com/rkuo2000/hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)<br>
 
 ---
-### [Sign-Language MNIST](https://www.kaggle.com/code/rkuo2000/sign-language-mnist)
+### Sign-Language MNIST
 **Dataset:** [Sign-Language MNIST](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sign_Language_MNIST.png?raw=true)
 21964筆28x28彩色手勢字母圖片之訓練集<br>
 5491筆28x28彩色手勢字母圖片之測試集<br>
+**Kaggle:** [https://www.kaggle.com/code/rkuo2000/sign-language-mnist](https://www.kaggle.com/code/rkuo2000/sign-language-mnist)
 
 ---
-### [FashionMNIST-CNN](https://www.kaggle.com/rkuo2000/fashionmnist-cnn)
+### FashionMNIST-CNN
 **Dataset:** [FashionMNIST](https://www.kaggle.com/zalando-research/fashionmnist)<br>
 ![](https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png)
 28x28 grayscale images<br>
@@ -184,9 +185,16 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 60000 train data<br>
 10000 test data<br>
 
+**Kaggle:** [https://www.kaggle.com/rkuo2000/fashionmnist-cnn](https://www.kaggle.com/rkuo2000/fashionmnist-cnn)<br>
+
 ---
-### [AirDigit CNN](https://www.kaggle.com/rkuo2000/airdigit-cnn)
+### AirDigit CNN
+**Dataset:**<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirDigit_dataset.png?raw=true)
+* [https://www.kaggle.com/datasets/rkuo2000/airdigit](https://www.kaggle.com/datasets/rkuo2000/airdigit)
+* [https://www.kaggle.com/datasets/rkuo2000/airdigit-mpu6050](https://www.kaggle.com/datasets/rkuo2000/airdigit-mpu6050)
+
+**Kaggle:** [https://www.kaggle.com/rkuo2000/airdigit-cnn](https://www.kaggle.com/rkuo2000/airdigit-cnn)<br>
 
 ---
 ### [心電圖診斷理論基礎與系統](http://rportal.lib.ntnu.edu.tw:8080/server/api/core/bitstreams/9ae9fc6a-fa31-4bdf-b3ed-486881f61af8/content)
@@ -201,10 +209,11 @@ ECG 心電圖分類：<br>
 5. **Fusion of paced and normal (節律器融合心跳)**
 
 ---
-### [ECG Classification](https://www.kaggle.com/rkuo2000/ecg-classification)
+### ECG Classification (心電圖分類)
 **Paper:** [ECG Heartbeat Classification: A Deep Transferable Representation](https://arxiv.org/abs/1805.00794)<br>
 ![](https://d3i71xaburhd42.cloudfront.net/0997b7e7aa68708414fdb3257263f81f9d9c33ae/2-Figure1-1.png)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/ECG_CNN.png?raw=true)
+**Kaggle: [https://www.kaggle.com/rkuo2000/ecg-classification](https://www.kaggle.com/rkuo2000/ecg-classification)
 
 ---
 ### PPG2ABP (PPG偵測動脈血壓)
@@ -216,7 +225,7 @@ ECG 心電圖分類：<br>
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/ppg2ab](https://www.kaggle.com/code/rkuo2000/ppg2ab)<br>
 
 ---
-### Sound Digit CNN
+### Sound Digit CNN (語音數字分類)
 **Dataset:** [台語0~9](https://www.kaggle.com/datasets/rkuo2000/sounddigittw)<br>
 1. 使用手機錄音App(如: Voice Recorder) 將語音之數字存成.wav
 2. 錄音時間長度= 1秒(語音錄得越長，訓練跟辨識的時間都較久)
@@ -258,14 +267,14 @@ for FILE in TRAIN_FILES:
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sound_Digit_mel_freq_spectrogram.png?raw=true)
 
 ---
-### Urban Sound Classification
+### Urban Sound Classification (都市聲音分類)
 **Dataset:** [https://www.kaggle.com/chrisfilo/urbansound8k](https://www.kaggle.com/chrisfilo/urbansound8k)<br>
 10 classes: air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, siren, street music<br>
 **Kaggle:** [https://www.kaggle.com/rkuo2000/urban-sound-classification](https://www.kaggle.com/rkuo2000/urban-sound-classification)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/urban_sound_cnn.png?raw=true)
 
 ---
-### Speech Commands
+### Speech Commands (語音命令辨識)
 **Dataset:** [Google Speech Commands](https://www.kaggle.com/datasets/neehakurelli/google-speech-commands)<br>
 Speech Commands: "yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go"<br>
 
