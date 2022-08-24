@@ -239,42 +239,10 @@ from tensorflow.keras import models, layers
 #base_model=applications.NASNetLarge(input_shape=(331,331,3), weights='imagenet',include_top=False)
 ```
 
-* import EfficientNet model
+* import EfficeNet model<br>
 ```
 import efficientnet.tfkeras as efn
 base_model = efn.EfficientNetB7(input_shape=(224,224,3), weights='imagenet', include_top=False)
-```
-
-* add extra layers to model
-``` 
-x=base_model.output
-x=layers.GlobalAveragePooling2D()(x)      
-x=layers.Dense(1024,activation='relu')(x) 
-x=layers.Dense(64,activation='relu')(x)
-out=layers.Dense(num_classes,activation='softmax')(x) #final layer with softmax activation
-
-model=Model(inputs=base_model.input,outputs=out)
-```
-
-* for transfer learning
-```
-base_model.trainable = False # For transfer learning
-model.summary()
-```
-
-* define loss & optimizer for training regression
-```
-model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
-```
-
-* train model
-```
-model.fit_generator(train_generator, steps_per_epoch=STEP_SIZE_TRAIN, epochs=num_epochs, class_weight=class_weights, validation_data=valid_generator, validation_steps=STEP_SIZE_VALID)
-```
-
-* save model
-```
-models.save_model(model, 'skinlesion.h5')
 ```
 
 <br>
