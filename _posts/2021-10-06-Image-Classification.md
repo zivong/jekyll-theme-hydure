@@ -217,9 +217,9 @@ model.summary()
 * Melanocytic Nevi (黑素細胞痣)
 * Vascular Lesions (血管病變)
 <br>
-**Kaggle:** [https://www.kaggle.com/code/rkuo2000/skin-lesion-classification](https://www.kaggle.com/code/rkuo2000/skin-lesion-classification)
+**Kaggle:** [https://www.kaggle.com/code/rkuo2000/skin-lesion-classification](https://www.kaggle.com/code/rkuo2000/skin-lesion-classification)<br>
 
-* assign base model
+* assign base_model
 ```
 #base_model=applications.MobileNetV2(input_shape=(224,224,3), weights='imagenet',include_top=False)
 #base_model=applications.InceptionV3(input_shape=(224,224,3), weights='imagenet',include_top=False)
@@ -233,7 +233,7 @@ model.summary()
 #base_model=applications.NASNetLarge(input_shape=(331,331,3), weights='imagenet',include_top=False)
 ```
 
-* import EfficeNet model<br>
+* import EfficentNet model
 ```
 import efficientnet.tfkeras as efn
 base_model = efn.EfficientNetB7(input_shape=(224,224,3), weights='imagenet', include_top=False)
