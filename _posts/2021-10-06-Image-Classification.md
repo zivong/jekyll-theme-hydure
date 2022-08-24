@@ -234,7 +234,7 @@ from tensorflow.keras import models, layers
 #base_model=applications.NASNetMobile(input_shape=(224,224,3), weights='imagenet',include_top=False)
 #base_model=applications.NASNetLarge(input_shape=(331,331,3), weights='imagenet',include_top=False)
 ```
-
+* import EfficientNet model
 ```
 import efficientnet.tfkeras as efn
 base_model = efn.EfficientNetB7(input_shape=(224,224,3), weights='imagenet', include_top=False)
