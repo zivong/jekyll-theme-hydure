@@ -81,6 +81,7 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 ## Examples
 ### MNIST dataset (手寫數字資料集）
 ![](https://miro.medium.com/max/495/1*G8jKIPXjoI_WivkDFUPlZQ.png)
+
 60000筆28x28灰階數字圖片之訓練集<br>
 10000筆28x28灰階數字圖片之測試集<br>
 
