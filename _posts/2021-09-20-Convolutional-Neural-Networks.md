@@ -211,6 +211,48 @@ ECG 心電圖分類：<br>
 **Code:** [nibtehaz/PPG2ABP](https://github.com/nibtehaz/PPG2ABP)<br>
 
 ---
+### Sound Digit CNN
+Dataset: [台語0~9](https://www.kaggle.com/datasets/rkuo2000/sounddigittw)<br>
+1. 使用手機錄音App(如: Voice Recorder) 將語音之數字存成.wav
+2. 錄音時間長度= 1秒(語音錄得越長，訓練跟辨識的時間都較久)
+3. 訓練資料集:每個數字錄20次 0_000.wav, 0_019.wav, 1_001.wav … 1_019.wav, …. 9_000.wav, … 9_019.wav
+4. 測式資料集:每個數字錄2次 0_000.wav, 0_001.wav, 1_000.wav, 1_001.wav … 9_000.wav, 9_001.wav
+5. 尋找手機檔案夾, 將其命名為SoundDigit, 底下有兩個目錄train (訓練集)跟test (測試集) 並壓縮成SoundDigit.zip
+6. 上傳至你的Kaggle.com建立一個新的Dataset (例如: https://kaggle.com/rkuo2000/SoundDigitTW 是台語0~9)
+
+Kaggle: [https://www.kaggle.com/code/rkuo2000/sounddigit-cnn](https://www.kaggle.com/code/rkuo2000/sounddigit-cnn/)<br>
+* librosa to plot the waveform
+```
+for i in range(10):
+    y, sr = librosa.load('Dataset/Train/'+str(i)+'_000.wav')
+    plt.figure()
+    plt.subplot(3,1,1)
+    librosa.display.waveplot(y, sr=sr)
+    plt.title('Waveform')
+```
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sound_Digit_waveform.png?raw=true)
+
+* extract MFCC spectorgram
+```
+x_train = list()
+y_train = list()
+(row, col) = (40,62)
+
+for FILE in TRAIN_FILES:
+    filename = FILE.replace('.3gp','.wav')
+    mfcc = extract_feature('Dataset/Train/'+filename)
+    # print(mfcc.shape)
+    if (mfcc.shape[1]!=col):
+        mfcc = np.resize(mfcc, (row,col))
+    x_train.append(mfcc)
+    y_train.append(FILE[0]) # first charactor of filename is the classname
+    if FILE[2:5]=="000":
+        print(mfcc.shape)
+        display_mfcc(mfcc)  
+```
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sound_Digit_mel_freq_spectrogram.png?raw=true)
+
+---
 ### Urban Sound Classification
 Dataset: [https://www.kaggle.com/chrisfilo/urbansound8k](https://www.kaggle.com/chrisfilo/urbansound8k)<br>
 10 classes: air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, siren, street music<br>
