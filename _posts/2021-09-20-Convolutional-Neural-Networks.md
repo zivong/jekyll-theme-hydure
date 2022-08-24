@@ -222,7 +222,7 @@ Kaggle: [https://www.kaggle.com/rkuo2000/urban-sound-classification](https://www
 Dataset: [Google Speech Commands](https://www.kaggle.com/datasets/neehakurelli/google-speech-commands)<br>
 Speech Commands: "yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go"<br>
 
-code: [tensorflow/examples/speech_commands](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands)<br>
+Code: [tensorflow/examples/speech_commands](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands)<br>
 Kaggle: [https://www.kaggle.com/code/rkuo2000/qcnn-asr](https://www.kaggle.com/code/rkuo2000/qcnn-asr)<br>
 
 ---
