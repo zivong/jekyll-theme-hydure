@@ -221,9 +221,8 @@ ECG 心電圖分類：<br>
 ---
 ### PPG2ABP (PPG偵測動脈血壓)
 **Paper:** [PPG2ABP: Translating Photoplethysmogram (PPG) Signals to Arterial Blood Pressure (ABP) Waveforms using Fully Convolutional Neural Networks](https://arxiv.org/abs/2005.01669)<br>
-![](https://d3i71xaburhd42.cloudfront.net/cf8a20a4ce19797c4ea03534505a369277f63da2/5-Figure1-1.png)
-![](https://d3i71xaburhd42.cloudfront.net/cf8a20a4ce19797c4ea03534505a369277f63da2/10-Figure2-1.png)
-
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PPG2AGP_pipeline.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PPG2AGP_pipeline_output.png?raw=true)
 **Code:** [nibtehaz/PPG2ABP](https://github.com/nibtehaz/PPG2ABP)<br>
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/ppg2ab](https://www.kaggle.com/code/rkuo2000/ppg2ab)<br>
 
