@@ -81,6 +81,7 @@ train YOLOv5 for detecting elephant (dataset from OpenImage V6)
 </tr>
 </table>
 
+---
 **[YOLOv5 BCCD](https://kaggle.com/rkuo2000/yolov5-bccd)**<br>
 train YOLOv5 for Blood Cells Detection
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_BCCD.jpg?raw=true)
@@ -95,21 +96,26 @@ train YOLOv5 for Helmet detection
 </tr>
 </table>
 
+---
 **[YOLOv5 Facemask](https://kaggle.com/rkuo2000/yolov5-facemask)**<br>
 train YOLOv5 for facemask detection
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_Facemask.jpg?raw=true)
 
+---
 **[YOLOv5 Traffic Analysis](https://kaggle.com/rkuo2000/yolov5-traffic-analysis)**<br>
 use YOLOv5 to detect car/truck per frame, then analyze vehicle counts per lane and the estimated speed
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_traffic_analysis.jpg?raw=true)
 
+---
 **[YOLOv5 Global Wheat Detection](https://www.kaggle.com/rkuo2000/yolov5-global-wheat-detection)**<br>
 train YOLOv5 for wheat detection
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_GWD.jpg?raw=true)
 
+---
 **[EfficientDet Global Wheat Detection](https://www.kaggle.com/rkuo2000/efficientdet-gwd)**<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/EfficientDet_GWD.png?raw=true)
 
+---
 **[YOLOv4 Pothole Detection](https://learnopencv.com/pothole-detection-using-yolov4-and-darknet/?ck_subscriber_id=638701084)**
 [yolov4_pothole_detection.ipynb]
 (https://github.com/spmallick/learnopencv/blob/master/Pothole-Detection-using-YOLOv4-and-Darknet/jupyter_notebook/yolov4_pothole_detection.ipynb)<br>
@@ -120,6 +126,7 @@ train YOLOv5 for wheat detection
 **Kaggle:** [rkuo2000/mask-rcnn](https://www.kaggle.com/rkuo2000/mask-rcnn)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Mask_RCNN_TF2.png?raw=true)
 
+---
 ### Mask R-CNN transfer learning
 **Kaggle:** [Mask RCNN transfer learning](https://www.kaggle.com/hmendonca/mask-rcnn-and-coco-transfer-learning-lb-0-155)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Mask_RCNN_transfer_learning.png?raw=true)
