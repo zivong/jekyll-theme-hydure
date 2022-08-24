@@ -162,9 +162,11 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 ```
 
 ---
-### [hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)
+### [hiraganamnist]
 **Dataset:** [Kuzushiji-MNIST](https://github.com/rois-codh/kmnist)<br>
 ![](https://github.com/rois-codh/kmnist/raw/master/images/kmnist_examples.png)
+
+Kaggle: [https://www.kaggle.com/rkuo2000/hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)<br>
 
 ---
 ### [Sign-Language MNIST](https://www.kaggle.com/code/rkuo2000/sign-language-mnist)
