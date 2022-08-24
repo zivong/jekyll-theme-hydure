@@ -83,8 +83,9 @@ Kaggle: [https://www.kaggle.com/rkuo2000/pneumonia-cnn](https://www.kaggle.com/r
 ### COVID19 Detection (新冠肺炎偵測)
 Dataset: [https://www.kaggle.com/bachrr/covid-chest-xray](https://www.kaggle.com/bachrr/covid-chest-xray)<br>
 ![](https://i.imgur.com/jZqpV51.png)
-Kaggle: [https://www.kaggle.com/rkuo2000/covid19-vgg16](https://www.kaggle.com/rkuo2000/covid19-vgg16)<br>
-Kaggle: [https://www.kaggle.com/rkuo2000/skin-lesion-cnn](https://www.kaggle.com/rkuo2000/skin-lesion-cnn)<br>
+Kaggle: 
+* [https://www.kaggle.com/rkuo2000/covid19-vgg16](https://www.kaggle.com/rkuo2000/covid19-vgg16)
+* [https://www.kaggle.com/rkuo2000/skin-lesion-cnn](https://www.kaggle.com/rkuo2000/skin-lesion-cnn)
 
 ---
 ### FaceMask Classification (人臉口罩辨識)
