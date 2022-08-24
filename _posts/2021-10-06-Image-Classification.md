@@ -242,7 +242,7 @@ import efficientnet.tfkeras as efn
 base_model = efn.EfficientNetB7(input_shape=(224,224,3), weights='imagenet', include_top=False)
 ```
 
-* add Extra Layers to Model
+* add extra layers to model
 ``` 
 x=base_model.output
 x=layers.GlobalAveragePooling2D()(x)      
