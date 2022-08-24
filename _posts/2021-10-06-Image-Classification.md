@@ -221,6 +221,7 @@ Kaggle: [https://www.kaggle.com/code/rkuo2000/skin-lesion-classification](https:
 from tensorflow.keras import applications
 from tensorflow.keras import models, layers
 ```
+
 * assign base model
 ```
 #base_model=applications.MobileNetV2(input_shape=(224,224,3), weights='imagenet',include_top=False)
@@ -234,12 +235,14 @@ from tensorflow.keras import models, layers
 #base_model=applications.NASNetMobile(input_shape=(224,224,3), weights='imagenet',include_top=False)
 #base_model=applications.NASNetLarge(input_shape=(331,331,3), weights='imagenet',include_top=False)
 ```
+
 * import EfficientNet model
 ```
 import efficientnet.tfkeras as efn
 base_model = efn.EfficientNetB7(input_shape=(224,224,3), weights='imagenet', include_top=False)
 ```
-* Add Extra Layers to Model
+
+* add Extra Layers to Model
 ``` 
 x=base_model.output
 x=layers.GlobalAveragePooling2D()(x)      
@@ -249,19 +252,23 @@ out=layers.Dense(num_classes,activation='softmax')(x) #final layer with softmax 
 
 model=Model(inputs=base_model.input,outputs=out)
 ```
+
 * for transfer learning
 ```
 base_model.trainable = False # For transfer learning
 model.summary()
 ```
+
 * define loss & optimizer for training regression
 ```
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
 ```
+
 * train model
 ```
 model.fit_generator(train_generator, steps_per_epoch=STEP_SIZE_TRAIN, epochs=num_epochs, class_weight=class_weights, validation_data=valid_generator, validation_steps=STEP_SIZE_VALID)
 ```
+
 * save model
 ```
 models.save_model(model, 'skinlesion.h5')
