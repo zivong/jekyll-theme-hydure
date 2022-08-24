@@ -245,7 +245,7 @@ x=base_model.output
 x=layers.GlobalAveragePooling2D()(x)      
 x=layers.Dense(1024,activation='relu')(x) 
 x=layers.Dense(64,activation='relu')(x)
-out=Dense(num_classes,activation='softmax')(x) #final layer with softmax activation
+out=layers.Dense(num_classes,activation='softmax')(x) #final layer with softmax activation
 
 model=Model(inputs=base_model.input,outputs=out)
 ```
