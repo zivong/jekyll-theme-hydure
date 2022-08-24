@@ -172,14 +172,17 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 ### Sign-Language MNIST 
 **Dataset:** [Sign-Language MNIST](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sign_Language_MNIST.png?raw=true)
+
 21964筆28x28彩色手勢字母圖片之訓練集<br>
 5491筆28x28彩色手勢字母圖片之測試集<br>
+
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/sign-language-mnist](https://www.kaggle.com/code/rkuo2000/sign-language-mnist)
 
 ---
 ### FashionMNIST
 **Dataset:** [FashionMNIST](https://www.kaggle.com/zalando-research/fashionmnist)<br>
 ![](https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png)
+
 28x28 grayscale images<br>
 10 classes: [T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle boot]<br>
 60000 train data<br>
