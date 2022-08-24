@@ -35,6 +35,7 @@ VOC2012 train/val/test11,530張標註圖片，有27,450個ROI 標註物件<br>
 * 5 captions per image
 * 250,000 people with keypoints
 
+---
 ### [ImageNet](http://www.image-net.org/)
 ![](https://miro.medium.com/max/700/1*IlzW43-NtJrwqtt5Xy3ISA.jpeg)
 ![](https://devopedia.org/images/article/172/7316.1561043304.png)
