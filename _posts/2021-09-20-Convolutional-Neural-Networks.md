@@ -79,14 +79,14 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 
 ---
 ## Examples
-### MNIST dataset (手寫數字資料集）
+
+### MNIST (手寫數字)
 ![](https://miro.medium.com/max/495/1*G8jKIPXjoI_WivkDFUPlZQ.png)
 
 60000筆28x28灰階數字圖片之訓練集<br>
 10000筆28x28灰階數字圖片之測試集<br>
 
----
-### [MNIST-CNN](https://www.kaggle.com/rkuo2000/mnist-cnn)
+**Kaggle:** [https://www.kaggle.com/rkuo2000/mnist-cnn](https://www.kaggle.com/rkuo2000/mnist-cnn)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CNN_MNIST.png?raw=true)
 [mnist_cnn.py](https://github.com/rkuo2000/tf/blob/master/mnist_cnn.py)<br>
 ```
@@ -169,7 +169,7 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 **Kaggle:** [https://www.kaggle.com/rkuo2000/hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)<br>
 
 ---
-### Sign-Language MNIST
+### Sign-Language MNIST 
 **Dataset:** [Sign-Language MNIST](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sign_Language_MNIST.png?raw=true)
 21964筆28x28彩色手勢字母圖片之訓練集<br>
@@ -177,7 +177,7 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/sign-language-mnist](https://www.kaggle.com/code/rkuo2000/sign-language-mnist)
 
 ---
-### FashionMNIST-CNN
+### FashionMNIST
 **Dataset:** [FashionMNIST](https://www.kaggle.com/zalando-research/fashionmnist)<br>
 ![](https://github.com/zalandoresearch/fashion-mnist/raw/master/doc/img/fashion-mnist-sprite.png)
 28x28 grayscale images<br>
@@ -188,7 +188,7 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 **Kaggle:** [https://www.kaggle.com/rkuo2000/fashionmnist-cnn](https://www.kaggle.com/rkuo2000/fashionmnist-cnn)<br>
 
 ---
-### AirDigit CNN
+### AirDigit (空中手寫數字)
 **Dataset:**<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirDigit_dataset.png?raw=true)
 * [https://www.kaggle.com/datasets/rkuo2000/airdigit](https://www.kaggle.com/datasets/rkuo2000/airdigit)
