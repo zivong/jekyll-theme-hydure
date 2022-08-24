@@ -201,12 +201,12 @@ Dataset : [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/kmader/skin-cance
 * Malignant Melanoma (惡性黑色素瘤)
 * Melanocytic Nevi (黑素細胞痣)
 * Vascular Lesions (血管病變)
+<br>
 Kaggle: [https://www.kaggle.com/code/rkuo2000/skin-lesion-classification](https://www.kaggle.com/code/rkuo2000/skin-lesion-classification)<br>
 * import libraries
 ```
 from tensorflow.keras import applications
 from tensorflow.keras import models, layers
-
 ```
 * assign base model
 ```
