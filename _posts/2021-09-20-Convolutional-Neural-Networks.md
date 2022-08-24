@@ -162,11 +162,11 @@ show_train_history(history, 'accuracy', 'val_accuracy')
 ```
 
 ---
-### [hiraganamnist]
+### hiraganamnist
 **Dataset:** [Kuzushiji-MNIST](https://github.com/rois-codh/kmnist)<br>
 ![](https://github.com/rois-codh/kmnist/raw/master/images/kmnist_examples.png)
 
-Kaggle: [https://www.kaggle.com/rkuo2000/hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)<br>
+**Kaggle:** [https://www.kaggle.com/rkuo2000/hiraganamnist](https://www.kaggle.com/rkuo2000/hiraganamnist)<br>
 
 ---
 ### [Sign-Language MNIST](https://www.kaggle.com/code/rkuo2000/sign-language-mnist)
@@ -223,7 +223,7 @@ Dataset: [台語0~9](https://www.kaggle.com/datasets/rkuo2000/sounddigittw)<br>
 5. 尋找手機檔案夾, 將其命名為SoundDigit, 底下有兩個目錄train (訓練集)跟test (測試集) 並壓縮成SoundDigit.zip
 6. 上傳至你的Kaggle.com建立一個新的Dataset (例如: https://kaggle.com/rkuo2000/SoundDigitTW 是台語0~9)
 
-Kaggle: [https://www.kaggle.com/code/rkuo2000/sounddigit-cnn](https://www.kaggle.com/code/rkuo2000/sounddigit-cnn/)<br>
+**Kaggle:** [https://www.kaggle.com/code/rkuo2000/sounddigit-cnn](https://www.kaggle.com/code/rkuo2000/sounddigit-cnn/)<br>
 * librosa to plot the waveform
 ```
 for i in range(10):
@@ -257,18 +257,18 @@ for FILE in TRAIN_FILES:
 
 ---
 ### Urban Sound Classification
-Dataset: [https://www.kaggle.com/chrisfilo/urbansound8k](https://www.kaggle.com/chrisfilo/urbansound8k)<br>
+**Dataset:** [https://www.kaggle.com/chrisfilo/urbansound8k](https://www.kaggle.com/chrisfilo/urbansound8k)<br>
 10 classes: air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, siren, street music<br>
-Kaggle: [https://www.kaggle.com/rkuo2000/urban-sound-classification](https://www.kaggle.com/rkuo2000/urban-sound-classification)<br>
+**Kaggle:** [https://www.kaggle.com/rkuo2000/urban-sound-classification](https://www.kaggle.com/rkuo2000/urban-sound-classification)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/urban_sound_cnn.png?raw=true)
 
 ---
 ### Speech Commands
-Dataset: [Google Speech Commands](https://www.kaggle.com/datasets/neehakurelli/google-speech-commands)<br>
+**Dataset:** [Google Speech Commands](https://www.kaggle.com/datasets/neehakurelli/google-speech-commands)<br>
 Speech Commands: "yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go"<br>
 
-Code: [tensorflow/examples/speech_commands](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands)<br>
-Kaggle: [https://www.kaggle.com/code/rkuo2000/qcnn-asr](https://www.kaggle.com/code/rkuo2000/qcnn-asr)<br>
+**Code:** [tensorflow/examples/speech_commands](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/speech_commands)<br>
+**Kaggle:** [https://www.kaggle.com/code/rkuo2000/qcnn-asr](https://www.kaggle.com/code/rkuo2000/qcnn-asr)<br>
 
 ---
 ## [CNN architectures](https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d)
@@ -317,45 +317,45 @@ Kaggle: [https://www.kaggle.com/code/rkuo2000/qcnn-asr](https://www.kaggle.com/c
 
 ---
 ### HarDNet (2019)
-* Paper: [HarDNet: A Low Memory Traffic Network](https://arxiv.org/abs/1909.00948)
-* Blog: [鎖定高解析串流分析，清大開源CNN架構HarDNet，影像分類速度比常見ResNet-50架構快30%](https://www.ithome.com.tw/news/134809)
-* Code: [PingoLH/Pytorch-HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)
+**Paper:** [HarDNet: A Low Memory Traffic Network](https://arxiv.org/abs/1909.00948)<br>
+**Blog:** [鎖定高解析串流分析，清大開源CNN架構HarDNet，影像分類速度比常見ResNet-50架構快30%](https://www.ithome.com.tw/news/134809)<br>
+**Code:** [PingoLH/Pytorch-HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)<br>
 ![](https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202019-12-13%20%E4%B8%8A%E5%8D%8811_07_01.png)
 
 ---
 ### GhostNet (2019)
-* Paper: [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907)
-* Code: [ghostnet_pytorch](https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/ghostnet_pytorch)
-* Blog: [A Dive Into GhostNet with PyTorch and TensorFlow]()
+**Paper:** [GhostNet: More Features from Cheap Operations](https://arxiv.org/abs/1911.11907)<br>
+**Code:** [ghostnet_pytorch](https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/ghostnet_pytorch)<br>
+**Blog:** [A Dive Into GhostNet with PyTorch and TensorFlow](https://blog.paperspace.com/ghostnet-cvpr-2020/)<br>
 
 ---
 ### CSPNet (2019)
-* Paper: [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)
-* Blog: [Review — CSPNet: A New Backbone That Can Enhance Learning Capability of CNN](https://sh-tsang.medium.com/review-cspnet-a-new-backbone-that-can-enhance-learning-capability-of-cnn-da7ca51524bf)
-* Code: [https://github.com/WongKinYiu/CrossStagePartialNetworks](https://github.com/WongKinYiu/CrossStagePartialNetworks)
+**Paper:*8 [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)<br>
+**Blog:** [Review — CSPNet: A New Backbone That Can Enhance Learning Capability of CNN](https://sh-tsang.medium.com/review-cspnet-a-new-backbone-that-can-enhance-learning-capability-of-cnn-da7ca51524bf)<br>
+**Code:** [https://github.com/WongKinYiu/CrossStagePartialNetworks](https://github.com/WongKinYiu/CrossStagePartialNetworks)<br>
 **Cross Stage Partial DenseNet (CSPDenseNet)**<br>
 ![](https://miro.medium.com/max/1400/1*s_sZ8Lja_JV6ceJBR-7K5A.png)
 
 ---
 ### Vision Transformer (2020)
-* Paper: [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
-* Code: [https://github.com/google-research/vision_transformer](https://github.com/google-research/vision_transformer)
+**Paper:** [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)<br>
+**Code:** [https://github.com/google-research/vision_transformer](https://github.com/google-research/vision_transformer)<br>
 ![](https://github.com/google-research/vision_transformer/raw/main/vit_figure.png)
 
 ---
 ### RepVGG (2021)
-* Paper: [Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697)
-* Code: [https://github.com/DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG)
+**Paper:** [Making VGG-style ConvNets Great Again](https://arxiv.org/abs/2101.03697)<br>
+**Code:** [https://github.com/DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG)<br>
 ![](https://github.com/DingXiaoH/RepVGG/raw/main/arch.PNG)
 
 ---
 ### NFNets (2021)
-* Paper: [High-Performance Large-Scale Image Recognition Without Normalization](https://arxiv.org/abs/2102.06171)
-* Code: 
-  - [https://github.com/deepmind/deepmind-research/tree/master/nfnets](https://github.com/deepmind/deepmind-research/tree/master/nfnets)
-  - [https://github.com/vballoli/nfnets-pytorch](https://github.com/vballoli/nfnets-pytorch)
-* Tube: [https://www.youtube.com/embed/rNkHjZtH0RQ](https://www.youtube.com/embed/rNkHjZtH0RQ)
-* Blog: [NFNet (Normalizer-Free ResNets)論文閱讀](https://medium.com/ching-i/nfnet-normalizer-free-resnets-%E8%AB%96%E6%96%87%E9%96%B1%E8%AE%80-ce7235d1b123)
+**Paper:** [High-Performance Large-Scale Image Recognition Without Normalization](https://arxiv.org/abs/2102.06171)<br>
+**Code:** <br>
+* [https://github.com/deepmind/deepmind-research/tree/master/nfnets](https://github.com/deepmind/deepmind-research/tree/master/nfnets)
+* [https://github.com/vballoli/nfnets-pytorch](https://github.com/vballoli/nfnets-pytorch)
+**Tube:** [https://www.youtube.com/embed/rNkHjZtH0RQ](https://www.youtube.com/embed/rNkHjZtH0RQ)<br>
+**Blog:** [NFNet (Normalizer-Free ResNets)論文閱讀](https://medium.com/ching-i/nfnet-normalizer-free-resnets-%E8%AB%96%E6%96%87%E9%96%B1%E8%AE%80-ce7235d1b123)<br>
 ![](https://miro.medium.com/max/1328/1*NdVDJSEOndmUEjsZwdcKRA.png)
 
 ---
