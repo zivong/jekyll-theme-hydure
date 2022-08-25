@@ -18,7 +18,7 @@ Introduction to Continual Learning / LifeLong Learning / Incremental Learning in
 * 50000 training images
 * 10000 test images
 * 10 classes of 32x32 color images
-* 
+
 **CIFAR-100**<br>
 * 500 training images per class
 * 100 test images per class
@@ -36,8 +36,10 @@ Classification can be performed at object level (50 classes) or at category leve
 
 * Pixel-wise Annotations
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Pixel-wise_Annotations.png?raw=true)
+
 * Object Library
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Object_Library.png?raw=true)
+
 * Ready-To-Go Scenes
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Ready-To-Go_Scenes.png?raw=true)
 
