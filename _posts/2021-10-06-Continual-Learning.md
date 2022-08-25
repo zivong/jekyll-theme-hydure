@@ -96,6 +96,7 @@ The effect of AR1 (CwR+Syn) is displayed in the figure below, based on the CORe5
 ---
 ### GDM (Growing Dual Memory)
 **Paper:** [Lifelong Learning of Spatiotemporal Representations with Dual-Memory Recurrent Self-Organization](https://arxiv.org/abs/1805.10966)<br>
+
 ![](https://www.frontiersin.org/files/Articles/401624/fnbot-12-00078-HTML/image_m/fnbot-12-00078-g001.jpg)
 **Code:** [https://github.com/giparisi/GDM](https://github.com/giparisi/GDM)<br>
 **Toolbox:** [GWR Toolbox](https://github.com/giparisi/gwr-tb)<br>
