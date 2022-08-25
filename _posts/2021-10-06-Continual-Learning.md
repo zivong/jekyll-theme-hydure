@@ -86,7 +86,7 @@ The effect of AR1 (CwR+Syn) is displayed in the figure below, based on the CORe5
 ![](https://slidetodoc.com/presentation_image/3df85a200151a347c4666719e75730f5/image-14.jpg)
 
 ---
-### CWR (Copy Weights with ReInit), CWR+
+### CWR (Copy Weights with Re-init), CWR+
 **Paper:** [Continuous Learning in Single-Incremental-Task Scenarios](https://arxiv.org/abs/1806.08568)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CWR_algorithm.png?raw=true)
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CWR+_algorithm.png?raw=true)
