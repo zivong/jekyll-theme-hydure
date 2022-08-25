@@ -34,13 +34,11 @@ Classification can be performed at object level (50 classes) or at category leve
 ### [SAILenv](https://sailab.diism.unisi.it/sailenv/)
 **Paper:** [Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments](https://arxiv.org/abs/2109.07855)<br>
 
-* Pixel-wise Annotations
+* Pixel-wise Annotations<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Pixel-wise_Annotations.png?raw=true)
-
-* Object Library
+* Object Library<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Object_Library.png?raw=true)
-
-* Ready-To-Go Scenes
+* Ready-To-Go Scenes<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Ready-To-Go_Scenes.png?raw=true)
 
 * Server Executables (Sample Scenes): [Version Directory](http://eliza.diism.unisi.it/sailenv/bin)
