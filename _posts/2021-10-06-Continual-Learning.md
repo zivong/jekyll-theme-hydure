@@ -13,10 +13,12 @@ Introduction to Continual Learning / LifeLong Learning / Incremental Learning in
 
 ### CIFAR-10/CIFAR-100
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CIFAR-10.png?raw=true)
+
 **CIFAR-10**<br>
 * 50000 training images
 * 10000 test images
 * 10 classes of 32x32 color images
+* 
 **CIFAR-100**<br>
 * 500 training images per class
 * 100 test images per class
@@ -31,11 +33,12 @@ Classification can be performed at object level (50 classes) or at category leve
 ---
 ### [SAILenv](https://sailab.diism.unisi.it/sailenv/)
 **Paper:** [Evaluating Continual Learning Algorithms by Generating 3D Virtual Environments](https://arxiv.org/abs/2109.07855)<br>
-**Pixel-wise Annotations**<br>
+
+* Pixel-wise Annotations
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Pixel-wise_Annotations.png?raw=true)
-**Object Library**<br>
+* Object Library
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Object_Library.png?raw=true)
-**Ready-To-Go Scenes**<br>
+* Ready-To-Go Scenes
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SAILab_Ready-To-Go_Scenes.png?raw=true)
 
 * Server Executables (Sample Scenes): [Version Directory](http://eliza.diism.unisi.it/sailenv/bin)
@@ -65,7 +68,7 @@ agent.delete()
 ![](https://mrifkikurniawan.github.io/images/catastrophic_forgetting/forgetting_forgetting.svg)
 
 **Colab:** [An example of catastrophic forgetting in PyTorch](https://github.com/ContinualAI/colab/blob/master/notebooks/intro_to_continual_learning.ipynb)<br>
-The effect of AR1 (CwR+Syn) is displayed in the figure below, based on the CORe50 dataset.
+The effect of AR1 (CwR+Syn) is displayed in the figure below, based on the CORe50 dataset.<br>
 ![](https://miro.medium.com/max/1288/1*TNhs2-QHivjNYxYFdDF9gw.png)
 
 ---
@@ -128,8 +131,9 @@ The effect of AR1 (CwR+Syn) is displayed in the figure below, based on the CORe5
 
 ---
 ### [PyContinual](https://github.com/ZixuanKe/PyContinual)
-PyContinual (An Easy and Extendible Framework for Continual Learning)
+PyContinual (An Easy and Extendible Framework for Continual Learning)<br>
 ![](https://github.com/ZixuanKe/PyContinual/raw/main/docs/benchmarks.png)
+
 **Paper:**<br>
 * [Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning](https://arxiv.org/abs/2112.02706)
 * [CLASSIC: Continual and Contrastive Learning of Aspect Sentiment Classification Tasks](https://arxiv.org/abs/2112.02714)
