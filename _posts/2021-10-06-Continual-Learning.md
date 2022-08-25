@@ -102,8 +102,9 @@ The effect of AR1 (CwR+Syn) is displayed in the figure below, based on the CORe5
 
 ---
 ### AR1 
-**Paper:** [Latent Replay for Real-Time Continual Learning](https://arxiv.org/abs/1912.01100)
+**Paper:** [Latent Replay for Real-Time Continual Learning](https://arxiv.org/abs/1912.01100)<br>
 ![](https://repository-images.githubusercontent.com/239764197/2c621f00-8f13-11ea-8250-162421cbd36b)
+
 **Code:** [AR1* with Latent Replay](https://github.com/vlomonaco/ar1-pytorch)<br>
 
 ---
