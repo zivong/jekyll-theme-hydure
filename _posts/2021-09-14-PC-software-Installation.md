@@ -57,7 +57,7 @@ Download from [https://gitforwindows.org/](https://gitforwindows.org/)
 
 ---
 ### Python3
-**Python3.9 for Windows**<br>
+**Windows**<br>
 * Go to [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
 * Download [Windows embeddable package (64-bit)](https://www.python.org/ftp/python/3.9.12/python-3.9.12-embed-amd64.zip) of Python3.9.12
 * [新手踏入Python第零步-安裝Python3.9](https://www.codingspace.school/blog/2021-04-07)
@@ -65,8 +65,13 @@ Download from [https://gitforwindows.org/](https://gitforwindows.org/)
 ![](https://www.codingspace.school/static/blog/img/content/2021-04-07/vzR7KLP.webp)
 <br>
 
-**Python3.8.10 on Ubuntu 20.04 LTS**<br>
+**Ubuntu 20.04 LTS**<br>
 `$ python3 -V`<br>
+Python3.8.10
+
+**Ubuntu 22.04 LTS**<br>
+`$ python3 -V`<br>
+Python 3.10.4
 
 ---
 ### Anaconda3  
