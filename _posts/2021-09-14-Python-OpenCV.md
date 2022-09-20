@@ -53,7 +53,7 @@ cd cv2
 
 ### read JPEG
 `python3 jpg_read.jpg`<br>
-[jpg_read.py](https://github.com/rkuo2000/cv2/blob/master/jpg_read.py)<br>
+[~/cv2/jpg_read.py](https://github.com/rkuo2000/cv2/blob/master/jpg_read.py)<br>
 ```
 import cv2
 import sys
@@ -78,7 +78,7 @@ cv2.DestroyAllWindows()
 ---
 ### open Camera
 `python3 cam.py`<br>
-[cam.py](https://github.com/rkuo2000/cv2/blob/master/cam.py)<br>
+[~/cv2/cam.py](https://github.com/rkuo2000/cv2/blob/master/cam.py)<br>
 
 ```
 import cv2
@@ -139,7 +139,7 @@ HSV模型的圓錐表示適合於在一個單一物體中展示整個HSV色彩�
 
 ---
 ### [OpenCV color conversion](https://docs.opencv.org/4.6.0/de/d25/imgproc_color_conversions.html)
-[jpg_csc.py](https://github.com/rkuo2000/cv2/blob/master/jpg_csc.py)
+[~/cv2/jpg_csc.py](https://github.com/rkuo2000/cv2/blob/master/jpg_csc.py)
 ```
 import cv2
 
@@ -161,7 +161,7 @@ cv2.destroyAllWindows()
 
 ---
 ### Object Tracking by Color
-[cam_object_tracking.py](https://github.com/rkuo2000/cv2/blob/master/cam_object_tracking.py)<br>
+[~/cv2/cam_object_tracking.py](https://github.com/rkuo2000/cv2/blob/master/cam_object_tracking.py)<br>
 
 ```
 import cv2
@@ -202,14 +202,14 @@ cv2.destroyAllWindows()
 
 ---
 ### [Skin Isolation](https://nalinc.github.io/blog/2018/skin-detection-python-opencv/)
-[cam_skin_detection.py](https://github.com/rkuo2000/cv2/blob/master/cam_skin_detection.py)<br>
-[jpg_skin_detection.py](https://github.com/rkuo2000/cv2/blob/master/jpg_skin_detection.py)<br>
+[~/cv2/cam_skin_detection.py](https://github.com/rkuo2000/cv2/blob/master/cam_skin_detection.py)<br>
+[~/cv2/jpg_skin_detection.py](https://github.com/rkuo2000/cv2/blob/master/jpg_skin_detection.py)<br>
 ![](https://nalinc.github.io/assets/img/skin-detection/hsv.png)
 
 ---
 ### [Image Thresholding](https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html)
 
-* **Simple Thresholding**: [jpg_image_thresholding.py](https://github.com/rkuo2000/cv2/blob/master/jpg_image_thresholding.py)
+* **Simple Thresholding**: [~/cv2/jpg_image_thresholding.py](https://github.com/rkuo2000/cv2/blob/master/jpg_image_thresholding.py)
 ![](https://docs.opencv.org/4.x/threshold.jpg)
   - cv2.THRESH_BINARY
   - cv2.THRESH_BINARY_INV
@@ -217,10 +217,10 @@ cv2.destroyAllWindows()
   - cv2.THRESH_TOZERO
   - cv2.THRESH_TOZERO_INV
   
-* **Adaptive Thresholding**: [jpg_adaptive_thresholding.py](https://github.com/rkuo2000/cv2/blob/master/jpg_adaptive_thresholding.py)
+* **Adaptive Thresholding**: [~/cv2/jpg_adaptive_thresholding.py](https://github.com/rkuo2000/cv2/blob/master/jpg_adaptive_thresholding.py)
 ![](https://docs.opencv.org/4.x/ada_threshold.jpg)
 
-* **Otsu’s Binarization**: [jpg_otsu_binarization.py](https://github.com/rkuo2000/cv2/blob/master/jpg_otsu_binarization.py)
+* **Otsu’s Binarization**: [~/cv2/jpg_otsu_binarization.py](https://github.com/rkuo2000/cv2/blob/master/jpg_otsu_binarization.py)
 ![](https://docs.opencv.org/4.x/otsu.jpg)
 
 ---
@@ -246,7 +246,7 @@ cv2.destroyAllWindows()
 * Black Hat
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/OpenCV_morphological_transformations.png?raw=true)
 
-[jpg_morphological_transformations.py](https://github.com/rkuo2000/cv2/blob/master/jpg_morphological_transformations.py)<br>
+[~/cv2/jpg_morphological_transformations.py](https://github.com/rkuo2000/cv2/blob/master/jpg_morphological_transformations.py)<br>
 ```
 import cv2
 import numpy as np
@@ -286,7 +286,7 @@ Reference: [OpenCV學習筆記】之仿射變換（Affine Transformation）](htt
 ---
 ### [Image Gradients](https://docs.opencv.org/4.6.0/d5/d0f/tutorial_py_gradients.html)
 ![](https://docs.opencv.org/4.6.0/gradients.jpg)
-[jpg_sobel.py](https://github.com/rkuo2000/cv2/blob/master/jpg_sobel.py)<br>
+[~/cv2/jpg_sobel.py](https://github.com/rkuo2000/cv2/blob/master/jpg_sobel.py)<br>
 ```
 import cv2
 
@@ -313,10 +313,10 @@ cv2.destroyAllWindows()
 
 ---
 ### [Fourier Transform](https://docs.opencv.org/4.6.0/de/dbc/tutorial_py_fourier_transform.html)
-[jpg_fft.py](https://github.com/rkuo2000/cv2/blob/master/jpg_fft.py)
+[~/cv2/jpg_fft.py](https://github.com/rkuo2000/cv2/blob/master/jpg_fft.py)
 ![](https://docs.opencv.org/4.6.0/fft1.jpg)
 
-[jpg_dft.py](https://github.com/rkuo2000/cv2/blob/master/jpg_dft.py)
+[~/cv2/jpg_dft.py](https://github.com/rkuo2000/cv2/blob/master/jpg_dft.py)
 ![](https://docs.opencv.org/4.6.0/fft4.jpg)
 
 * Why Laplacian/Sobel is a High Pass Filter?
@@ -349,7 +349,7 @@ From image, you can see what frequency region each kernel blocks, and what regio
    ![](https://docs.opencv.org/4.x/hysteresis.jpg)
 [邊緣偵測懶人包-Canny演算法](https://medium.com/@bob800530/opencv-%E5%AF%A6%E4%BD%9C%E9%82%8A%E7%B7%A3%E5%81%B5%E6%B8%AC-canny%E6%BC%94%E7%AE%97%E6%B3%95-d6e0b92c0aa3)<br>
 
-[jpg_canny.py](https://github.com/rkuo2000/cv2/blob/master/jpg_canny.py)
+[~/cv2/jpg_canny.py](https://github.com/rkuo2000/cv2/blob/master/jpg_canny.py)
 ![](https://docs.opencv.org/4.x/canny1.jpg)
 
 ---
@@ -357,7 +357,7 @@ From image, you can see what frequency region each kernel blocks, and what regio
 [Hough Transform](https://learnopencv.com/hough-transform-with-opencv-c-python/)
 * Hough Lines
 ![](https://learnopencv.com/wp-content/uploads/2019/03/line-detection.jpg)
-[jpg_houghlines.py](https://github.com/rkuo2000/cv2/blob/master/jpg_houghlines.py)<br>
+[~/cv2/jpg_houghlines.py](https://github.com/rkuo2000/cv2/blob/master/jpg_houghlines.py)<br>
 
 ```
 img = cv2.imread('lanes.jpg', cv2.IMREAD_COLOR) # road.png is the filename
@@ -377,7 +377,7 @@ cv2.imshow("Result Image", img)
 * Hough Circles
 ![](https://learnopencv.com/wp-content/uploads/2019/03/circle-detection.jpg)
 ![](https://learnopencv.com/wp-content/uploads/2019/03/circle-detection-hough-transform-opencv.jpg)
-[jpg_houghcircles.py](https://github.com/rkuo2000/cv2/blob/master/jpg_houghcircles.py)<br>
+[~/cv2/jpg_houghcircles.py](https://github.com/rkuo2000/cv2/blob/master/jpg_houghcircles.py)<br>
 
 ```
 img = cv2.imread('circles.png', cv2.IMREAD_COLOR)
@@ -445,7 +445,7 @@ plt.show()
 </table>
 
 * **Histogram Equalization**<br>
-[jpg_histogram_equalization.py](https://github.com/rkuo2000/cv2/blob/master/jpg_histogram_equalization.py)<br>
+[~/cv2/jpg_histogram_equalization.py](https://github.com/rkuo2000/cv2/blob/master/jpg_histogram_equalization.py)<br>
 
 ```
 img = cv2.imread('test.jpg')
@@ -457,14 +457,14 @@ cv2.imshow('Equalized', dst)
 
 ---
 * **Histogram Backprojection**<br>
-[jpg_histogram_backprojection.py](https://github.com/rkuo2000/cv2/blob/master/jpg_histogram_backprojection.py)<br>
+[~/cv2/jpg_histogram_backprojection.py](https://github.com/rkuo2000/cv2/blob/master/jpg_histogram_backprojection.py)<br>
 
 ---
 ### [Template Matching](https://docs.opencv.org/4.x/d4/dc6/tutorial_py_template_matching.html)
-[jpg_template_matching.py](https://github.com/rkuo2000/cv2/blob/master/jpg_template_matching.py)<br>
+[~/cv2/jpg_template_matching.py](https://github.com/rkuo2000/cv2/blob/master/jpg_template_matching.py)<br>
 ![](https://docs.opencv.org/4.x/template_ccoeff_1.jpg)
 
-[jpg_template_matching_objects.py](https://github.com/rkuo2000/cv2/blob/master/jpg_template_matching_objects.py)<br>
+[~/cv2/jpg_template_matching_objects.py](https://github.com/rkuo2000/cv2/blob/master/jpg_template_matching_objects.py)<br>
 ![](https://docs.opencv.org/4.x/res_mario.jpg)
 ```
 img_rgb = cv.imread('mario.png')
@@ -524,7 +524,7 @@ cv.imwrite('res.png',img_rgb)
 ---
 ### [Hand Contour](https://pyimagesearch.com/2016/04/11/finding-extreme-points-in-contours-with-opencv/)
 ![](https://929687.smushcdn.com/2633864/wp-content/uploads/2016/04/extreme_points_header.jpg?lossy=1&strip=1&webp=1)
-[jpg_contour_hand.py](https://github.com/rkuo2000/cv2/blob/master/jpg_contour_hand.py)<br>
+[~/cv2/jpg_contour_hand.py](https://github.com/rkuo2000/cv2/blob/master/jpg_contour_hand.py)<br>
 ```
 img_path = "hand.jpg"
 img = cv.imread(img_path)
@@ -553,11 +553,11 @@ cv.waitKey()
 ```
 
 ---
-### Hand Detection and Finger Counting](https://medium.com/analytics-vidhya/hand-detection-and-finger-counting-using-opencv-python-5b594704eb08)
+### [Hand Detection and Finger Counting](https://medium.com/analytics-vidhya/hand-detection-and-finger-counting-using-opencv-python-5b594704eb08)
 ![](https://miro.medium.com/max/700/1*O5rRGGWEsc7zWNFyIQGunA.jpeg)
 
 ---
-### [Hand Detection & Gesture Recognition](https://aihubprojects.com/hand-detection-gesture-recognition-opencv-python/)
+### [Hand Detection & Gesture Recognition](https://aihubprojects.com/hand-detection-gesture-recognition-opencv-python)
 `pip install cvzone`<br>
 
 ```
@@ -583,6 +583,299 @@ while True:
 ```
 
 ---
+### [Image Segmentation with Watershed Algorithm](https://docs.opencv.org/4.6.0/d3/db4/tutorial_py_watershed.html)
+[~/cv2/jpg_image_segmentation.py](https://github.com/rkuo2000/cv2/blob/master/jpg_image_segmentation.py)<br>
+```
+import numpy as np
+import cv2 as cv
+from matplotlib import pyplot as plt
+```
+![](https://docs.opencv.org/4.6.0/water_coins.jpg)
+```
+img = cv.imread('coins.png')
+gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
+ret, thresh = cv.threshold(gray,0,255,cv.THRESH_BINARY_INV+cv.THRESH_OTSU)
+```
+![](https://docs.opencv.org/4.6.0/water_thresh.jpg)
+```
+# noise removal
+kernel = np.ones((3,3),np.uint8)
+opening = cv.morphologyEx(thresh,cv.MORPH_OPEN,kernel, iterations = 2)
+# sure background area
+sure_bg = cv.dilate(opening,kernel,iterations=3)
+# Finding sure foreground area
+dist_transform = cv.distanceTransform(opening,cv.DIST_L2,5)
+ret, sure_fg = cv.threshold(dist_transform,0.7*dist_transform.max(),255,0)
+# Finding unknown region
+sure_fg = np.uint8(sure_fg)
+unknown = cv.subtract(sure_bg,sure_fg)
+```
+![](https://docs.opencv.org/4.6.0/water_dt.jpg)
+```
+# Marker labelling
+ret, markers = cv.connectedComponents(sure_fg)
+# Add one to all labels so that sure background is not 0, but 1
+markers = markers+1
+# Now, mark the region of unknown with zero
+markers[unknown==255] = 0
+```
+![](https://docs.opencv.org/4.6.0/water_marker.jpg)
+```
+markers = cv.watershed(img,markers)
+img[markers == -1] = [255,0,0]
+```
+![](https://docs.opencv.org/4.6.0/water_result.jpg)
+
+---
+### Foreground Extraction
+**Blog:** [OpenCV GrabCut: Foreground Segmentation and Extraction](https://pyimagesearch.com/2020/07/27/opencv-grabcut-foreground-segmentation-and-extraction/)<br>
+
+**grabCut(img, mask, rect, bgdModel, fgdModel, iterCount, mode)**<br>
+* img：輸入圖，8位元3通道
+* mask ：輸出圖，8位元單通道圖。每個像素為以下四個標誌之一：
+  - GC_BGD：確定是背景
+  - GC_ FGD ：確定是前景
+  - GC_PR_BGD：可能是背景
+  - GC_PR_ FGD ：可能是前景
+* rect ：輸入矩形，在這之外的像素全都是背景，只有mode參數是GC_INIT_WITH_RECT時才有效
+* bgdModel：背景模型，供演算法內部使用，基本上可以忽略
+* fgdModel：前景模型，供演算法內部使用，基本上可以忽略
+* iterCount：迭代次數
+* mode：處理模式
+  - GC_INIT_WITH_RECT：提供矩形範圍的初始條件。
+  - GC_INIT_WITH_MASK：提供遮罩，可和GC_INIT_WITH_RECT共同使用，在這ROI之外的為背景。
+  - GC_EVAL：預設模式
+
+[~/cv2/jpg_grabCut.py](https://github.com/rkuo2000/cv2/blob/master/jpg_grabCut.py)<br>
+![](https://docs.opencv.org/4.6.0/grabcut_rect.jpg)
+
+using new mask to have a clean image<br>
+```
+# newmask is the mask image I manually labelled
+newmask = cv.imread('newmask.png',0)
+# wherever it is marked white (sure foreground), change mask=1
+# wherever it is marked black (sure background), change mask=0
+mask[newmask == 0] = 0
+mask[newmask == 255] = 1
+mask, bgdModel, fgdModel = cv.grabCut(img,mask,None,bgdModel,fgdModel,5,cv.GC_INIT_WITH_MASK)
+mask = np.where((mask==2)|(mask==0),0,1).astype('uint8')
+img = img*mask[:,:,np.newaxis]
+plt.imshow(img),plt.colorbar(),plt.show()
+```
+![](https://docs.opencv.org/4.6.0/grabcut_mask.jpg)
+
+---
+### Graph Segmentation
+* [Anisotropic Image Segmentation on G-API](https://docs.opencv.org/4.6.0/d3/d7a/tutorial_gapi_anisotropic_segmentation.html)
+![](https://docs.opencv.org/4.6.0/result.jpg)
+
+* [Face Beautification algorithm with G-API](https://docs.opencv.org/4.6.0/d4/d48/tutorial_gapi_face_beautification.html)
+![](https://docs.opencv.org/4.6.0/example.jpg)
+
+---
+### Color Matching
+[~/cv2/color_matching_histogram.py](https://github.com/rkuo2000/cv2/blob/master/color_matching_histogram.py)<br>
+![](https://answers.opencv.org/upfiles/15105033985012805.png)
+
+[~/cv2/color_matching_meanstddev.py](https://github.com/rkuo2000/cv2/blob/master/color_matching_meanstddev.py)<br>
+![](https://github.com/rkuo2000/cv2/blob/master/OpenCV_Color_Matching_meanstddev.png?raw=true)
+
+---
+### Face Detection using [Cascade Classifier](https://docs.opencv.org/4.6.0/db/d28/tutorial_cascade_classifier.html)
+![](https://docs.opencv.org/4.6.0/haar.png)
+
+[~/cv2/jpg_face_detect.py](https://github.com/rkuo2000/cv2/blob/master/jpg_face_detect.py)<br>
+```
+if len(sys.argv)>1:
+    img = cv2.imread(sys.argv[1])
+else:
+    img = cv2.imread("friends.jpg")
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+bboxes = face.detectMultiScale(gray)
+
+for box in bboxes:
+    print(box)
+    (x,y,w,h) = tuple(box)
+    img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+
+cv2.imshow('img',img)
+```
+
+---
+### [Face Recognizer](https://docs.opencv.org/3.4/da/d60/tutorial_face_main.html)
+* EigenFaces Face Recognizer
+![](https://docs.opencv.org/3.4/eigenfaces_opencv.png)
+
+* FisherFaces Face Recognizer
+![](https://docs.opencv.org/3.4/fisherfaces_opencv.png)
+
+* Local Binary Patterns Histograms (LBPH) Face Recognizer
+![](https://github.com/informramiz/opencv-face-recognition-python/raw/master/visualization/lbp-labeling.png)
+![](https://docs.opencv.org/3.4/lbp_yale.jpg)
+
+---
+### LBPH Face Recognition
+* `git clone https://github.com/informramiz/opencv-face-recognition-python`<br>
+* `cd opencv-face-recognition-python`<br>
+* `python3 OpenCV-Face-Recognition-Python.py`<br>
+![](https://github.com/informramiz/opencv-face-recognition-python/raw/master/output/tom-shahrukh.png)
+
+---
+### Object Tracking
+Tracker: **csrt**, **kcf**, **boosting**, **mil**, **tld**, **medianflow**, **mosse**<br>
+* csrt for slower FPS, higher object tracking accuracy
+* kcf  for faster FPS, lower  object tracking accuracy
+* mosse for fastest FPS
+
+**[Tracking multiple objects with OpenCV](https://pyimagesearch.com/2018/08/06/tracking-multiple-objects-with-opencv/)**<br>
+[~/cv2/multi_object_tracking.py](https://github.com/rkuo2000/cv2/blob/master/multi_object_tracking.py)<br>
+<iframe width="730" height="410" src="https://www.youtube.com/embed/Tjx8BGoeZtI" title="OpenCV Multiple Object Tracking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+### Optical Flow
+[Introduction to Motion Estimation with Optical Flow](https://nanonets.com/blog/optical-flow/)<br>
+
+![](https://nanonets.com/blog/content/images/2019/04/sparse-vs-dense.gif)
+<br>
+**What is optical flow?**<br>
+
+The problem of optical flow may be expressed as:<br>
+![](https://nanonets.com/blog/content/images/2019/04/definition.png)
+where between consecutive frames, we can express the image intensity (I) as a function of space (x,y) and time (t).<br>
+<br>
+1. First, we assume that pixel intensities of an object are constant between consecutive frames.
+![](https://nanonets.com/blog/content/images/2019/04/image-26.png)
+2. Second, we take the Taylor Series Approximation of the RHS and remove common terms.
+![](https://nanonets.com/blog/content/images/2019/04/taylor-expansion.png)
+3. Third, we divide by dt to derive the optical flow equation:
+![](https://nanonets.com/blog/content/images/2019/04/optical-flow-equation.png)
+where u = dx/dt, v = dy/dt
+<br>
+
+To track the motion of vehicles across frames<br>
+![](https://nanonets.com/blog/content/images/2019/04/intro-1-2.gif)
+
+To recognize human actions (such as archery, baseball, and basketball)<br>
+![](https://nanonets.com/blog/content/images/2019/04/intro-2-1-1.png)
+![](https://nanonets.com/blog/content/images/2019/04/intro-2-2.png)
+
+---
+## Applications
+
+### Motion Detector
+[Basic motion detection and tracking with Python and OpenCV](https://pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/)<br>
+[~/cv2/cam_motion_detection.py](https://github.com/rkuo2000/cv2/blob/master/cam_motion_detection.py)<br>
+![](https://929687.smushcdn.com/2633864/wp-content/uploads/2015/05/animated_motion_02.gif?size=614x448&lossy=1&strip=1&webp=1)
+
+---
+### Webcam Pulse Detector
+```
+git clone https://github.com/thearn/webcam-pulse-detector
+cd webcam-pulse-detector
+python get_pulse.py
+```
+![](https://camo.githubusercontent.com/4e43bb34e95cacd490b80dd31a75c02c6514c9cd12aa93bb97121d7a6ccff1c7/687474703a2f2f692e696d6775722e636f6d2f326e675a6f70532e6a7067)
+
+---
+### Distance Measurement
+**Blog:** [Real-time Distance Measurement Using Single Image](http://emaraic.com/blog/distance-measurement)<br>
+![](http://emaraic.com/assets/img/posts/computer-vision/distance-measurement/requirements.jpg)
+![](http://emaraic.com/assets/img/posts/computer-vision/distance-measurement/pinhole-camera.gif)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LjbvpVStQMY" title="Real-time Distance Measurement Using Single Image" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+### OCR (Optical Character Recognition)
+* **[Tesseract OCR](https://tesseract-ocr.github.io/)**<br>
+  - [Tesseract Documentation](https://tesseract-ocr.github.io/tessapi/5.x/)
+  - Tesseract installers for Windows
+    - [tesseract-ocr-w32-setup-v5.2.0.20220712.exe (32 bit)](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe)
+    - [tesseract-ocr-w64-setup-v5.2.0.20220712.exe (64 bit)](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe)
+
+**Blog:** [Open OCR and text recognition with Tesseract](https://pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/)<br>
+![](https://929687.smushcdn.com/2633864/wp-content/uploads/2018/09/opencv_ocr_result01.jpg?lossy=1&strip=1&webp=1)
+![](https://929687.smushcdn.com/2633864/wp-content/uploads/2018/09/opencv_ocr_result02.jpg?lossy=1&strip=1&webp=1)
+
+**Blog:** [Improve Accuracy of OCR using Image Preprocessing](https://medium.com/cashify-engineering/improve-accuracy-of-ocr-using-image-preprocessing-8df29ec3a033)<br>
+Scaling Image<br>
+![](https://miro.medium.com/max/400/1*77OmClHlclhqQ9vGoPcd4w.png)
+
+Skew Correction<br>
+![](https://miro.medium.com/max/720/1*i0Xv2BnK6SVEQsh0Ex7iJg.png)
+
+[~cv2/ocr_skew_correction.py](https://github.com/rkuo2000/cv2/blob/master/ocr_skew_correction.py)<br>
+
+---
+### QR scanner
+* 安裝函式庫 `pip install pyzbar`<br>
+* QR code 產生器：[~/cv2/qr_gen.html](https://github.com/rkuo2000/cv2/blob/master/qr_gen.html)
+* [~/cv2/qr_scan.py](https://github.com/rkuo2000/cv2/blob/master/qr_scan.py)
+  - `python qr_scan.py -i qr_csu.jpg`<br>
+
+---
+### [Poker Card Detector](https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector)
+<iframe width="581" height="327" src="https://www.youtube.com/embed/m-QPjO-2IkA" title="Playing Card Detection Using OpenCV-Python on the Raspberry Pi 3 + PiCamera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+### [cadenCV](https://github.com/afikanyati/cadenCV)
+cadenCV is an optical music recognition system written in the Python programming language which reads sheet music and sequences a MIDI file for user playback.<br>
+
+![](https://github.com/anyati/cadenCV/raw/master/resources/README/image1.jpg)
+```
+git clone https://github.com/afikanyati/cadenCV
+cd cadenCV
+pip install midiutil
+python main.py resources/samples/mary.jpg
+```
+Output: .jpg & .midi
+
+* use [Notation player](https://notation.com/DownloadNotationPlayer.php) to play .midi file
+
+---
+### 撿乒乓球機器人
+![](https://github.com/rkuo2000/Robotics/blob/main/images/RoboCar_Ball_Picker.jpg?raw=true)
+[~/cv2/cam_pingpong.py](https://github.com/rkuo2000/cv2/blob/master/cam_pingpong.py)<br>
+
+---
+### 割草機器人
+![](https://github.com/rkuo2000/cv2/blob/master/lawn1.jpg?raw=true)
+[~/cv2/jpg_detect_lawn.py](https://github.com/rkuo2000/cv2/blob/master/jpg_detect_lawn.py)<br>
+
+---
+### 高爾夫球機器人
+![](https://github.com/rkuo2000/cv2/blob/master/field.jpg?raw=true)
+[~/cv2/jpg_contour_field.py](https://github.com/rkuo2000/cv2/blob/master/jpg_contour_field.py)<br>
+
+---
+### 垃圾桶機器人
+[~/cv2/cam_contour.py](https://github.com/rkuo2000/cv2/blob/master/cam_contour.py)<br>
+
+---
+### 四軸無人機
+[第26屆 TDK盃飛行組題目](https://tdk.stust.edu.tw/index.php?inter=module&id=8&did=13)<br>
+![](https://github.com/rkuo2000/Robotics/raw/main/images/TDK26th_map.png?raw=true)
+
+起降點與號誌<br>
+<table>
+<tr>
+<td><img src="https://github.com/rkuo2000/cv2/blob/master/copter/H00.png?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/cv2/blob/master/copter/H01.png?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/cv2/blob/master/copter/H02.png?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/cv2/blob/master/copter/H03.png?raw=true"></td>	
+</tr>
+<tr>
+<td><img src="https://github.com/rkuo2000/cv2/blob/master/copter/red_light.jpg?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/cv2/blob/master/copter/green_light.jpg?raw=true"></td>
+</tr>
+</table>
+
+* **物件偵測 （起降點）**<br>
+[~/cv2/copter/jpg_object_detect.py](https://github.com/rkuo2000/cv2/blob/master/copter/jpg_object_detect.py)<br>
+[~/cv2/copter/cam_object_detect.py](https://github.com/rkuo2000/cv2/blob/master/copter/cam_object_detect.py)<br>
+
+* **光流偵測 （懸停）**<br>
+[~/cv2/copter/cam_optical_flow_sparse.py](https://github.com/rkuo2000/cv2/blob/master/copter/cam_optical_flow_sparse.py)<br>
+
 
 <br>
 <br>
