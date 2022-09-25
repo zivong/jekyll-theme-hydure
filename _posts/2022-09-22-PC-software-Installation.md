@@ -48,21 +48,13 @@ Download from [https://gitforwindows.org/](https://gitforwindows.org/)
 * `history` (列出操作記錄)<br>
 
 ---
-### GPU acceleration
-* [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) 
-  - [CUDA installation](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
-* [CuDNN](https://developer.nvidia.com/cudnn)
-  - [cuDNN installation](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
-![](https://developer.nvidia.com/sites/default/files/akamai/cudnn/cudnn_chart.png)
-
----
 ### Python3
-**Python3.9 for Windows**<br>
+**Python3.10.x for Windows**<br>
 * Go to [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
-* Download [Windows embeddable package (64-bit)](https://www.python.org/ftp/python/3.9.12/python-3.9.12-embed-amd64.zip) of Python3.9.12
-* [新手踏入Python第零步-安裝Python3.9](https://www.codingspace.school/blog/2021-04-07)
-* **Customomize installation** to set directory to `C:\Python39`
-![](https://www.codingspace.school/static/blog/img/content/2021-04-07/vzR7KLP.webp)
+* Download Python3.10.7 [Windows installer (64-bit)](https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe)
+
+* **Customomize installation** to set directory to `C:\Python3`
+![](https://img-blog.csdnimg.cn/e6f8a219eefa4bc29b3c120bc4afdbc3.png)
 <br>
 
 **Ubuntu 20.04 LTS**<br>
@@ -72,30 +64,6 @@ Python 3.8.10
 **Ubuntu 22.04 LTS**<br>
 `$ python3 -V`<br>
 Python 3.10.4
-
----
-### Anaconda3  
-*(Python 環境安裝用)*<br>
-
-**Anaconda3 on Windows**<br>
-* Download [Distribution](https://www.anaconda.com/products/distribution)
-  - [Anaconda3 installer for Windows](https://docs.anaconda.com/anaconda/install/hashes/win-3-64/)
-* [Python 初學者的懶人包 Anaconda 下載與安裝](https://walker-a.com/archives/6260)<br>
-
-**Anaconda3 on Ubuntu**<br>
-[How to Install Anaconda on Ubuntu 18.04 and 20.04](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04)<br>
-* download Anaconda3<br>
-`$ curl -O https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh`<br>
-* install Anaconda3<br>
-`$ bash Anaconda3-2021.11-Linux-x86_64.sh`<br>
-* create env<br>
-`(base) $ conda create -n tensor python=3.9`<br>
-* activate env<br>
-`(base) $ conda activate tensor`<br>
-* deactivate env<br>
-`(tensor) $ conda deactivate`<br>
-* remove an env<br>
-`(base) $ conda-env remove -n tensor`<br> 
 
 ---
 ### Python packages
@@ -137,6 +105,40 @@ or <br>
 * [Tensorflow Turorials](https://www.tensorflow.org/tutorials)
 
 * [PyTorch Tutorials](https://pytorch.org/tutorials/)
+
+---
+## Supplement
+
+### Anaconda3  
+*(用於安裝一串版本相容的Python packages)*<br>
+
+**Anaconda3 on Windows**<br>
+* Download [Distribution](https://www.anaconda.com/products/distribution)
+  - [Anaconda3 installer for Windows](https://docs.anaconda.com/anaconda/install/hashes/win-3-64/)
+* [Python 初學者的懶人包 Anaconda 下載與安裝](https://walker-a.com/archives/6260)<br>
+
+**Anaconda3 on Ubuntu**<br>
+[How to Install Anaconda on Ubuntu 18.04 and 20.04](https://phoenixnap.com/kb/how-to-install-anaconda-ubuntu-18-04-or-20-04)<br>
+* download Anaconda3<br>
+`$ curl -O https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh`<br>
+* install Anaconda3<br>
+`$ bash Anaconda3-2021.11-Linux-x86_64.sh`<br>
+* create env<br>
+`(base) $ conda create -n tensor python=3.9`<br>
+* activate env<br>
+`(base) $ conda activate tensor`<br>
+* deactivate env<br>
+`(tensor) $ conda deactivate`<br>
+* remove an env<br>
+`(base) $ conda-env remove -n tensor`<br> 
+
+---
+### GPU acceleration
+* [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) 
+  - [CUDA installation](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html)
+* [CuDNN](https://developer.nvidia.com/cudnn)
+  - [cuDNN installation](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
+![](https://developer.nvidia.com/sites/default/files/akamai/cudnn/cudnn_chart.png)
 
 <br>
 <br>
