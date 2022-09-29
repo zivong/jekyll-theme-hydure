@@ -6,7 +6,7 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-PC Software Installation: Editor, GitBash, Python3.9, Anaconda3, CUDA & CuDNN, Tensorflow & PyTorch installation. 
+PC Software Installation: Editor, GitBash, Python3, Anaconda3, CUDA & CuDNN, Tensorflow & PyTorch installation. 
 
 ---
 ## PC Software Installation
