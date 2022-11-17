@@ -10,7 +10,7 @@ The exercises include Stable Diffusion, Style Transfer, Style GAN, Image Inpaint
 
 ---
 ### Stable Diffusion
-**Kaggle:** [rkuo2000/stable-diffusion](https://www.kaggle.com/rkuo2000/stable-diffusion)<br>
+**Kaggle:** [https://www.kaggle.com/code/rkuo2000/stable-diffusion/](https://www.kaggle.com/code/rkuo2000/stable-diffusion/)<br>
 
 **Demo:** 
 * [Img2Img Stable Diffusion](https://huggingface.co/spaces/fffiloni/stable-diffusion-img2img)
