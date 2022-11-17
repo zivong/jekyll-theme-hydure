@@ -30,7 +30,7 @@ The exercises includes examples for running OpenAI Gym, RL-gym, Gaming RL, Multi
 ## Gym
 ### Installation Gym & SB3
 `pip install stable-baselines3`<br>
-`pip install pyglet`<br>
+`pip install pyglet==1.5.27`<br>
 
 For Ubuntu: `pip install gym[atari]`<br>
 For Win10 : `pip install --no-index -f ttps://github.com/Kojoley/atari-py/releases atari-py`<br>
