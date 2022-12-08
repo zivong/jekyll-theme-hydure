@@ -19,9 +19,10 @@ tags: [jekyll, ai]
 
 ---
 ### 系統方塊圖
+系統流程圖<br>
 ![]()
 
-AI模型說明
+AI模型說明<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/stock_dqn.png?raw=true)
 
 ---
