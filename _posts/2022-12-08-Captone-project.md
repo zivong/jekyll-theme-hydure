@@ -20,7 +20,9 @@ tags: [jekyll, ai]
 ---
 ### 系統方塊圖
 ![]()
+
 AI模型說明
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/stock_dqn.png?raw=true)
 
 ---
 ### 製作步驟
@@ -32,6 +34,8 @@ AI模型說明
 
 ---
 ### 系統測試及成果展示
+
+
 <iframe width="835" height="470" src="https://www.youtube.com/embed/DtzN5vtEgOk" title="RL-Robocar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>
