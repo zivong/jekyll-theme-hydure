@@ -41,6 +41,7 @@ Pose Estimation includes Applications, Body Pose, Head Pose, Hand Pose , Object 
 
 ### BodyPix - Person Segmentation in the Browser
 **Code:** [tfjs-models/body-pix](https://github.com/tensorflow/tfjs-models/tree/master/body-pix)<br>
+**Kaggle:** [BodyPix](https://www.kaggle.com/code/rkuo2000/bodypix)<br>
 `pip install tf_bodypix`
 [Live Demo](https://storage.googleapis.com/tfjs-models/demos/body-pix/index.html)
 
@@ -49,6 +50,7 @@ Pose Estimation includes Applications, Body Pose, Head Pose, Hand Pose , Object 
 ### OpenPose
 **Paper:** [arxiv.org/abs/1812.08008](https://arxiv.org/abs/1812.08008)<br>
 **Code:** [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)<br>
+**Kaggle:** [OpenPose Pytorch](https://www.kaggle.com/code/rkuo2000/openpose-pytorch)<br>
 **Ref.** [A Guide to OpenPose in 2021](https://viso.ai/deep-learning/openpose/)<br>
 
 ![](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/.github/media/pose_face_hands.gif?raw=true)
@@ -64,6 +66,7 @@ OpenPose is much more accurate and meant to be ran on GPU powered systems. You c
 </font>
 **Paper:**  [arxiv.org/abs/1505.07427](https://arxiv.org/abs/1505.07427)<br>
 **Code:** [rwightman/posenet-pytorch](https://github.com/rwightman/posenet-pytorch)<br>
+**Kaggle:** [PoseNet Pytorch](https://www.kaggle.com/code/rkuo2000/posenet-pytorch)<br>
 
 ![](https://debuggercafe.com/wp-content/uploads/2020/10/keypoint_exmp.jpg)
 ![](https://www.researchgate.net/profile/Soroush-Seifi/publication/335989945/figure/fig2/AS:806499555233793@1569295886946/The-Posenet-architecture-Yellow-modules-are-shared-with-GoogleNet-while-green-modules.ppm)
@@ -81,6 +84,7 @@ OpenPose is much more accurate and meant to be ran on GPU powered systems. You c
 ---
 ### MMPose
 **Code:** [open-mmlab](https://github.com/open-mmlab/mmpose)<br>
+**Kaggle:** [MMPose](https://www.kaggle.com/code/rkuo2000/mmpose)<br>
 **[Model Zoo](https://github.com/open-mmlab/mmpose#model-zoo)** <br>
 <iframe width="920" height="520" src="https://user-images.githubusercontent.com/15977946/124654387-0fd3c500-ded1-11eb-84f6-24eeddbf4d91.mp4" title="MMPos Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
