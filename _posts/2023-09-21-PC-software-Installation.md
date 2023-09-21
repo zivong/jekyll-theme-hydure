@@ -68,9 +68,9 @@ Python 3.10.4
 ---
 ### Python packages
 * Open GitBash / Ubuntu Terminal<br>
-`python3 -V`
+`python3 -V`<br>
 `python3 –m pip install --upgrade pip`<br>
-`pip -V`
+`pip -V`<br>
 `pip install jupyter`<br>
 `pip install pandas`<br>
 `pip install matplotlib pillow imutils`<br>
