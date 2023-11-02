@@ -6,7 +6,7 @@ category: [Example]
 tags: [jekyll, ai]
 ---
 
-*Projects includes MODNet, DeeplabV3+, PSPNet, Semantic Segmentaton in PyTorch, Semantic Segmentation for VITON, Human Part Segmentation, YOLACT, YOLOP.
+Projects includes MODNet, DeeplabV3+, PSPNet, YOLOv8 Segment, Semantic Segmentaton in PyTorch, Semantic Segmentation for VITON, Human Part Segmentation, YOLACT, YOLOP.
 
 ---
 ## Image Matting
