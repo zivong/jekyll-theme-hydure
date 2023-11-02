@@ -18,9 +18,15 @@ To get started, you need to [install FiftyOne](https://voxel51.com/docs/fiftyone
 ![](https://voxel51.com/docs/fiftyone/_images/labelbox_detection.png)
 
 ---
-### [labelme](https://github.com/wkentaro/labelme)
+### [Labelme](https://github.com/wkentaro/labelme)
 ![](https://github.com/wkentaro/labelme/blob/main/examples/instance_segmentation/.readme/annotation.jpg?raw=true)
 `$pip install labelme`<br>
+
+### [Labelme2YOLO](https://github.com/rooneysh/Labelme2YOLO)
+`$pip install labelme2yolo`<br>
+
+* Convert JSON files, split training and validation dataset by --val_size<br>
+`python labelme2yolo.py --json_dir /home/username/labelme_json_dir/ --val_size 0.2`<br>
 
 ---
 ### [LabelImg](https://github.com/tzutalin/labelImg)
