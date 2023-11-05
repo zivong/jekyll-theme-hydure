@@ -8,18 +8,18 @@ tags: [jekyll, ai]
 
 Image Segmentation includes Image Matting, Semantics Segmentation, Human Part Segmentation, Instance Segmentation, Video Object Segmentation, Panopitc Segmentation.
 
-![](https://github.com/mcahny/vps/blob/master/image/landscape.png?raw=true)
-
 ---
-### Image Segmentation Survey
-**Paper:** [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566)<br>
-
-![](https://miro.medium.com/max/1838/1*yqYWF5UcgImFGKtA7dCjMw.png)
-
 **Paper:** [Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey](https://arxiv.org/abs/2001.04074)<br>
 <p align="center">
   <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0950705120303464-gr2.jpg" />
 </p>
+
+![](https://github.com/mcahny/vps/blob/master/image/landscape.png?raw=true)
+
+---
+**Paper:** [Image Segmentation Using Deep Learning: A Survey](https://arxiv.org/abs/2001.05566)<br>
+
+![](https://miro.medium.com/max/1838/1*yqYWF5UcgImFGKtA7dCjMw.png)
 
 ---
 ## Image Matting
@@ -300,11 +300,10 @@ Mask R-CNN 是個兩階段的架構，第一階段掃描圖像並生成proposals
 ### [YOLOv8 Segment](https://docs.ultralytics.com/tasks/segment/)
 ![](https://user-images.githubusercontent.com/26833433/243418644-7df320b8-098d-47f1-85c5-26604d761286.png)
 
-** Blog:** [Train YOLOv8 Instance Segmentation on Your Data](https://towardsdatascience.com/trian-yolov8-instance-segmentation-on-your-data-6ffa04b2debd)<br>
-![](https://miro.medium.com/v2/resize:fit:720/format:webp/0*SXAG0c3y4LlKBH9R.png)
+**Blog:** [Train YOLOv8 Instance Segmentation on Your Data](https://towardsdatascience.com/trian-yolov8-instance-segmentation-on-your-data-6ffa04b2debd)<br>
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZKJEf-BDDYXUtRkkUtu0wg.png)
 
-** Blog:** [How to Train YOLOv8 Instance Segmentation on a Custom Dataset](https://blog.roboflow.com/how-to-train-yolov8-instance-segmentation/)
+**Blog:** [How to Train YOLOv8 Instance Segmentation on a Custom Dataset](https://blog.roboflow.com/how-to-train-yolov8-instance-segmentation/)
 ![](https://blog.roboflow.com/content/images/size/w1000/2023/05/data-src-image-f48cd21c-aba7-4f2c-9c34-1a2228384b88.png)
 
 ---
