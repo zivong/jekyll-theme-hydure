@@ -192,7 +192,7 @@ results = model('https://ultralytics.com/images/bus.jpg')  # predict on an image
 ![](https://neerajkumar.org/databases/lfpw/index_files/image002.png)
 * HELEN: [Helen dataset](http://www.ifp.illinois.edu/~vuongle2/helen/)
 ![](https://production-media.paperswithcode.com/datasets/Screen_Shot_2021-01-28_at_9.49.56_PM.png)
-* AFW: [Annotated Faces in the Wild](https://datasets.activeloop.ai/docs/ml/datasets/afw-dataset/)
+* AFW: [Annotated Faces in the Wild](https://datasets.activeloop.ai/docs/ml/datasets/afw-dataset/)<br>
 AFW (Annotated Faces in the Wild) is a face detection dataset that contains 205 images with 468 faces. Each face image is labeled with at most 6 landmarks with visibility labels, as well as a bounding box.
 ![https://datasets.activeloop.ai/wp-content/uploads/2022/09/afw-dataset-Activeloop-Platform-visualization-image-1024x466.webp]
 * IBUG: [https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/)
