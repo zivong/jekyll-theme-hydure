@@ -100,6 +100,9 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 
 ---
 ### [Collections of MCU for Edge AI applications](https://makerpro.cc/2023/08/collections-of-mcu-for-edge-ai-applications/)
+* [聯發科：天璣 9300](https://www.kocpc.com.tw/archives/519564)
+![](https://img.kocpc.com.tw/wp-content/uploads/2023/11/1699322089-4f88579f295c8313e20713642fd45b36.jpg)
+
 * ADI MAX78000
 ![](https://i0.wp.com/makerpro.cc/wp-content/uploads/2023/08/EdgeAI_MCU_P1.jpg?resize=1024%2C414&ssl=1)
 
