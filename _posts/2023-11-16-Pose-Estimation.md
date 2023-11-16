@@ -54,14 +54,6 @@ UBody is a large-scale Upper-Body dataset with the following annotations:<br>
 * person bbox, hand bbox
 ![](https://osx-ubody.github.io/static/videos/demo_video.gif)
 
-#### [300W-LPA](https://sites.google.com/view/300w-lpa-database)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/300W-LPA.png?raw=true)
-1. images:<br>
-    366,564  photos of 59,439 individuals.<br>
-2. Landmark annotations:<br>
-    136 coordinates for 68 landmark points.<br>
-    The first 68 digits for x, the latter 68 for y<br>
-
 #### [COCO-WholeBody](https://github.com/jin-s13/COCO-WholeBody/)
 ![](https://github.com/jin-s13/COCO-WholeBody/blob/master/imgs/Fig1_example.png?raw=true)
 		
@@ -182,20 +174,30 @@ results = model('https://ultralytics.com/images/bus.jpg')  # predict on an image
 <iframe width="920" height="520" src="https://user-images.githubusercontent.com/15977946/124654387-0fd3c500-ded1-11eb-84f6-24eeddbf4d91.mp4" title="MMPos Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-## Head Pose Estimation
+## Face Datasets
 
-### Face Datasets
-* 300-W: [300 Faces In-the-Wild](https://ibug.doc.ic.ac.uk/resources/300-W/)
+###  300-W: [300 Faces In-the-Wild](https://ibug.doc.ic.ac.uk/resources/300-W/)
 ![](https://ibug.doc.ic.ac.uk/media/uploads/images/300-w/figure_1_68.jpg)
-* 300-VW: [300 Videos in the Wild](https://ibug.doc.ic.ac.uk/resources/300-VW/)
-* LFPW: [Labeled Face Parts in the Wild (LFPW) Dataset](https://neerajkumar.org/databases/lfpw/)
+
+---
+### 300W-LPA: [300W-LPA Database](https://sites.google.com/view/300w-lpa-database)
+![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/300W-LPA.png?raw=true)
+
+---
+### LFPW: [Labeled Face Parts in the Wild (LFPW) Dataset](https://neerajkumar.org/databases/lfpw/)
 ![](https://neerajkumar.org/databases/lfpw/index_files/image002.png)
-* HELEN: [Helen dataset](http://www.ifp.illinois.edu/~vuongle2/helen/)
+
+---
+### HELEN: [Helen dataset](http://www.ifp.illinois.edu/~vuongle2/helen/)
 ![](https://production-media.paperswithcode.com/datasets/Screen_Shot_2021-01-28_at_9.49.56_PM.png)
-* AFW: [Annotated Faces in the Wild](https://datasets.activeloop.ai/docs/ml/datasets/afw-dataset/)<br>
+
+---
+### AFW: [Annotated Faces in the Wild](https://datasets.activeloop.ai/docs/ml/datasets/afw-dataset/)
 AFW (Annotated Faces in the Wild) is a face detection dataset that contains 205 images with 468 faces. Each face image is labeled with at most 6 landmarks with visibility labels, as well as a bounding box.
-![https://datasets.activeloop.ai/wp-content/uploads/2022/09/afw-dataset-Activeloop-Platform-visualization-image-1024x466.webp]
-* IBUG: [https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/)
+![](https://datasets.activeloop.ai/wp-content/uploads/2022/09/afw-dataset-Activeloop-Platform-visualization-image-1024x466.webp)
+
+---
+### IBUG: [https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/)
 ![](https://ibug.doc.ic.ac.uk/media/uploads/images/annotpics/problems.jpg)
 
 ---
@@ -210,17 +212,15 @@ AFW (Annotated Faces in the Wild) is a face detection dataset that contains 205 
   </tr>
 </table>
 
-
 ### HopeNet
 **Paper:** [Fine-Grained Head Pose Estimation Without Keypoints](https://arxiv.org/abs/1710.00925)<br>
 ![](https://miro.medium.com/max/700/1*KFeS0YYzAOM1XFokGf3bZA.png)
 
-**Code:** [deep-head-pose](https://github.com/natanielruiz/deep-head-pose)<br>
+**Code:** [Hopenet](https://github.com/axinc-ai/ailia-models/tree/master/face_recognition/hopenet)<br>
+**Code:** [[deep-head-pose](https://github.com/natanielruiz/deep-head-pose)](https://github.com/natanielruiz/deep-head-pose)<br>
 ![](https://github.com/natanielruiz/deep-head-pose/blob/master/conan-cruise.gif?raw=true)
 
-**Code:** [hopenet](https://github.com/axinc-ai/ailia-models/tree/master/face_recognition/hopenet)<br>
 **Blog:** [HOPE-Net : A Machine Learning Model for Estimating Face Orientation](https://medium.com/axinc-ai/hope-net-a-machine-learning-model-for-estimating-face-orientation-83d5af26a513)
-<iframe width="665" height="382" src="https://www.youtube.com/embed/DA1SACACK0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 ## VTuber
