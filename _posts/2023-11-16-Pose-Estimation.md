@@ -124,7 +124,7 @@ OpenPose is much more accurate and meant to be ran on GPU powered systems. You c
 
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/yolov8-pose](https://www.kaggle.com/code/rkuo2000/yolov8-pose)<br>
 
-'''
+```
 from ultralytics import YOLO
 
 # Load a model
@@ -133,7 +133,7 @@ model = YOLO('path/to/best.pt')  # load a custom model
 
 # Predict with the model
 results = model('https://ultralytics.com/images/bus.jpg')  # predict on an image
-'''
+```
 
 ---
 ### Group Pose
