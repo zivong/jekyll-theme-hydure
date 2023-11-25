@@ -145,35 +145,19 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 ---
 ### Realtek AmebaPro2
 [AMB82-MINI](https://www.amebaiot.com/en/amebapro2/#rtk_amb82_mini)<br>
-![](https://www.amebaiot.com/wp-content/uploads/2022/06/AMB82-MINI-2048x1489.jpg)
+![](https://www.amebaiot.com/wp-content/uploads/2023/03/amb82_mini.png)
 * MCU
   - Part Number: RTL8735B
   - 32-bit Arm v8M, up to 500MHz
 * MEMORY
   - 768KB ROM
   - 512KB RAM
+  - 16MB Flash
   - Supports MCM embedded DDR2/DDR3L memory up to 128MB
-  - External Flash up to 64MB
 * KEY FEATURES
   - Integrated 802.11 a/b/g/n Wi-Fi, 2.4GHz/5GHz
-  - Bluetooth Low Energy (BLE) 4.2
+  - Bluetooth Low Energy (BLE) 5.1
   - Integrated Intelligent Engine @ 0.4 TOPS
-  - Ethernet Interface
-  - USB Host/Device
-  - SD Host
-  - ISP
-  - Audio Codec
-  - H.264/H.265
-  - Secure Boot
-  - Crypto Engine
-* OTHER FEATURES
-  - 2 SPI interfaces
-  - 1 I2C interface
-  - 8 PWM interfaces
-  - 3 UART interfaces
-  - 3 ADC interfaces
-  - 2 GDMA interfaces
-  - Max 23 GPIO
 <iframe width="580" height="327" src="https://www.youtube.com/embed/_Kzqh6JXndo" title="AIoT: AmebaPro2 vs ESP32" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
