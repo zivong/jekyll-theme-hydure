@@ -145,7 +145,7 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 ---
 ### Realtek AmebaPro2
 [AMB82-MINI](https://www.amebaiot.com/en/amebapro2/#rtk_amb82_mini)<br>
-![](https://www.amebaiot.com/wp-content/uploads/2023/03/amb82_mini.png =512x315)
+<p><img src="https://www.amebaiot.com/wp-content/uploads/2023/03/amb82_mini.png" width="50%" height="50%"></p>
 * MCU
   - Part Number: RTL8735B
   - 32-bit Arm v8M, up to 500MHz
