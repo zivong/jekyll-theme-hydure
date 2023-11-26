@@ -29,7 +29,7 @@ Image Segmentation includes Image Matting, Semantics Segmentation, Human Part Se
 ---
 ### Deep Image Matting
 **Paper:** [arxiv.org/abs/1703.03872](https://arxiv.org/abs/1703.03872)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Deep_Image_Matting_architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Deep_Image_Matting_architecture.png?raw=true)
 
 ---
 ### MODNet: Trimap-Free Portrait Matting in Real Time
@@ -60,8 +60,8 @@ Various applications in autonomous driving, medical segmentation, remote sensing
 ![](https://github.com/nowsyn/SIM/blob/master/figures/framework.jpg?raw=True)
 <table>
   <tr>
-  <td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SIM_example1.png?raw=true"></td>
-  <td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SIM_example2.png?raw=true"></td>
+  <td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/SIM_example1.png?raw=true"></td>
+  <td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/SIM_example2.png?raw=true"></td>
   </tr>
 </table>
 
@@ -167,7 +167,7 @@ The Segment Anything Model (SAM) produces high quality object masks from input p
 ### Segment Everything Everywhere All at Once (by Microsoft)
 **Paper:** [https://arxiv.org/abs/2304.06718](https://arxiv.org/abs/2304.06718)<br>
 **Code:** [UX-Decoder/Segment-Everything-Everywhere-All-At-Once](https://github.com/UX-Decoder/Segment-Everything-Everywhere-All-At-Once)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SEEM.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/SEEM.png?raw=true)
 
 ---
 ### Fast Segment Anything
@@ -383,7 +383,7 @@ python eval_pcpnet.py --indir "path/to/dataset" --dataset "dataset.txt" --models
 ---
 ### Meta-SeL
 **Paper:** [Meta-SeL: 3D-model ShapeNet Core Classification using Meta-Semantic Learning](https://arxiv.org/abs/2205.15869)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Meta-SeL_framework_for_3D_point_cloud_models_classification.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Meta-SeL_framework_for_3D_point_cloud_models_classification.png?raw=true)
 **Code:** [faridghm/Meta-SeL](https://github.com/faridghm/Meta-SeL)<br>
 **Dataset:** [ShapeNetCore](https://shapenet.org/)<br>
 * It covers 55 common object categories with about 51,300 unique 3D models. 
@@ -496,7 +496,7 @@ python eval_pcpnet.py --indir "path/to/dataset" --dataset "dataset.txt" --models
 ---
 ### Moving Object Tracking Based on Sparse Optical Flow
 **Paper:** [Moving Object Tracking Based on Sparse Optical Flow with Moving Window and Target Estimator](https://www.mdpi.com/1424-8220/22/8/2878/pdf)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Moving_Object_Detection_using_Optical_Flow_Tracking.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Moving_Object_Detection_using_Optical_Flow_Tracking.png?raw=true)
 **Code:** [Tracking Motion without Neural Networks: Optical Flow](https://vaibhaw-vipul.medium.com/tracking-motion-without-neural-networks-6370445e0b27)<br>
 
 ---
@@ -595,13 +595,13 @@ python eval_pcpnet.py --indir "path/to/dataset" --dataset "dataset.txt" --models
 ---
 ### Panoptic-PHNet: Towards Real-Time and High-Precision LiDAR Panoptic Segmentation via Clustering Pseudo Heatmap
 **Paper:** [https://arxiv.org/abs/2205.07002](https://arxiv.org/abs/2205.07002)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Panoptic-PHNet_architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Panoptic-PHNet_architecture.png?raw=true)
 
 ---
 ### LidarMultiNet
 **Paper:** [LidarMultiNet: Towards a Unified Multi-Task Network for LiDAR Perception](https://arxiv.org/abs/2209.09385)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/LidarMultiNet_architecture.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/LidarMultiNet_2nd_stage_refinement_pipeline.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/LidarMultiNet_architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/LidarMultiNet_2nd_stage_refinement_pipeline.png?raw=true)
 
 <br>
 <br>
