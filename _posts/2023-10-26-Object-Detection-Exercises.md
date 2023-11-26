@@ -84,23 +84,23 @@ To get started, you need to [install FiftyOne](https://voxel51.com/docs/fiftyone
 
 ### YOLOv4
 **Kaggle:** [rkuo2000/yolov4](https://kaggle.com/rkuo2000/yolov4)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv4_PyTorch_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv4_PyTorch_horses.jpg?raw=true)
 
 ### YOLOv5
 **Kaggle:** [rkuo2000/yolov5](https://kaggle.com/rkuo2000/yolov5)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5s_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5s_horses.jpg?raw=true)
 
 ### Scaled YOLOv4
 **Kaggle:** [rkuo2000/scaled-yolov4](https://kaggle.com/rkuo2000/scaled-yolov4)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Scaled_YOLOv4_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Scaled_YOLOv4_horses.jpg?raw=true)
 
 ### YOLOR
 **Kaggle:** [rkuo2000/yolor](https://kaggle.com/rkuo2000/yolor)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOR_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOR_horses.jpg?raw=true)
 
 ### YOLOX
 **Kaggle:** [rkuo2000/yolox](https://www.kaggle.com/code/rkuo2000/yolox)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOX_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOX_horses.jpg?raw=true)
 
 ### CSL-YOLO
 **Kaggle:** [rkuo2000/csl-yolo](https://kaggle.com/rkuo2000/csl-yolo)
@@ -108,17 +108,17 @@ To get started, you need to [install FiftyOne](https://voxel51.com/docs/fiftyone
 
 ### PP-YOLOE
 **Kaggle:** [rkuo2000/pp-yoloe](https://www.kaggle.com/code/rkuo2000/pp-yoloe)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE_demo.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PP-YOLOE_demo.jpg?raw=true)
 
 ### YOLOv6
 **Kaggle:** [rkuo2000/yolov6](https://www.kaggle.com/code/rkuo2000/yolov6)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv6s_image1.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv6s_image2.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv6s_horses.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv6s_image1.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv6s_image2.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv6s_horses.png?raw=true)
 
 ### YOLOv7
 **Kaggle:** [rkuo2000/yolov7](https://www.kaggle.com/code/rkuo2000/yolov7)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv7_horses.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv7_horses.jpg?raw=true)
 
 ---
 ## YOLOv5 applications
@@ -131,8 +131,8 @@ detect image / video
 train YOLOv5 for detecting elephant (dataset from OpenImage V6)
 <table>
 <tr>
-<td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_elephant.jpg?raw=true"></td>
-<td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_elephants.jpg?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_elephant.jpg?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_elephants.jpg?raw=true"></td>
 </tr>
 </table>
 
@@ -251,8 +251,8 @@ for file in files:
 ### [YOLOv5 Helmet](https://kaggle.com/rkuo2000/yolov5-helmet)
 <table>
 <tr>
-<td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_Helmet.jpg?raw=true"></td>
-<td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_Helmet_SafeZone.jpg?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_Helmet.jpg?raw=true"></td>
+<td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_Helmet_SafeZone.jpg?raw=true"></td>
 </tr>
 </table>
 
@@ -269,31 +269,31 @@ dataset conversion from COCO to YOLO format<br>
 ---
 **[YOLOv5 Facemask](https://kaggle.com/rkuo2000/yolov5-facemask)**<br>
 train YOLOv5 for facemask detection
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_Facemask.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_Facemask.jpg?raw=true)
 
 ---
 **[YOLOv5 Traffic Analysis](https://kaggle.com/rkuo2000/yolov5-traffic-analysis)**<br>
 use YOLOv5 to detect car/truck per frame, then analyze vehicle counts per lane and the estimated speed
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_traffic_analysis.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_traffic_analysis.jpg?raw=true)
 
 ---
 **[YOLOv5 Global Wheat Detection](https://www.kaggle.com/rkuo2000/yolov5-global-wheat-detection)**<br>
 train YOLOv5 for wheat detection
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv5_GWD.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv5_GWD.jpg?raw=true)
 
 ---
 **[EfficientDet Global Wheat Detection](https://www.kaggle.com/rkuo2000/efficientdet-gwd)**<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/EfficientDet_GWD.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/EfficientDet_GWD.png?raw=true)
 
 ---
 ## Mask R-CNN
 **Kaggle:** [rkuo2000/mask-rcnn](https://www.kaggle.com/rkuo2000/mask-rcnn)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Mask_RCNN_TF2.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Mask_RCNN_TF2.png?raw=true)
 
 ---
 ### Mask R-CNN transfer learning
 **Kaggle:** [Mask RCNN transfer learning](https://www.kaggle.com/hmendonca/mask-rcnn-and-coco-transfer-learning-lb-0-155)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Mask_RCNN_transfer_learning.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Mask_RCNN_transfer_learning.png?raw=true)
 
 ---
 ### YOLOv5 + DeepSort
@@ -304,7 +304,7 @@ train YOLOv5 for wheat detection
 ---
 ### Objectron
 **Kaggle:** [rkuo2000/mediapipe-objectron](https://www.kaggle.com/rkuo2000/mediapipe-objectron)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Objectron_shoes.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Objectron_shoes.png?raw=true)
 
 ---
 ### OpenCV-Python play GTA5
