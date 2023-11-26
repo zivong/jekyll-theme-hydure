@@ -62,18 +62,18 @@ NCSL has a NEW autonomous vehicles legislative database, providing up-to-date, r
 ## Surveys
 
 ### [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://arxiv.org/abs/1906.05113)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Autonomous_Driving_Survey_high_level_system_architectures.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Autonomous_Driving_System_information_flow_diagram.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Autonomous_Driving_System_panoramic_view_and_overlayed_images.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Autonomous_Driving_Survey_high_level_system_architectures.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Autonomous_Driving_System_information_flow_diagram.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Autonomous_Driving_System_panoramic_view_and_overlayed_images.png?raw=true)
 
 ---
 ### [Explanations in Autonomous Driving: A Survey](https://arxiv.org/abs/2103.05154)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Autonomous_Vehicle_key_operations.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Autonomous_Vehicle_key_operations.png?raw=true)
 ![](https://danielomeiza.github.io/publication/conference-paper-copy-4/featured_hua471dd81b537bfd2229d1f43afb1537d_231113_720x0_resize_lanczos_3.png)
 
 ---
 ### [Autonomous Driving with Deep Learning: A Survey of State-of-Art Technologies](https://arxiv.org/abs/2006.06091)
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Autonomous_Driving_platform.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Autonomous_Driving_platform.png?raw=true"></p>
 
 ---
 ## Open-Source Autonomous Driving Datasets
@@ -136,7 +136,7 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 ---
 ## LiDAR-based 3D Object Detection Methods
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/LiDAR_3D_Object_Detection_methods.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/LiDAR_3D_Object_Detection_methods.png?raw=true"></p>
 
 ### YOLO3D
 **Paper:** [YOLO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud](https://arxiv.org/abs/1808.02350)<br>
@@ -158,7 +158,7 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 ---
 ## Camera-based 3D Object Detection Methods
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Camera_based_3D_Object_Detection_methods.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Camera_based_3D_Object_Detection_methods.png?raw=true"></p>
 
 ### Pseudo-LiDAR
 **Paper:** [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/abs/1812.07179)<br>
@@ -176,7 +176,7 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 ---
 ## Monocular Camera-based Depth Estimation Methods
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Monocular_Camera_based_Depth_Estimation_methods.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Monocular_Camera_based_Depth_Estimation_methods.png?raw=true"></p>
 
 ### DF-Net
 **Paper:** [DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](https://arxiv.org/abs/1809.01649)<br>
@@ -190,7 +190,7 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 ---
 ## Depth Fusion Methods with LiDAR and Camera
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Depth_Fusion_methods_with_LiDAR_and_Camera.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Depth_Fusion_methods_with_LiDAR_and_Camera.png?raw=true"></p>
 
 ### DFineNet
 **Paper:** [DFineNet: Ego-Motion Estimation and Depth Refinement from Sparse, Noisy Depth Input with RGB Guidance](https://arxiv.org/abs/1903.06397)<br>
@@ -203,14 +203,14 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 ---
 ## 3D Object Detection Methods with LiDAR and Camera
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/3D_Object_Detection_methods with LiDAR_and_Camera.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/3D_Object_Detection_methods with LiDAR_and_Camera.png?raw=true"></p>
 
 ### PointFusion
 **Paper:** [PointFusion: Deep Sensor Fusion for 3D Bounding Box Estimation](https://arxiv.org/abs/1711.10871)<br>
 **Code:** [mialbro/PointFusion](https://github.com/mialbro/PointFusion)<br>
 
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PointFusion_architecture.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PointFusion_KITTI_results.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PointFusion_architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PointFusion_KITTI_results.png?raw=true)
 
 ---
 ### MVX-Net
@@ -230,17 +230,17 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 ---
 ## Pedestrain Behavior Prediction Methods
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Pedestrain_Behavior_Prediction_methods.png?raw=True"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Pedestrain_Behavior_Prediction_methods.png?raw=True"></p>
 
 ### Predicting Future Person Activities and Locations in Videos
 **Paper:** [Peeking into the Future: Predicting Future Person Activities and Locations in Videos](https://arxiv.org/abs/1902.03748)<br>
 
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Peaking_Into_The_Future_overview.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Peaking_Into_The_Future_overview.png?raw=true)
 
 <table>
   <tr>
-  <td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Peaking_Into_The_Future_PIM.png?raw=true"></td> 
-  <td><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Peaking_Into_The_Future_PBM.png?raw=true"></td>
+  <td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Peaking_Into_The_Future_PIM.png?raw=true"></td> 
+  <td><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Peaking_Into_The_Future_PBM.png?raw=true"></td>
   </tr>
 </table>
 
@@ -257,7 +257,7 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 
 ## Vehicle Behavior Prediction Methods
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Vehicle_Behvior_Modeling_and_Decision_Making.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Vehicle_Behvior_Modeling_and_Decision_Making.png?raw=true)
 
 **[Autonomous Vehicle Papers](https://github.com/DeepTecher/AutonomousVehiclePaper)**
 
@@ -300,12 +300,12 @@ The Waymo Open dataset is an open-source multimodal sensor dataset for autonomou
 
 <table>
   <tr>
-  <td><p>With Stop Signs Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Waymo_WithStopSigns.gif?raw=true"></td>
-  <td><p>No Stop Signs Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Waymo_NoStopSigns.gif?raw=true"></td>
+  <td><p>With Stop Signs Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Waymo_WithStopSigns.gif?raw=true"></td>
+  <td><p>No Stop Signs Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Waymo_NoStopSigns.gif?raw=true"></td>
   </tr>
   <tr>
-  <td><p>With Perception Boxes Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Waymo_WithPerceptionBoxes.gif?raw=true"></td>
-  <td><p>No Perception Boxes Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Waymo_NoPerceptionBoxes.gif?raw=true"></td> 
+  <td><p>With Perception Boxes Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Waymo_WithPerceptionBoxes.gif?raw=true"></td>
+  <td><p>No Perception Boxes Rendered</p><img src="https://github.com/rkuo2000/AI-course/blob/main/images/Waymo_NoPerceptionBoxes.gif?raw=true"></td> 
   </tr>
 </table>
 
@@ -372,10 +372,10 @@ The simulation needs to be up and running before you execute dqn_car.py!!!
 `python dqn_car.py` <br>
 
 [dqn_car.py](https://github.com/rkuo2000/AirSim/blob/master/PythonClient/reinforcement_learning/dqn_car.py)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirSimNH_DQN_Car.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/AirSimNH_DQN_Car.png?raw=true)
 
 [a2c_car.py](https://github.com/rkuo2000/AirSim/blob/master/PythonClient/reinforcement_learning/a2c_car.py)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirSimNH_A2C_Car.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/AirSimNH_A2C_Car.png?raw=true)
 
 ---
 ### [Autonomous Driving Cookbook](https://github.com/Microsoft/AutonomousDrivingCookbook)
@@ -428,7 +428,7 @@ model = models.Model(inputs=[pic_input, state_input], outputs=m)
 model.summary()
 ```
 #### Test Result
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirSim_End_to_End_Learning.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/AirSim_End_to_End_Learning.png?raw=true)
 
 ---
 ### Azure
