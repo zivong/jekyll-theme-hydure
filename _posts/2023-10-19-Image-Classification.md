@@ -45,7 +45,7 @@ This dataset spans **1000 object** classes and contains 1,281,167 training image
 
 ### CIFAR-10
 **Dataset:** [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CIFAR-10.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/CIFAR-10.png?raw=true)
 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.<br>
 **Kaggle:** [https://www.kaggle.com/rkuo2000/cifar10-cnn](https://www.kaggle.com/rkuo2000/cifar10-cnn)<br>
@@ -86,7 +86,7 @@ labels = ["angry", "disgusted", "fearful", "happy", "neutral", "sad", "surprised
 ---
 ### FaceMask Classification (人臉口罩辨識)
 **Dataset:** [Face Mask ~12K Images dataset](https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/facemask_12k_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/facemask_12k_dataset.png?raw=true)
 
 **Kaggle:** [https://www.kaggle.com/rkuo2000/facemask-cnn](https://www.kaggle.com/rkuo2000/facemask-cnn)<br>
 
@@ -130,18 +130,18 @@ The dataset consists of 16,643 images belonging to 11 major food categories:<br>
 
 ### Birds Classification (鳥類分類)
 **Dataset:** [https://www.kaggle.com/rkuo2000/birds2](https://www.kaggle.com/rkuo2000/birds2)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/birds_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/birds_dataset.png?raw=true)
 
 用Google搜尋照片, 下載各20/30張照片，放入資料夾birds後，壓縮成birds.zip, 再上傳Kaggle.com/datasets<br>
 
 **Kaggle:** [https://www.kaggle.com/rkuo2000/birds-classification](https://www.kaggle.com/rkuo2000/birds-classification)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/classification_report.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/confusion_matrix.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/classification_report.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/confusion_matrix.png?raw=true)
 
 ---
 ### Animes Classification (卡通人物分類)
 **Dataset:** [https://www.kaggle.com/datasets/rkuo2000/animes](https://www.kaggle.com/datasets/rkuo2000/animes)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/animes_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/animes_dataset.png?raw=true)
 
 用Google搜尋照片, 下載卡通人物各約20/30張照片，放入資料夾animes後，壓縮成animes.zip, 再上傳Kaggle.com/datasets<br>
 
@@ -150,7 +150,7 @@ The dataset consists of 16,643 images belonging to 11 major food categories:<br>
 ---
 ### Worms Classification(害蟲分類)
 **Dataset:** [worms4](https://www.kaggle.com/datasets/rkuo2000/worms4)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/worms4_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/worms4_dataset.png?raw=true)
 
 用Google搜尋照片, 下載各20/30張照片，放入資料夾worms後，壓縮成worms.zip, 再上傳Kaggle.com/datasets<br>
 
@@ -197,7 +197,7 @@ model.summary()
 ---
 ### Skin Lesion Classification (皮膚病變分類)
 **Dataset:*8 [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/ham10000_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/ham10000_dataset.png?raw=true)
 
 7 types of lesions : (picture = 600x450)<br>
 * Actinic Keratoses (光化角化病)
