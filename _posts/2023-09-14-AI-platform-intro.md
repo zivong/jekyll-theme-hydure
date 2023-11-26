@@ -29,6 +29,10 @@ Much cheaper, lower power, and faster than Infiniband, OCSes and underlying opti
 ![](https://developer.nvidia.com/sites/default/files/akamai/cudnn/cudnn_chart.png)
 
 ---
+### AI SuperComputer
+**HGX H200**<br>
+<p><img src="https://cdn.videocardz.com/1/2023/11/NVIDIA-H200-Overview-1536x747.jpg"></p>
+
 ### AI Workstations/Servers
 [生成式 AI 動力核心，NVIDIA 宣布 DGX H100 系統開始出貨](https://technews.tw/2023/05/02/nvidia-announces-shipping-of-dgx-h100-systems/)<br>
 **DGX H100** 系統每個 H100 Tensor Core GPU 性能平均比以前 GPU 高約 6 倍，搭載 8 個 GPU，每個 GPU 都有一個 Transformer Engine，加速生成式 AI 模型。8 個 H100 GPU 透過 NVIDIA NVLink 連接，形成巨大 GPU，也可擴展 DGXH100 系統，使用 400 Gbps 超低延遲 NVIDIA Quantum InfiniBand 將數百個 DGX H100 節點連線一台 AI 超級電腦，速度是之前網路的兩倍。
@@ -37,12 +41,12 @@ Much cheaper, lower power, and faster than Infiniband, OCSes and underlying opti
 ---
 ### AI HPC
 [搭配HGX A100模組，華碩發表首款搭配SXM形式GPU伺服器](https://www.ithome.com.tw/review/147911)
-![](https://s4.itho.me/sites/default/files/images/Asus%20ESC%20N4A-E11-2022-09-4.jpg)
+<p><img src="https://s4.itho.me/sites/default/files/images/Asus%20ESC%20N4A-E11-2022-09-4.jpg" width="50%" height="50%"></p>
 
 ---
 ### GPU
 [GeForce RTX-4090](https://www.techpowerup.com/gpu-specs/geforce-rtx-4090.c3889)
-![](https://tpucdn.com/gpu-specs/images/c/3889-back.jpg)
+<p><img src="https://www.pcworld.com/wp-content/uploads/2023/04/geforce-rtx-4090-jensen.jpg" width="50%" height="50%"></p>
 
 ---
 ### Edge AI
