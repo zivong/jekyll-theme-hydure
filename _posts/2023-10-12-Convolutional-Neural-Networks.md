@@ -86,7 +86,7 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 60000筆28x28灰階數字圖片之訓練集<br>
 10000筆28x28灰階數字圖片之測試集<br>
 
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/CNN_MNIST.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/CNN_MNIST.png?raw=true)
 
 **Kaggle:** [MNIST-CNN](https://www.kaggle.com/code/rkuo2000/mnist-cnn), [MNIST-PyTorch](https://www.kaggle.com/code/rkuo2000/mnist-pytorch)<br>
 
@@ -100,7 +100,7 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 ---
 ### Sign-Language MNIST 
 **Dataset:** [Sign-Language MNIST](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sign_Language_MNIST.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Sign_Language_MNIST.png?raw=true)
 
 21964筆28x28彩色手勢字母圖片之訓練集<br>
 5491筆28x28彩色手勢字母圖片之測試集<br>
@@ -122,7 +122,7 @@ Convolutional Neural Network (CNN) includes an Overview, Examples, and Architect
 ---
 ### AirDigit (空中手寫數字)
 **Dataset:**<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/AirDigit_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/AirDigit_dataset.png?raw=true)
 * [https://www.kaggle.com/datasets/rkuo2000/airdigit](https://www.kaggle.com/datasets/rkuo2000/airdigit)
 * [https://www.kaggle.com/datasets/rkuo2000/airdigit-mpu6050](https://www.kaggle.com/datasets/rkuo2000/airdigit-mpu6050)
 
@@ -144,14 +144,14 @@ ECG 心電圖分類：<br>
 ### ECG Classification (心電圖分類)
 **Paper:** [ECG Heartbeat Classification: A Deep Transferable Representation](https://arxiv.org/abs/1805.00794)<br>
 ![](https://d3i71xaburhd42.cloudfront.net/0997b7e7aa68708414fdb3257263f81f9d9c33ae/2-Figure1-1.png)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/ECG_CNN.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/ECG_CNN.png?raw=true)
 **Kaggle: [ecg-classification](https://www.kaggle.com/rkuo2000/ecg-classification)
 
 ---
 ### PPG2ABP (PPG偵測動脈血壓)
 **Paper:** [PPG2ABP: Translating Photoplethysmogram (PPG) Signals to Arterial Blood Pressure (ABP) Waveforms using Fully Convolutional Neural Networks](https://arxiv.org/abs/2005.01669)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PPG2AGP_pipeline.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PPG2AGP_pipeline_output.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PPG2AGP_pipeline.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PPG2AGP_pipeline_output.png?raw=true)
 **Code:** [nibtehaz/PPG2ABP](https://github.com/nibtehaz/PPG2ABP)<br>
 **Kaggle:** [ppg2ab](https://www.kaggle.com/code/rkuo2000/ppg2ab)<br>
 
@@ -175,7 +175,7 @@ for i in range(10):
     librosa.display.waveplot(y, sr=sr)
     plt.title('Waveform')
 ```
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sound_Digit_waveform.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Sound_Digit_waveform.png?raw=true)
 <br>
 * extract MFCC spectorgram
 ```
@@ -195,14 +195,14 @@ for FILE in TRAIN_FILES:
         print(mfcc.shape)
         display_mfcc(mfcc)  
 ```
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Sound_Digit_mel_freq_spectrogram.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Sound_Digit_mel_freq_spectrogram.png?raw=true)
 
 ---
 ### Urban Sound Classification (都市聲音分類)
 **Dataset:** [https://www.kaggle.com/chrisfilo/urbansound8k](https://www.kaggle.com/chrisfilo/urbansound8k)<br>
 10 classes: air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, siren, street music<br>
 **Kaggle:** [urban-sound-classification](https://www.kaggle.com/rkuo2000/urban-sound-classification)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/urban_sound_cnn.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/urban_sound_cnn.png?raw=true)
 
 ---
 ### Speech Commands (語音命令辨識)
