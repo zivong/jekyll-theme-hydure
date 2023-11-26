@@ -13,21 +13,21 @@ Examples: MODNet, DeeplabV3+, YOLOv8 Segment, Semantic Segmentaton in PyTorch, S
 
 ### MODNet Image Matting
 **Kaggle:** [rkuo2000/modnet-image-matting](https://www.kaggle.com/rkuo2000/modnet-image-matting)<br>
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/MODNet_DuaLipa.png?raw=true"></p>
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/MODNet_Halsey.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/MODNet_DuaLipa.png?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/MODNet_Halsey.png?raw=true"></p>
 
 ---
 ## Semantic Segmentation
 
 ### DeepLabV3 plus
 **Kaggle:** [rkuo2000/deeplabv3-plus](https://kaggle.com/rkuo2000/deeplabv3-plus)
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/deeplabv3_result.png?raw=True"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/deeplabv3_result.png?raw=True"></p>
 
 ---
 ### Image Segmentation Keras (PSPNet)
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/image-segmentation-keras](https://www.kaggle.com/code/rkuo2000/image-segmentation-keras)<br>
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/pspnet_peny_mart_result.png?raw=True"></p>
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/pspnet_ade20k_result.png?raw=True"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/pspnet_peny_mart_result.png?raw=True"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/pspnet_ade20k_result.png?raw=True"></p>
 
 ---
 ### Semantic Segmentation
@@ -43,12 +43,12 @@ Examples: MODNet, DeeplabV3+, YOLOv8 Segment, Semantic Segmentaton in PyTorch, S
 ---
 ### Segment Anything
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/segment-anything](https://www.kaggle.com/code/rkuo2000/segment-anything)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Kaggle_segment-anything.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Kaggle_segment-anything.png?raw=true)
 
 --- 
 ### Fast Segment Anything
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/fastsam](https://www.kaggle.com/code/rkuo2000/fastsam)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Kaggle_FastSAM.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Kaggle_FastSAM.png?raw=true)
 
 ---
 ### Human Part Segmentation
@@ -64,12 +64,12 @@ Examples: MODNet, DeeplabV3+, YOLOv8 Segment, Semantic Segmentaton in PyTorch, S
 
 ### YOLACT
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/yolact](https://www.kaggle.com/code/rkuo2000/yolact)<br>
-<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/gh-pages/images/yolact_traffic.jpg?raw=true"></p>
+<p align="center"><img src="https://github.com/rkuo2000/AI-course/blob/main/images/yolact_traffic.jpg?raw=true"></p>
 
 ---
 ### YOLOv8 Segmentation
 **Kaggle:** [https://www.kaggle.com/code/rkuo2000/yolov8-segment](https://www.kaggle.com/code/rkuo2000/yolov8-segment)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/yolov8-segment-bus.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/yolov8-segment-bus.png?raw=true)
 
 ---
 ## Panoptic Segmentation
