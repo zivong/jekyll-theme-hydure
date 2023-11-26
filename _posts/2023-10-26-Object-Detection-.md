@@ -271,11 +271,11 @@ session = fo.launch_app(dataset)
 ---
 ### PP-YOLOE
 **Paper:** [PP-YOLOE: An evolved version of YOLO](https://arxiv.org/abs/2203.16250)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PP-YOLOE.png?raw=true)
 **Code:**  [PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE_MS_COCO.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PP-YOLOE_MS_COCO.png?raw=true)
 **Kaggle:** [rkuo2000/pp-yoloe](https://www.kaggle.com/code/rkuo2000/pp-yoloe)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PP-YOLOE_demo.jpg?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PP-YOLOE_demo.jpg?raw=true)
 
 ---
 ### YOLOv6
@@ -298,13 +298,13 @@ session = fo.launch_app(dataset)
 ### YOLOv7
 **Paper:** [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)<br>
 * Extended efficient layer aggregation networks
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv7_E-ELAN.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv7_E-ELAN.png?raw=true)
 * Model scaling for concatenation-based models
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv7_model_scaling.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv7_model_scaling.png?raw=true)
 * Planned re-parameterized convolution
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv7_planned_reparameterized_model.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv7_planned_reparameterized_model.png?raw=true)
 * Coarse for auxiliary and fine for lead head label assigner
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/YOLOv7_coarse_to_fine_lead_guided_assigner.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv7_coarse_to_fine_lead_guided_assigner.png?raw=true)
 
 **Code:** [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)<br>
 ![](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)
@@ -326,7 +326,7 @@ session = fo.launch_app(dataset)
 ![](https://user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg)
 
 **Dataset:** [flying_object_dataset](https://universe.roboflow.com/new-workspace-0k81p/flying_object_dataset)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/flying_object_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/flying_object_dataset.png?raw=true)
 
 **Paper:** [UAV-YOLOv8: A Small-Object-Detection Model Based on Improved YOLOv8 for UAV Aerial Photography Scenarios](https://www.mdpi.com/1424-8220/23/16/7190)<br>
 ![](https://www.mdpi.com/sensors/sensors-23-07190/article_deploy/html/images/sensors-23-07190-g001.png)
@@ -392,7 +392,7 @@ Concretely, UDD consists of 3 categories (seacucumber, seaurchin, and scallop) w
 **Paper:** [Underwater Object Tracking Benchmark and Dataset](http://www.hstabstractbook.org/index_htm_files/c-PID6132325.pdf)<br>
 **[UOT32](https://www.kaggle.com/landrykezebou/uot32-underwater-object-tracking-dataset)**<br>
 **[UOT100](https://www.kaggle.com/landrykezebou/uot100-underwater-object-tracking-dataset)**<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/UOT32.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/UOT32.png?raw=true)
 
 ---
 ### Re3 : Real-Time Recurrent Regression Networks for Visual Tracking of Generic Objects
