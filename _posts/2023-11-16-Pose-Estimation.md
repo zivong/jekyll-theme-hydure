@@ -185,7 +185,7 @@ Image(filename='runs/pose/predict/baseball1.jpg')
 
 ---
 ### 300W-LPA: [300W-LPA Database](https://sites.google.com/view/300w-lpa-database)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/300W-LPA.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/300W-LPA.png?raw=true)
 
 ---
 ### LFPW: [Labeled Face Parts in the Wild (LFPW) Dataset](https://neerajkumar.org/databases/lfpw/)
@@ -409,22 +409,22 @@ HO-3D is a dataset with 3D pose annotations for hand and object under severe occ
 ---
 ### Diff-DOPE
 **Paper:** [Diff-DOPE: Differentiable Deep Object Pose Estimation](https://arxiv.org/abs/2310.00463)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/Diff-DOPE-architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/Diff-DOPE-architecture.png?raw=true)
 
 ---
 ## Exercises of Pose Estimation
 
 ### PoseNet
 **Kaggle:** [https://www.kaggle.com/rkuo2000/posenet-pytorch](https://www.kaggle.com/rkuo2000/posenet-pytorch)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PoseNet_keypoints.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PoseNet_keypoints.png?raw=true)
 **Kaggle:** [https://www.kaggle.com/rkuo2000/posenet-human-pose](https://www.kaggle.com/rkuo2000/posenet-human-pose)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PoseNet_bodylines.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PoseNet_bodylines.png?raw=true)
 
 ---
 ### OpenPose
 **Kaggle:** [https://github.com/rkuo2000/openpose-pytorch](https://github.com/rkuo2000/openpose-pytorch)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/OpenPose_pytorch_racers.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/OpenPose_pytorch_fall1.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/OpenPose_pytorch_racers.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/OpenPose_pytorch_fall1.png?raw=true)
 
 ---
 ### MMPose
