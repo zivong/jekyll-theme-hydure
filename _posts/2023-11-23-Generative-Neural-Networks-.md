@@ -698,7 +698,7 @@ Training Flow<br>
 **Code:** [geyuying/PF-AFN](https://github.com/geyuying/PF-AFN)<br>
 
 ![](https://github.com/geyuying/PF-AFN/raw/main/show/compare_both.jpg?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/PF-AFN.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/PF-AFN.png?raw=true)
 
 ---
 ### CIT
@@ -828,7 +828,7 @@ Point-NeRF uses neural 3D point clouds, with associated neural features, to mode
 ---
 ### SqueezeNeRF
 **Paper:** [SqueezeNeRF: Further factorized FastNeRF for memory-efficient inference](https://arxiv.org/abs/2204.02585)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/SqueezeNeRF_architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/SqueezeNeRF_architecture.png?raw=true)
 
 ---
 ### [Nerfies: Deformable Neural Radiance Fields](https://nerfies.github.io/)
