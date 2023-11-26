@@ -107,7 +107,7 @@ The basic idea is we will come up with 68 specific points (called landmarks) tha
 ### EfficientFAN
 **Paper:** [EfficientFAN: Deep Knowledge Transfer for Face Alignment](https://dl.acm.org/doi/abs/10.1145/3372278.3390692)<br>
 
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/EfficentFAN.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/EfficentFAN.png?raw=true)
 
 ---
 ## Face Recognition
@@ -139,27 +139,27 @@ DeepID3在LFW上的face verification準確率爲99.53％，性能上並沒有比
 ### MogFace
 **Paper:** [MogFace: Towards a Deeper Appreciation on Face Detection](https://arxiv.org/abs/2103.11139)<br>
 **Code:** [https://github.com/damo-cv/MogFace](https://github.com/damo-cv/MogFace)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/MogFace-architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/MogFace-architecture.png?raw=true)
 
 ---
 ### MixFaceNets
 **Paper:** [MixFaceNets: Extremely Efficient Face Recognition Networks](https://arxiv.org/abs/2107.13046)<br>
 **Code:** [https://github.com/fdbtrs/mixfacenets](https://github.com/fdbtrs/mixfacenets)<br>
 ![](https://raw.githubusercontent.com/fdbtrs/mixfacenets/main/images/agedb.png)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/MixFaceNet-S-architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/MixFaceNet-S-architecture.png?raw=true)
 
 ---
 ### EfficientFace
 **Paper:** [EfficientFace: An Efficient Deep Network with Feature Enhancement for Accurate Face Detection](https://arxiv.org/abs/2302.11816)<br>
 **Code:** [https://github.com/zengqunzhao/EfficientFace](https://github.com/zengqunzhao/EfficientFace)<br>
 ![](https://www.researchgate.net/publication/372367822/figure/fig1/AS:11431281188974854@1694829456888/The-complete-architecture-of-the-proposed-EfficientFace-includes-the-feature-extraction.png)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/advanced-face-detector-comparison.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/advanced-face-detector-comparison.png?raw=true)
 
 ---
 ### TransFace
 **Paper:** [TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective](https://arxiv.org/abs/2308.10133)<br>
 **Code:** [https://github.com/DanJun6737/TransFace](https://github.com/DanJun6737/TransFace)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/TransFace-architecture.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/TransFace-architecture.png?raw=true)
 
 ---
 ### [Efficient Face Recognition Competition at IJCB2023](https://sites.google.com/view/ijcb-2023-efar/)
@@ -182,7 +182,7 @@ DeepID3在LFW上的face verification準確率爲99.53％，性能上並沒有比
 </tr>
 </table>
 
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/FaceNet_PyTorch_embeddings.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/FaceNet_PyTorch_embeddings.png?raw=true)
 ```
 dists = [[(e1 - e2).norm().item() for e2 in embeddings] for e1 in test_embeddings]
 for dist in dists:
@@ -191,7 +191,7 @@ for dist in dists:
     else:
         print('unknown')
 ```
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/FaceNet_PyTorch_result.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/FaceNet_PyTorch_result.png?raw=true)
 
 ---
 ### Open-Set One-Shot Face Recognition
@@ -217,7 +217,7 @@ Using MTCNN to detect face, then use CNN model to detect facemask<br>
 *Make sure to use same version of Tensorflow on Kaggle and PC for model file compatibilty !*
 
 #### Train Ｍodel on Kaggle
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/facemask_detection_12k_images_dataset.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/facemask_detection_12k_images_dataset.png?raw=true)
 **Kaggle:** [rkuo2000/faskmask-cnn](https://kaggle.com/rkuo2000/facemask-cnn)<br>
 **Dataset:** [Face Mask Detection ~12K Images Dataset](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset<br>
 1. [Edit & Copy] FaceMask-CNN 
@@ -232,7 +232,7 @@ Using MTCNN to detect face, then use CNN model to detect facemask<br>
 `$python mtcnn_facemask_detection.py images/facemask1.jpg`<br>
 4. To detect using webcam<br>
 `$python mtcnn_facemask_detection_cam.py`<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/face_mask_detection.png?raw=true)
+![](https://github.com/rkuo2000/AI-course/blob/main/images/face_mask_detection.png?raw=true)
 
 ---
 ### [Homework]: Face Detection
