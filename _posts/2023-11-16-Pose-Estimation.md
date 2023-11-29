@@ -262,58 +262,13 @@ AFW (Annotated Faces in the Wild) is a face detection dataset that contains 205 
 ![](https://github.com/lmb-freiburg/hand3d/blob/master/teaser.png?raw=true)
 
 ---
-### DeeHPS
-**Paper:** [arxiv.org/abs/1808.09208](https://arxiv.org/abs/1808.09208)<br>
-
-![](https://www.researchgate.net/profile/Alexis-Heloir/publication/328310189/figure/fig1/AS:692903412240387@1542212455475/a-An-overview-of-our-method-for-simultaneous-3D-hand-pose-and-surface-estimation-A.ppm)
-
----
-### GraphPoseGAN
-**Paper:** [arxiv.org/abs/1912.01875](https://arxiv.org/abs/1912.01875)<br>
-
-![](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/9479a278f3c63b57b26eb31e44744a238b11feee/1-Figure1-1.png)
-
----
-### 3D Hand Shape
-**Paper:** [arxiv.org/abs/1903.00812](https://arxiv.org/abs/1903.00812)<br>
-**Code:** [https://github.com/3d-hand-shape/hand-graph-cnn](https://github.com/3d-hand-shape/hand-graph-cnn)<br>
-
-![](https://github.com/3d-hand-shape/hand-graph-cnn/blob/master/teaser.png?raw=true)
-
----
-### FaceBook InterHand2.6M
-**Paper:** [InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image](https://arxiv.org/abs/2008.09309)<br>
+### InterHand2.6M
+**Paper:** [https://arxiv.org/abs/2008.09309](https://arxiv.org/abs/2008.09309)<br>
 **Code:** [https://github.com/facebookresearch/InterHand2.6M](https://github.com/facebookresearch/InterHand2.6M)<br>
 **Dataset:** [Re:InterHand Dataset](https://mks0601.github.io/ReInterHand/)<br>
 ![](https://github.com/facebookresearch/InterHand2.6M/blob/main/assets/teaser.gif?raw=true)
 
 ---
-### FrankMocap: Fast Monocular 3D Hand and Body Motion Capture by Regression and Integration
-**Paper:** [arxiv.org/abs/2008.08324](https://arxiv.org/abs/2008.08324)<br>
-**Code:** [facebookresearch/frankmocap](https://github.com/facebookresearch/frankmocap)<br>
-
-![](https://miro.medium.com/max/1366/1*SISQhpf8pphnob3TjT-hWQ.png)
-![](https://github.com/jhugestar/jhugestar.github.io/blob/master/img/frankmocap_wholebody.gif?raw=true)
-
----
-### A Skeleton-Driven Neural Occupancy Representation for Articulated Hands
-**Paper:** [arxiv.org/abs/2109.11399](https://arxiv.org/abs/2109.11399)<br>
-
-![](https://d3i71xaburhd42.cloudfront.net/f6bbbb9a507b00bbb003e55d888603ccdf47a762/7-Figure5-1.png)
-
----
-### Towards unconstrained joint hand-object reconstruction from RGB videos
-**Paper:** [arxiv.org/abs/2108.07044](https://arxiv.org/abs/2108.07044)<br>
-**Code:** [https://github.com/hassony2/homan](https://github.com/hassony2/homan)<br>
-<table>
-  <tr>
-  <td><img src="https://github.com/hassony2/homan/raw/master/5900_in.gif?raw=True"></td>
-  <td><img src="https://github.com/hassony2/homan/raw/master/5900_cam.gif?raw=True"></td>
-  <td><img src="https://github.com/hassony2/homan/raw/master/0011.gif?raw=True"></td>
-  </tr>
-</table>
-
-
 ### InterWild
 **Paper:** [Bringing Inputs to Shared Domains for 3D Interacting Hands Recovery in the Wild](https://arxiv.org/abs/2303.13652)<br>
 **Code:** [https://github.com/facebookresearch/InterWild/tree/main#test](https://github.com/facebookresearch/InterWild)<br>
@@ -332,6 +287,15 @@ AFW (Annotated Faces in the Wild) is a face detection dataset that contains 205 
   <td><img src="https://github.com/facebookresearch/InterWild/blob/main/assets/demo6.png?raw=true"></td>
   </tr>  
 </table>
+
+### RenderIH
+**Paper:** [RenderIH: A Large-scale Synthetic Dataset for 3D Interacting Hand Pose Estimation](https://arxiv.org/abs/2309.09301)<br>
+**Code:** [https://github.com/adwardlee/RenderIH](https://github.com/adwardlee/RenderIH)<br>
+[![Watch the video](https://youtu.be/vt5fpE0bzSY)](https://youtu.be/vt5fpE0bzSY)
+<video width="400" controls><source src="https://youtu.be/vt5fpE0bzSY"></video>
+
+**TransHand** - transformer-based pose estimation network<br>
+![](https://adwardlee.github.io/view_renderih/static/images/network.png)
 
 ---
 ## Object Pose Estimation
