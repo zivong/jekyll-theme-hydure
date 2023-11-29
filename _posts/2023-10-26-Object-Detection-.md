@@ -314,22 +314,27 @@ session = fo.launch_app(dataset)
 [Ultralytics YOLOv8](https://www.ultralytics.com/) is a cutting-edge, state-of-the-art (SOTA) model that builds upon the success of previous YOLO versions and introduces new features and improvements to further boost performance and flexibility. YOLOv8 is designed to be fast, accurate, and easy to use, making it an excellent choice for a wide range of object detection and tracking, instance segmentation, image classification and pose estimation tasks.
 
 **Blog:** [Dive into YOLOv8](https://openmmlab.medium.com/dive-into-yolov8-how-does-this-state-of-the-art-model-work-10f18f74bab1)<br>
-![](https://miro.medium.com/v2/resize:fit:720/0*lCMq5uVmQkhV3UY_)
+**Paper:** [Real-Time Flying Object Detection with YOLOv8](https://arxiv.org/abs/2305.09972)<br>
+![](https://user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg)
 
 **Code:** [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)<br>
-
 **Kaggle:** <br>
 * [https://www.kaggle.com/code/rkuo2000/yolov8](https://www.kaggle.com/code/rkuo2000/yolov8)
 * [https://www.kaggle.com/code/rkuo2000/yolov8-pothole-detection](https://www.kaggle.com/code/rkuo2000/yolov8-pothole-detection)
 
-**Paper:** [Real-Time Flying Object Detection with YOLOv8](https://arxiv.org/abs/2305.09972)<br>
-![](https://user-images.githubusercontent.com/27466624/239739723-57391d0f-1848-4388-9f30-88c2fb79233f.jpg)
-
-**Dataset:** [flying_object_dataset](https://universe.roboflow.com/new-workspace-0k81p/flying_object_dataset)<br>
-![](https://github.com/rkuo2000/AI-course/blob/main/images/flying_object_dataset.png?raw=true)
-
+---
+### UAV-YOLOv8
 **Paper:** [UAV-YOLOv8: A Small-Object-Detection Model Based on Improved YOLOv8 for UAV Aerial Photography Scenarios](https://www.mdpi.com/1424-8220/23/16/7190)<br>
-![](https://www.mdpi.com/sensors/sensors-23-07190/article_deploy/html/images/sensors-23-07190-g001.png)
+
+---
+### YOLOv8 Aerial Sheep Detection and Counting
+**Code:** [https://github.com/monemati/YOLOv8-Sheep-Detection-Counting](https://github.com/monemati/YOLOv8-Sheep-Detection-Counting)<br>
+<p><img src="https://github.com/monemati/YOLOv8-Sheep-Detection-Counting/raw/main/resources/demo/val_batch1_pred.jpg" width="50%" height="50%"></p>
+
+---
+### YOLOv8 Drone Surveillance
+**Code:** [https://github.com/ni9/Object-Detection-From-Drone-For-Surveillance](https://github.com/ni9/Object-Detection-From-Drone-For-Surveillance)<br>
+![](https://github.com/ni9/Object-Detection-From-Drone-For-Surveillance/raw/main/images/Capture1.PNG)
 
 ---
 ## Trash Detection
