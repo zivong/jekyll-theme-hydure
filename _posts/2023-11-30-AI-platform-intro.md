@@ -26,7 +26,6 @@ Much cheaper, lower power, and faster than Infiniband, OCSes and underlying opti
 ### CUDA & CuDNN
 * [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) 
 * [CuDNN](https://developer.nvidia.com/cudnn)
-![](https://developer.nvidia.com/sites/default/files/akamai/cudnn/cudnn_chart.png)
 
 ---
 ### AI SuperComputer
@@ -121,9 +120,6 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
 #### ADI MAX78000
 ![](https://i0.wp.com/makerpro.cc/wp-content/uploads/2023/08/EdgeAI_MCU_P1.jpg?resize=1024%2C414&ssl=1)
 
-#### TI MPU: AM62A、AM68A、AM69A
-![](https://i0.wp.com/makerpro.cc/wp-content/uploads/2023/08/1691657090157.jpg?resize=768%2C607&ssl=1)
-
 ![](https://i0.wp.com/makerpro.cc/wp-content/uploads/2023/08/EdgeAI_MCU_P4.jpg?resize=1024%2C366&ssl=1)
 
 ---
@@ -138,9 +134,6 @@ meaning that one ExaPOD alone will deliver a maximum theoretical performance of 
   - 支持CNN,Transformer，RNN Hybrid等多種AI模型。
   - 智能ISP可基於AI優化圖像質量，強力Codec實現高效率多媒體壓縮。
   - 冷啟動時間低於500ms，平均功耗低於500mW。
-
-* KL720 AI SoC (算力可達0.9 TOPS/W)
-![](https://www.kneron.com/tw/_upload/image/solution/large/95f4758c9cfd08.png)
 
 ---
 ### Realtek AmebaPro2
@@ -218,10 +211,10 @@ MLPerf Inference v3.1 (submission 04/08/2023)
 
 ### [Keras 3.0](https://keras.io/keras_3/)
 <p><img src="https://s3.amazonaws.com/keras.io/img/keras_3/cross_framework_keras_3.jpg" width="50%" height="50%"></p>
-All 40 Keras Applications models (the keras.applications namespace) are available in all backends. The vast array of pretrained models in KerasCV and KerasNLP also work with all backends. This includes: **BERT, OPT, Whisper, T5, StableDiffusion, YOLOv8, SegmentAnything, etc.**
+All 40 Keras Applications models (the keras.applications namespace) are available in all backends. The vast array of pretrained models in KerasCV and KerasNLP also work with all backends. <br>
+This includes: **BERT, OPT, Whisper, T5, StableDiffusion, YOLOv8, SegmentAnything, etc.**<br>
 
-### TinyML
-[EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML)
+### [TinyML](https://github.com/eloquentarduino/EloquentTinyML)
 
 ### [Tensorflow.js](https://www.tensorflow.org/js/demos)
 
