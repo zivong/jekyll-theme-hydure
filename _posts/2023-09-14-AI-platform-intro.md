@@ -220,9 +220,9 @@ MLPerf Inference v3.1 (submission 04/08/2023)
 
 ### [Tensorflow](https://www.tensorflow.org)
 
-### [Tensorflow Lite](https://www.tensorflow.org/lite)
-
-### [Tensorflow Lite for Microcontroller](https://www.tensorflow.org/lite/microcontrollers)
+### [Keras 3.0](https://keras.io/keras_3/)
+<p><img src="https://s3.amazonaws.com/keras.io/img/keras_3/cross_framework_keras_3.jpg" width="50%" height="50%"></p>
+All 40 Keras Applications models (the keras.applications namespace) are available in all backends. The vast array of pretrained models in KerasCV and KerasNLP also work with all backends. This includes: **BERT, OPT, Whisper, T5, StableDiffusion, YOLOv8, SegmentAnything, etc.**
 
 ### TinyML
 [EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML)
