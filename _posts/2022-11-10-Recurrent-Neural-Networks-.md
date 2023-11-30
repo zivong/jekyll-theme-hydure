@@ -529,6 +529,7 @@ Fine tuning Electra large model using RTX2080 8 GB on Squad 2
 
 ---
 ## Text-To-Speech (using TTS)
+
 ### WaveNet
 **Paper:** [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)<br>
 **Code:** [r9y9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder)<br>
@@ -555,15 +556,14 @@ You will need mel-spectrogram prediction model (such as Tacotron2) to use the pr
 ![](https://github.com/as-ideas/ForwardTacotron/blob/master/assets/model.png?raw=true)
 
 ---
-### DeepSpeech
-**Paper:** [Deep Speech: Scaling up end-to-end speech recognition](https://arxiv.org/abs/1412.5567)<br>
-**Code:** [mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech)<br>
-**Release:** [https://github.com/mozilla/DeepSpeech/releases](https://github.com/mozilla/DeepSpeech/releases)<br>
-
-![](https://deepspeech.readthedocs.io/en/latest/_images/rnn_fig-624x598.png)
+### Meta-TTS
+**Paper:** [Meta-TTS: Meta-Learning for Few-Shot Speaker Adaptive Text-to-Speech](https://arxiv.org/abs/2111.04040)<br>
+**Code:** [https://github.com/SungFeng-Huang/Meta-TTS](https://github.com/SungFeng-Huang/Meta-TTS)<br>
+![](https://github.com/SungFeng-Huang/Meta-TTS/blob/main/evaluation/images/meta-FastSpeech2.png?raw=true)
 
 ---
 ## Speech Seperation
+
 ### Looking to Listen
 **Paper:** [Looking to Listen at the Cocktail Party: A Speaker-Independent Audio-Visual Model for Speech Separation](https://arxiv.org/abs/1804.03619)<br>
 **Blog:** [Looking to Listen: Audio-Visual Speech Separation](https://ai.googleblog.com/2018/04/looking-to-listen-audio-visual-speech.html)<br>
@@ -600,6 +600,10 @@ The model was trained on Google Colab for 30 epochs. Training took about 37 hour
 ![](https://github.com/huckiyang/QuantumSpeech-QCNN/blob/main/images/QCNN_Sys_ASR.png?raw=true)
 ![](https://github.com/huckiyang/QuantumSpeech-QCNN/blob/main/images/cam_sp_0.png?raw=true)
 
+---
+### Voice Filter
+**Paper:** [Voice Filter: Few-shot text-to-speech speaker adaptation using voice conversion as a post-processing module](https://arxiv.org/abs/2202.08164)<br>
+![]()
 
 <br>
 <br>
