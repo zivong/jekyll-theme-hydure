@@ -65,9 +65,8 @@ session = fo.launch_app(dataset)
 ---
 ## Object Detection
 
-### Object Detection Milestones
 ![](https://www.researchgate.net/profile/Zhengxia-Zou-2/publication/333077580/figure/fig2/AS:758306230501380@1557805702766/A-road-map-of-object-detection-Milestone-detectors-in-this-figure-VJ-Det-10-11-HOG.ppm)
-![](https://www.researchgate.net/profile/Zhengxia-Zou-2/publication/333077580/figure/fig3/AS:758306234724352@1557805703089/The-accuracy-improvements-of-object-detection-on-VOC07-VOC12-and-MS-COCO-datasets.ppm)
+<p><img src="https://www.researchgate.net/profile/Zhengxia-Zou-2/publication/333077580/figure/fig3/AS:758306234724352@1557805703089/The-accuracy-improvements-of-object-detection-on-VOC07-VOC12-and-MS-COCO-datasets.ppm" width="50%" height="50%"></p>
 
 ---
 ### Object Detection Landscape
@@ -107,7 +106,7 @@ session = fo.launch_app(dataset)
 * RPN是一個要提出proposals的小model，而這個小model需要我們先訂出不同尺度、比例的proposal的邊界匡的雛形。而這些雛形就叫做anchor。
 
 <p align="center"><img width="50%" height="50%" src="https://miro.medium.com/max/700/1*X36ZRFab42L4Rwn22j8d6Q.png"></p>
-![](https://miro.medium.com/max/2000/1*ddngAD0M9ovnPcg9YaZu9g.png)
+<p align="center"><img width="50%" height="50%" src="https://miro.medium.com/max/700/1*X36ZRFab42L4Rwn22j8d6Q.png"></p>
 
 * RPN的上路是負責判斷anchor之中有無包含物體的機率，因此，1×1的卷積深度就是9種anchor，乘上有無2種情況，得18。而下路則是負責判斷anchor的x, y, w, h與ground truth的偏差量(offsets)，因此9種anchor，乘上4個偏差量(dx, dy, dw, dh)，得卷積深度為36。
 
@@ -116,15 +115,17 @@ session = fo.launch_app(dataset)
 ---
 ### Mask R-CNN
 **Paper:** [arxiv.org/abs/1703.06870](https://arxiv.org/abs/1703.06870)<br>
-![](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-23_at_7.44.34_PM.png)
-![](https://miro.medium.com/max/2000/0*-tQsWmjcPhVfwRZ4)
+<p align="center"><img width="50%" height="50%" src="https://miro.medium.com/max/700/1*X36ZRFab42L4Rwn22j8d6Q.png"></p>
+<p align="center"><img width="50%" height="50%" src="https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-23_at_7.44.34_PM.png"></p>
+<p align="center"><img width="50%" height="50%" src="https://miro.medium.com/max/2000/0*-tQsWmjcPhVfwRZ4"</p>
+  
 **Blog:** [[物件偵測] S9: Mask R-CNN 簡介](https://ivan-eng-murmur.medium.com/%E7%89%A9%E4%BB%B6%E5%81%B5%E6%B8%AC-s9-mask-r-cnn-%E7%B0%A1%E4%BB%8B-99370c98de28)<br>
-![](https://miro.medium.com/max/1400/0*IDBowO6956w5RGVw)
-![](https://miro.medium.com/max/2000/0*RTcInnhfoh0m9ItI)
+<p align="center"><img width="50%" height="50%" src="https://miro.medium.com/max/1400/0*IDBowO6956w5RGVw"></p>
+<p align="center"><img width="50%" height="50%" src="https://miro.medium.com/max/2000/0*RTcInnhfoh0m9ItI"></p>
 **Code:** [matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)<br>
-![](https://github.com/matterport/Mask_RCNN/blob/master/assets/street.png?raw=true)
-![](https://github.com/matterport/Mask_RCNN/blob/master/assets/images_to_osm.png?raw=true)
-![](https://github.com/matterport/Mask_RCNN/blob/master/assets/nucleus_segmentation.png?raw=true)
+<p align="center"><img width="50%" height="50%" src="https://github.com/matterport/Mask_RCNN/blob/master/assets/street.png?raw=true"></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/matterport/Mask_RCNN/blob/master/assets/images_to_osm.png?raw=true"></p>
+<p align="center"><img width="50%" height="50%" src="https://github.com/matterport/Mask_RCNN/blob/master/assets/nucleus_segmentation.png?raw=true"></p>)
 
 ---
 ### SSD: Single Shot MultiBox Detector
@@ -180,7 +181,7 @@ session = fo.launch_app(dataset)
 **Paper:** [arxiv.org/abs/1911.09070](https://arxiv.org/abs/1911.09070)<br>
 ![](https://github.com/google/automl/raw/master/efficientdet/g3doc/network.png)
 **Code:** [google efficientdet](https://github.com/google/automl/tree/master/efficientdet)<br>
-![](https://github.com/google/automl/blob/master/efficientdet/g3doc/street.jpg?raw=true)
+<p><img src="https://github.com/google/automl/blob/master/efficientdet/g3doc/street.jpg?raw=true" width="50%" height="50%"></p>
 <table>
 <tr>
 <td><img src="https://github.com/google/automl/blob/master/efficientdet/g3doc/flops.png?raw=true"></td>
@@ -197,8 +198,10 @@ session = fo.launch_app(dataset)
 
 **[YOLOv1](https://arxiv.org/abs/1506.02640)** : mapping bounding box<br>
 ![](https://manalelaidouni.github.io/assets/img/pexels/YOLO_arch.png)
+
 **[YOLOv2](https://arxiv.org/abs/1612.08242)** : anchor box proportional to K-means<br>
 ![](https://2.bp.blogspot.com/-_R-w_tWHdzc/WzJPsol7qFI/AAAAAAABbgg/Jsf-AO3qH0A9oiCeU0LQxN-wdirlOz4WgCLcBGAs/s400/%25E8%259E%25A2%25E5%25B9%2595%25E5%25BF%25AB%25E7%2585%25A7%2B2018-06-26%2B%25E4%25B8%258B%25E5%258D%258810.36.51.png)
+
 **[YOLOv3](https://arxiv.org/abs/1804.02767)** : Darknet-53 + FPN<br>
 ![](https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-021-81216-5/MediaObjects/41598_2021_81216_Fig1_HTML.png)
 ![](https://miro.medium.com/max/2000/1*d4Eg17IVJ0L41e7CTWLLSg.png)
@@ -209,7 +212,7 @@ session = fo.launch_app(dataset)
 **Blog:** [YOLObile：移動設備上的實時目標檢測](https://twgreatdaily.com/zh-hk/jRnp3HQBd8y1i3sJ_wK9.html)<br>
 ![](https://images.twgreatdaily.com/images/elastic/vhk/vhk33XQBd8y1i3sJeRJg.jpg)
 **Code:** [nightsnack/YOLObile](https://github.com/nightsnack/YOLObile)<br>
-![](https://github.com/nightsnack/YOLObile/raw/master/figure/yolo_demo.jpg)
+<p><img src="https://github.com/nightsnack/YOLObile/raw/master/figure/yolo_demo.jpg" width="50%" height="50%"></p>
 
 ---
 ### YOLOv4
@@ -226,10 +229,10 @@ session = fo.launch_app(dataset)
 
 ---
 ### [YOLOv5](https://docs.ultralytics.com/yolov5/)
-![](https://user-images.githubusercontent.com/4210061/107134685-4b249480-692f-11eb-93b1-619708d95441.png)
+<p><img src="https://user-images.githubusercontent.com/4210061/107134685-4b249480-692f-11eb-93b1-619708d95441.png" width="50%" height="50%"></p>
 **Code:** [ultralytics/yolov5/](https://github.com/ultralytics/yolov5/)<br>
-![](https://user-images.githubusercontent.com/26833433/127574988-6a558aa1-d268-44b9-bf6b-62d4c605cc72.jpg)
-![](https://user-images.githubusercontent.com/26833433/136901921-abcfcd9d-f978-4942-9b97-0e3f202907df.png)
+<p>< img src="https://user-images.githubusercontent.com/26833433/127574988-6a558aa1-d268-44b9-bf6b-62d4c605cc72.jpg"></p>
+<p>< img src="https://user-images.githubusercontent.com/26833433/136901921-abcfcd9d-f978-4942-9b97-0e3f202907df.png"></p>
 
 ---
 ### Scaled-YOLOv4
@@ -242,7 +245,7 @@ session = fo.launch_app(dataset)
 **Paper:** [arxiv.org/abs/2105.04206](https://arxiv.org/abs/2105.04206)<br>
 ![](https://github.com/WongKinYiu/yolor/raw/main/figure/unifued_network.png?raw=true)
 **Code:** [WongKinYiu/yolor](https://github.com/WongKinYiu/yolor)<br>
-![](https://github.com/WongKinYiu/yolor/blob/main/inference/output/horses.jpg?raw=true)
+<p><img src="https://github.com/WongKinYiu/yolor/blob/main/inference/output/horses.jpg?raw=true"></p>
 ![](https://github.com/WongKinYiu/yolor/raw/main/figure/performance.png?raw=true)
 
 ---
@@ -257,7 +260,7 @@ session = fo.launch_app(dataset)
 ### YOLOv5 vs YOLOX
 **Paper:** [Evaluation of YOLO Models with Sliced Inference for Small Object Detection](https://arxiv.org/abs/2203.04799)<br>
 
-![](https://www.researchgate.net/publication/359129591/figure/tbl2/AS:1131979458248722@1646896342669/AP50-scores-for-each-bounding-boxes-size-wise.png)
+<img src="https://www.researchgate.net/publication/359129591/figure/tbl2/AS:1131979458248722@1646896342669/AP50-scores-for-each-bounding-boxes-size-wise.png" width="50%" height="50%"></p>
 
 ---
 ### CSL-YOLO
@@ -281,7 +284,8 @@ session = fo.launch_app(dataset)
 ### YOLOv6
 **Blog:** [YOLOv6：又快又准的目标检测框架开源啦](https://tech.meituan.com/2022/06/23/yolov6-a-fast-and-accurate-target-detection-framework-is-opening-source.html)<br>
 * RegVGG是一種簡單又强力的CNN結構，在訓練時使用了性能高的多分支模型，而在推理時使用了速度快、省内存的單路模型，也是更具備速度和精度的均衡。
-![](https://p0.meituan.net/travelcube/9f7878c7872787f9b8706b28e5e7c611237315.png)
+<p><img src="https://p0.meituan.net/travelcube/9f7878c7872787f9b8706b28e5e7c611237315.png" width="50%" height="50%"></p>
+
 * EfficientRep將在backbone中stride=2的卷積層换成了stride=2的RepConv層。並且也將CSP-Block修改為RepBlock
 ![](https://p0.meituan.net/travelcube/8ec8337d37c2545b8fcf355625854802145939.png)
 * 同樣為了降低在硬體上的延遲，在Neck上的特徵融合結構中也引入了Rep結構。在Neck中使用的是Rep-PAN。
@@ -307,7 +311,7 @@ session = fo.launch_app(dataset)
 ![](https://github.com/rkuo2000/AI-course/blob/main/images/YOLOv7_coarse_to_fine_lead_guided_assigner.png?raw=true)
 
 **Code:** [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7)<br>
-![](https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png)
+<p><img src="https://github.com/WongKinYiu/yolov7/raw/main/figure/performance.png" width="50%" height="50%"></p>
 
 ---
 ### YOLOv8
