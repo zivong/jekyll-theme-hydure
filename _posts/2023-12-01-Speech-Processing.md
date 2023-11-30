@@ -6,7 +6,7 @@ category: [Lecture]
 tags: [jekyll, ai]
 ---
 
-This introduction includes Speech Datasets, Text-To-Speech, Speech Seperation, SR, etc.
+This introduction includes Speech Datasets, Text-To-Speech, Speech Seperation, Voice Clonging, etc.
 
 ---
 ## Speech Datasets
