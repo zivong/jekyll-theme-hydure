@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Learning Techniques for Speech Processing
+title: Speech Processing
 author: [Richard Kuo]
 category: [Lecture]
 tags: [jekyll, ai]
