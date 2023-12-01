@@ -76,12 +76,6 @@ You will need mel-spectrogram prediction model (such as Tacotron2) to use the pr
 **Code:** [https://github.com/mutiann/few-shot-transformer-tts](https://github.com/mutiann/few-shot-transformer-tts)<br>
 
 ---
-### Meta-TTS
-**Paper:** [Meta-TTS: Meta-Learning for Few-Shot Speaker Adaptive Text-to-Speech](https://arxiv.org/abs/2111.04040)<br>
-**Code:** [https://github.com/SungFeng-Huang/Meta-TTS](https://github.com/SungFeng-Huang/Meta-TTS)<br>
-![](https://github.com/SungFeng-Huang/Meta-TTS/blob/main/evaluation/images/meta-FastSpeech2.png?raw=true)
-
----
 ### SeamlessM4T
 **Paper:** [SeamlessM4T: Massively Multilingual & Multimodal Machine Translation](https://arxiv.org/abs/2308.11596)<br>
 **Code:** [https://github.com/facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication)<br>
