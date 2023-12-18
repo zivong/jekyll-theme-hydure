@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generative Neural Networks
+title: Generative AI
 author: [Richard Kuo]
 category: [Lecture]
 tags: [jekyll, ai]
